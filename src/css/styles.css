@@ -18,7 +18,7 @@ body {
 
 .progressbar {
   position: relative;
-  width: 492px;
+  width: 492px;120
   border: 1px solid black;
   padding: 3px;
   margin: 2px 0px;
@@ -112,7 +112,7 @@ body {
 
 .sorter > .image {
   width: 120px;
-  height: 180px;
+  height: 120px;
   margin: auto;
   grid-row: 1 / 7;
   cursor: pointer;
@@ -120,7 +120,7 @@ body {
 
 .sorter > .text {
   width: 120px;
-  height: 60px;
+  height: 50px;
   display: none;
 }
 
@@ -152,7 +152,7 @@ body {
 }
 
 .options > div {
-  font-size: 0.5625em;
+  font-size: 0.6025em;
 }
 
 label {
@@ -160,7 +160,7 @@ label {
 }
 
 label:hover {
-  color: #990000;
+  color: #0088ff;
 }
 
 .options > .large.option, .options > hr {
@@ -271,16 +271,20 @@ label:hover {
 }
 
 a {
-  color: #990000;
+  color: #0011cc;
   font-weight: bold;
   text-decoration: none;
   cursor: pointer;
 }
 
 a:hover {
-  color: #FF6600;
+  color: #0088ff;
 }
 
 a:visited {
-  color: #6600FF;
+  color: #5533dd;
+}
+
+strong {
+  font-weight: bold;
 }
