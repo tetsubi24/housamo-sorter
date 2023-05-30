@@ -4176,7 +4176,7 @@ dataSet[dataSetVersion].characterData = [
     img: "Hr5FzBf.png",
     opts: {
       rarity: [ "3+" ],		
-	  mononobe: true
+	  unreleased: true
     }
   },
   {
