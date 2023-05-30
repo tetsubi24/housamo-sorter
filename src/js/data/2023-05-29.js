@@ -57,7 +57,7 @@ dataSet[dataSetVersion].options = [
 	  { name: "Toyosu Marine Academy", tooltip: " ", key: "toyosu" },
 	  { name: "Akihabara Academy", tooltip: " ", key: "akihabara" },
 	  { name: "Nakano Performing Arts Academy", tooltip: " ", key: "nakano" },
-	  { name: "Tokyo santa School", tooltip: " ", key: "santa" },
+	  { name: "Tokyo Santa School", tooltip: " ", key: "santa" },
 	  { name: "Fujimi Academy", tooltip: " ", key: "fujimi" },
 	  { name: "Kiou Police Academy", tooltip: " ", key: "kiou" },
 	  { name: "Kamata Technical Academy", tooltip: " ", key: "kamata" },
