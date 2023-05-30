@@ -1265,7 +1265,7 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "Astaroth",
-    img: "HrRp6cF.png",
+    img: "HrRpUMB.png",
     opts: {
       rarity: [ "3+" ],
       guild: [ "no_guild" ],
