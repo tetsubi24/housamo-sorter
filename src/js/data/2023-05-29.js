@@ -8,9 +8,9 @@ dataSet[dataSetVersion].options = [
     tooltip: "Check this to only sort through characters of certain rarities.",
     checked: true,
     sub: [
-      { name: "★★★+", tooltip: "Characters that are named and/or have cards of at least ☆3 rarity.", key: "3+" },
-	  { name: "★★", tooltip: "Mob characters that have cards of ☆2 rarity.", key: "2", checked: false },
-	  { name: "★", tooltip: "Mob characters that have cards of ☆1 rarity.", key: "1", checked: false },
+      { name: "★★★+", tooltip: "Characters that are named and/or have cards of at least ☆3 rarity.", key: "3+", checked: true },
+	  { name: "★★", tooltip: "Mob characters that have cards of ☆2 rarity.", key: "2" },
+	  { name: "★", tooltip: "Mob characters that have cards of ☆1 rarity.", key: "1" },
     ]
   },
   {
@@ -85,12 +85,14 @@ dataSet[dataSetVersion].options = [
   {
     name: "Remove Protagonist",
     key: "protag",
-    tooltip: "Check this to remove the protagonist from sorting choices."
+    tooltip: "Check this to remove the protagonist from sorting choices.",
+	checked: true,
   },
   {
     name: "Remove Unreleased Characters",
     key: "unreleased",
-    tooltip: "Check this to remove unreleased characters from sorting choices. May contain spoilers."
+    tooltip: "Check this to remove unreleased characters from sorting choices. May contain spoilers.",
+	checked: true,
   }
 ];
 
