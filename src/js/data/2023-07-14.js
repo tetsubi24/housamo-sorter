@@ -1358,7 +1358,7 @@ dataSet[dataSetVersion].characterData = [
     img: "Hr59U21.png",
     opts: {
       rarity: [ "3+" ],
-      guild: [ "beast_tamers" ],
+      guild: [ "beast_tamers", "entertainers" ],
 	  school: [ "ueno" ],
 	  world: [ "tir_na_nog" ],
     },
@@ -1760,7 +1760,7 @@ dataSet[dataSetVersion].characterData = [
     img: "Hr59ihv.png",
     opts: {
       rarity: [ "3+" ],
-      guild: [ "no_guild" ],
+      guild: [ "no_guild", "entertainers" ],
 	  school: [ "bukuro" ],
 	  world: [ "tir_na_nog" ],
     },
@@ -2021,7 +2021,7 @@ dataSet[dataSetVersion].characterData = [
     img: "HrRyt5u.png",
     opts: {
       rarity: [ "3+" ],
-      guild: [ "creators" ],
+      guild: [ "creators", "entertainers" ],
 	  school: [ "akihabara" ],
 	  world: [ "olympus" ],
     },
