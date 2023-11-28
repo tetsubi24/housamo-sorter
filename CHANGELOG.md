@@ -3,6 +3,21 @@ Changes made to housamo-sorter are documented in this file. It's intended to be 
 
 <!-------------------->
 
+## 7th HOUSAMO ANNIVERSARY – 2023-11-28
+### Added:
+- New characters:
+	- Shamash
+	- Masashi
+
+### Changed:
+- Multiple changes to Quantum:
+	- Her picture has been updated.
+	- Now tagged as a member of the Summoners guild.
+	- Now tagged as belonging to the Shinjuku Academy.
+	- No longer tagged as unreleased.
+
+<!-------------------->
+
 ## The Afterschool Hero and the Fantastic Boyfriends ×2 – 2023-10-17
 ### Added:
 - New characters:
