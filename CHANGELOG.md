@@ -3,6 +3,16 @@ Changes made to housamo-sorter are documented in this file. It's intended to be 
 
 <!-------------------->
 
+## Blessings! A Journey with Dragons and Demons – 2023-12-31
+### Added:
+- New characters:
+	- Otter
+	- Qinglong
+	- Amanojaku
+	- Shadow Scaled Wyvern
+
+<!-------------------->
+
 ## 7th HOUSAMO ANNIVERSARY – 2023-11-28
 ### Added:
 - New characters:
