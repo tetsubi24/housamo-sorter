@@ -3,6 +3,42 @@ Changes made to housamo-sorter are documented in this file. It's intended to be 
 
 <!-------------------->
 
+## New Semester 2024 – 2024-04-14
+### Added:
+- New characters:
+	- Hippolytus
+	- Hei Long Yi Quan
+	- Belphegor
+	- Ame-no-Uzume
+	- Willie Wildcat
+	- Tu'er Shen
+
+### Changed:
+- Multiple changes to Prometheus:
+	- His picture has been updated.
+	- Now tagged as a member of the Wanderers guild.
+	- Now tagged as belonging to the Akihabara Academy.
+	- Now tagged as originating from the world of Olympus.
+	- No longer tagged as unreleased.
+	
+- Multiple changes to Amaterasu:
+	- Her picture has been updated.
+	- Now tagged as a member of the Rule Makers guild.
+	- Now tagged as having unknown school affiliations.
+	- No longer tagged as unreleased.
+	
+- Multiple changes to Raven:
+	- Now named Raven Arthur.
+	- His picture has been updated.
+	- Now tagged as a member of the Game Masters guild.
+	- Now tagged as belonging to the Tokyo Fire and Disaster Management University.
+	- Now tagged as originating from the world of Tir na Nog.
+	- No longer tagged as unreleased.
+	
+- Heliopolis is now named Agisymba.
+
+<!-------------------->
+
 ## Blessings! A Journey with Dragons and Demons – 2023-12-31
 ### Added:
 - New characters:
