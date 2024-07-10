@@ -65,9 +65,9 @@ function init() {
   
   document.querySelector('.sorting.tie.button').addEventListener('click', () => pick('tie'));
   document.querySelector('.sorting.undo.button').addEventListener('click', undo);
-  document.querySelector('.sorting.save.button').addEventListener('click', () => saveProgress('Progress'));
+  document.querySelector('.sorting.save.button').addEventListener('click', () => saveProgress('Load Progress'));
   
-  document.querySelector('.finished.save.button').addEventListener('click', () => saveProgress('Last Result'));
+  document.querySelector('.finished.save.button').addEventListener('click', () => saveProgress('Load Last Result'));
   document.querySelector('.finished.getimg.button').addEventListener('click', generateImage);
   document.querySelector('.finished.list.button').addEventListener('click', generateTextList);
 
@@ -78,7 +78,7 @@ function init() {
     /** If sorting is in progress. */
     if (timestamp && !timeTaken && !loading && choices.length === battleNo - 1) {
       switch(ev.key) {
-        case 's': case '3':                   saveProgress('Progress'); break;
+        case 's': case '3':                   saveProgress('Load Progress'); break;
         case 'h': case 'ArrowLeft':           pick('left'); break;
         case 'l': case 'ArrowRight':          pick('right'); break;
         case 'k': case '1': case 'ArrowUp':   pick('tie'); break;
@@ -89,7 +89,7 @@ function init() {
     /** If sorting has ended. */
     else if (timeTaken && choices.length === battleNo - 1) {
       switch(ev.key) {
-        case 'k': case '1': saveProgress('Last Result'); break;
+        case 'k': case '1': saveProgress('Load Last Result'); break;
         case 'j': case '2': generateImage(); break;
         case 's': case '3': generateTextList(); break;
         default: break;
@@ -106,11 +106,11 @@ function init() {
   document.querySelector('.image.selector').insertAdjacentElement('beforeend', document.createElement('select'));
 
   /** Initialize image quantity selector for results. */
-  for (let i = 0; i <= 10; i++) {
+  for (let i = 0; i <= 20; i+= 5) {
     const select = document.createElement('option');
     select.value = i;
     select.text = i;
-    if (i === 3) { select.selected = 'selected'; }
+    if (i === 10) { select.selected = 'selected'; }
     document.querySelector('.image.selector > select').insertAdjacentElement('beforeend', select);
   }
 
@@ -124,7 +124,7 @@ function init() {
     document.querySelector('.starting.load.button > span').insertAdjacentText('beforeend', storedSaveType);
     document.querySelectorAll('.starting.button').forEach(el => {
       el.style['grid-row'] = 'span 3';
-      el.style.display = 'block';
+      el.style.display = 'flex';
     });
   }
 
@@ -305,7 +305,7 @@ function display() {
       case 2: pick('tie'); break;
       default: break;
     }
-  } else { saveProgress('Autosave'); }
+  } else { saveProgress('Load Autosave'); }
 }
 
 /**
@@ -468,7 +468,7 @@ function progressBar(indicator, percentage) {
  * 
  * @param {number} [imageNum=3] Number of images to display. Defaults to 3.
  */
-function result(imageNum = 3) {
+function result(imageNum = 10) {
   document.querySelectorAll('.finished.button').forEach(el => el.style.display = 'block');
   document.querySelector('.image.selector').style.display = 'block';
   document.querySelector('.time.taken').style.display = 'block';
@@ -478,8 +478,8 @@ function result(imageNum = 3) {
   document.querySelector('.options').style.display = 'none';
   document.querySelector('.info').style.display = 'none';
 
-  const header = '<div class="result head"><div class="left">Order</div><div class="right">Name</div></div>';
-  const timeStr = `This sorter was completed on ${new Date(timestamp + timeTaken).toString()} and took ${msToReadableTime(timeTaken)}. <a href="${location.protocol}//${sorterURL}">Do another sorter?</a>`;
+  const header = '';
+  const timeStr = `This sorter was completed on ${new Date(timestamp + timeTaken).toString()} and took ${msToReadableTime(timeTaken)}. <a href="${location.protocol}//${sorterURL}">Sort again?</a>`;
   const imgRes = (char, num) => {
     const charName = reduceTextWidth(char.name, 'Arial 12px', 160);
     const charTooltip = char.name !== charName ? char.name : '';
@@ -525,7 +525,7 @@ function result(imageNum = 3) {
 
 /** Undo previous choice. */
 function undo() {
-  if (timeTaken) { return; }
+  if (timeTaken || battleNo === 1) { return; }
 
   choices = battleNo === battleNoPrev ? choices : choices.slice(0, -1);
 
@@ -548,7 +548,7 @@ function undo() {
 /** 
  * Save progress to local browser storage.
  * 
- * @param {'Autosave'|'Progress'|'Last Result'} saveType
+ * @param {'Load Autosave'|'Load Progress'|'Load Last Result'} saveType
 */
 function saveProgress(saveType) {
   const saveData = generateSavedata();
@@ -556,12 +556,12 @@ function saveProgress(saveType) {
   localStorage.setItem(`${sorterURL}_saveData`, saveData);
   localStorage.setItem(`${sorterURL}_saveType`, saveType);
 
-  if (saveType !== 'Autosave') {
+  if (saveType !== 'Load Autosave') {
     const saveURL = `${location.protocol}//${sorterURL}?${saveData}`;
     const inProgressText = 'You may click Load Progress after this to resume, or use this URL.';
     const finishedText = 'You may use this URL to share this result, or click Load Last Result to view it again.';
 
-    window.prompt(saveType === 'Last Result' ? finishedText : inProgressText, saveURL);
+    window.prompt(saveType === 'Load Last Result' ? finishedText : inProgressText, saveURL);
   }
 }
 
@@ -592,7 +592,7 @@ function generateImage() {
   const tzoffset = (new Date()).getTimezoneOffset() * 60000;
   const filename = 'sort-' + (new Date(timeFinished - tzoffset)).toISOString().slice(0, -5).replace('T', '(') + ').png';
 
-  html2canvas(document.querySelector('.results')).then(canvas => {
+  html2canvas(document.querySelector('.results'), {backgroundColor: getComputedStyle(document.body).backgroundColor,}).then(canvas => {
     const dataURL = canvas.toDataURL();
     const imgButton = document.querySelector('.finished.getimg.button');
     const resetButton = document.createElement('a');

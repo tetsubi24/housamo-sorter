@@ -3,6 +3,33 @@ Changes made to housamo-sorter are documented in this file. It's intended to be 
 
 <!-------------------->
 
+## Main Story Chapter 15 + Major Visual Update – 2024-07-10
+### Added:
+- New characters:
+	- Baphomet
+	- Kokopelli
+	- Sanzo
+	- Drone Pilot mobs (Fire, Water, Wood, Aether, Nether, Infernal, Valiant & World)
+	- Starman mobs (All-round, Infinity & Null)
+	- Solomon, as an unreleased character.
+	- Onyankopon, as an unreleased character.
+	- Bohemio, as an unreleased character.
+	- Sefirot, as an unreleased character.
+- New guild filters for Exters and Independent.
+
+### Changed:
+- Multiple changes to Michael:
+	- Image has been updated.
+	- Now tagged as a member of the Rule Makers guild.
+	- Now tagged as having unknown school affiliations.
+	- No longer tagged as unreleased.
+- Name changes for Wyrm, Livestreamer mobs and Missing mobs. Missing ∀ is also no longer tagged as unreleased.
+- Many other characters tags have been updated.
+- Wording used in the main page, tooltips, README.md, and CHANGELOG.md.
+- Major visual update. While I tried my best to make sure everything worked during testing, the sorter could still have incompatibilities with certain browsers or devices. If you notice any problems, [submit a new issue](https://github.com/tetsubi24/housamo-sorter/issues/new) and let me know!
+
+<!-------------------->
+
 ## New Semester 2024 – 2024-04-14
 ### Added:
 - New characters:
@@ -15,26 +42,23 @@ Changes made to housamo-sorter are documented in this file. It's intended to be 
 
 ### Changed:
 - Multiple changes to Prometheus:
-	- His picture has been updated.
+	- Image has been updated.
 	- Now tagged as a member of the Wanderers guild.
 	- Now tagged as belonging to the Akihabara Academy.
 	- Now tagged as originating from the world of Olympus.
 	- No longer tagged as unreleased.
-	
 - Multiple changes to Amaterasu:
-	- Her picture has been updated.
+	- Image has been updated.
 	- Now tagged as a member of the Rule Makers guild.
 	- Now tagged as having unknown school affiliations.
 	- No longer tagged as unreleased.
-	
 - Multiple changes to Raven:
 	- Now named Raven Arthur.
-	- His picture has been updated.
+	- Image has been updated.
 	- Now tagged as a member of the Game Masters guild.
 	- Now tagged as belonging to the Tokyo Fire and Disaster Management University.
 	- Now tagged as originating from the world of Tir na Nog.
 	- No longer tagged as unreleased.
-	
 - Heliopolis is now named Agisymba.
 
 <!-------------------->
@@ -57,7 +81,7 @@ Changes made to housamo-sorter are documented in this file. It's intended to be 
 
 ### Changed:
 - Multiple changes to Quantum:
-	- Her picture has been updated.
+	- Image has been updated.
 	- Now tagged as a member of the Summoners guild.
 	- Now tagged as belonging to the Shinjuku Academy.
 	- No longer tagged as unreleased.
@@ -75,10 +99,11 @@ Changes made to housamo-sorter are documented in this file. It's intended to be 
 ### Changed:
 - Multiple changes to the Fafnir already present in the sorter:
 	- Now named Fafnir (Dragon).
-	- His picture has been updated.
+	- Image has been updated.
 	- No longer tagged as unreleased.
 	- Now tagged as an alternate form of Fafnir.
 - Black Ded's name has been changed to Dark Ded.
+- README.md now properly describes the project. The "Creating Your Own Sorter" section was also replaced with a link to the original Touhou Sorter since the instructions matched it better.
 
 <!-------------------->
 
@@ -88,8 +113,8 @@ Changes made to housamo-sorter are documented in this file. It's intended to be 
 	- Reprobus
 
 ### Changed:
-- Dagon is now tagged as a member of the Wisemen guild. (From his Marine Resort Crisis! limited unit.)
-- Behemoth is now tagged as a member of the Summoners guild. (From his Marine Resort Crisis! limited unit.)
+- Dagon is now tagged as a member of the Wisemen guild. (Marine Resort Crisis! limited unit.)
+- Behemoth is now tagged as a member of the Summoners guild. (Marine Resort Crisis! limited unit.)
 
 ### Fixed:
 - Barguest using an invalid school tag. He's now tagged as having unknown school affiliations.
@@ -99,31 +124,31 @@ Changes made to housamo-sorter are documented in this file. It's intended to be 
 
 ## Small Update – 2023-07-17
 ### Changed:
-- Leib is now tagged as a member of the Entertainers guild. (From his Jurassic Summer Vacation limited unit.)
-- MacRoich is now tagged as a member of the Entertainers guild. (From his Jurassic Summer Vacation limited unit.)
-- Hecate is now tagged as a member of the Entertainers guild. (From her Jurassic Summer Vacation limited unit.)
+- Leib is now tagged as a member of the Entertainers guild. (Jurassic Summer Vacation limited unit.)
+- MacRoich is now tagged as a member of the Entertainers guild. (Jurassic Summer Vacation limited unit.)
+- Hecate is now tagged as a member of the Entertainers guild. (Jurassic Summer Vacation limited unit.)
 
 <!-------------------->
 
-## Jurassic Summer Vacation + Missing Characters – 2023-07-14
+## Jurassic Summer Vacation – 2023-07-14
 ### Added:
 - New characters:
 	- Cipactli
 	- Vritra, as an alternate form of Tvastar.
 	- Wym, as an alternate form of Beowulf.
-	- Missing mobs of All-round, Infinite, and Null attributes. (All-around Missing is currently unreleased.)
+	- Missing mobs (All-round, Infinite & Null). All-round Missing is currently unreleased.
 	- Overlord, as an unreleased character.
 
 ### Changed:
 - "Tokyo Firefighting University" now uses its officially translated name, Tokyo Fire and Disaster Management University.
-- Mushussu's picture has been updated to one with a transparent background.
-- Livestreamer mobs' names have been changed to Event Driver. They are also no longer unreleased.
+- Mushussu's image has been updated to one with a transparent background.
+- Livestreamer mobs' names have been changed to Event Driver. They are also no longer tagged as unreleased.
 
 <!-------------------->
 
 ## Alternate Forms and World Filter – 2023-05-31
 ### Added:
-- Characters can now be filtered by worlds they belong or belonged to.
+- Characters can now be filtered by worlds they originate or originated from.
 - Alternate forms of various characters have been added and can now be filtered.
 - New characters:
 	- Ikutoshi (Adult), as an alternate form of Ikutoshi.
@@ -153,10 +178,10 @@ Changes made to housamo-sorter are documented in this file. It's intended to be 
 
 ### Changed:
 - Filtering options are now unchecked by default. I haven't messed around with the `main.js` file much so hopefully it doesn't cause any issues.
-- Nekros & Bacchus' picture is now animated.
+- Nekros & Bacchus' image is now animated.
 - Multiple changes to Dagon (Raiders of the Lost Isle):
 	- Now named Dagon (Canaan).
-	- His picture has been updated to use his ★3 artwork.
+	- Image has been updated to use his ★3 artwork.
 	- Now tagged as an alternate form of Dagon.
 	- No longer tagged as unreleased.
 
@@ -167,7 +192,7 @@ Changes made to housamo-sorter are documented in this file. It's intended to be 
 
 ## Small Update – 2023-05-30
 ### Fixed:
-- Astaroth using Azatoth's picture.
+- Astaroth using Azatoth's image.
 - Kyoma Mononobe not being tagged as unreleased.
 - Tokyo Santa School being capitalized incorrectly.
 

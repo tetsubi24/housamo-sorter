@@ -6,7 +6,7 @@
   <meta charset="utf-8">
   <meta name="og:site_name" content="Housamo Character Sorter">
   <meta name="og:description" content="A simple website for sorting Housamo characters in a formatted list.">
-  <meta name="og:image" content="https://iili.io/HrcKPNp.png">
+  <meta name="og:image" content="https://raw.githubusercontent.com/tetsubi24/housamo-sorter/master/src/assets/og.jpg">
   <title>Housamo Character Sorter</title>
 
   <link rel="stylesheet" type="text/css" href="src/css/reset.css">
@@ -21,6 +21,7 @@
   <script src="src/js/data/2023-11-28.js"></script>
   <script src="src/js/data/2023-12-31.js"></script>
   <script src="src/js/data/2024-04-14.js"></script>
+  <script src="src/js/data/2024-10-07.js"></script>
 
   <script src="src/js/html2canvas.min.js"></script>
   <script src="src/js/lz-string.min.js"></script>
@@ -30,6 +31,7 @@
 
 <body>
 <div class="container">
+    <img src="src/assets/logo.png" class="logo">
 
     <div class="progress">
         <span class="progressbattle"></span>
@@ -37,12 +39,12 @@
             <div class="progressfill"><span class="progresstext"></span></div>
         </div>
     </div>
-
+	
     <div class="sorter">
         <img src="src/assets/defaultL.png" class="left sort image">
 
-        <div class="starting start button">Tokyo Afterschool Summoners Character Sorter<br><br>Click to Start!</div>
-        <div class="starting load button">Load <span></span></div>
+        <div class="starting start button">Start!</div>
+        <div class="starting load button"><span></span></div>
 
         <div class="loading button"><div></div><span>Loading...</span></div>
 
@@ -71,9 +73,16 @@
         <br><br>		
         
 		<p>A sorter for characters from the mobile game Tokyo Afterschool Summoners. Pick your sources, and hit the Start button.</p>
-        <p><strong>Certain options have details that you can hover to read.</strong></p>
+        <p>Certain options have details that you can hover to read.</p>
         <p>Click on the character you like better from the two, or tie them if you like them equally or don't know them.</p>
-        <p>There are 210+ named characters, 480+ in total. Sorting through them all will probably take a while, so save your progress as necessary.</p>
+        
+		<br><br>
+		
+		<p>There are <strong>230+</strong> named characters included in this sorter, <strong>530+</strong> in total.</p>
+		<p><strong>Since completing the sorter will probably take a while, you may want to try:</strong></p>
+		<p><strong>・ Saving your progress</strong> and continuing at a later time.</p>
+		<p><strong>・ Tying characters</strong> you don't have a strong preference over. This should reduce the amount of battles you'll sort through.</p>
+		<p><strong>・ Using more filters</strong> than selected by default. This should reduce the amount of characters you'll sort through.</p>
 
         <br><br>
 
@@ -83,17 +92,18 @@
 		<p>S or Enter: Start sorting ・ L: Load progress</p>
         <p>1/2/3 always correspond to the first/second/third buttons.</p>
         
-        <br><br>
+        <br><br><br><br><br>
 
 		<p>Information and assets gratefully taken from <a href="https://housamo-skill.netlify.app/">Housamo Skill DB</a>, <a href="https://housamo.wiki/">English Housamo Wiki</a> and <a href="https://wikiwiki.jp/housamo/">Japanese Housamo Wiki</a>.</p>
 		<p>Inspired by <a href="https://housamosorter.tumblr.com/">officialfalco's Housamo Sorter</a> and the now defunct <a href="https://club.housamo.xyz/sortmaker/">Housamo Sort Maker</a>.</p>
 		<p>Original code forked from <a href="https://github.com/execfera/charasort/">execfera's charasort</a>.</p>
+		<p>This is a fan site. Tokyo Afterschool Summoners and associated content are owned by LifeWonders.</p>
 
         <br><br>
 		
+		<p>July 10th, 2024 - Main Story Chapter 15 + Major Visual Update</p>
 		<p>April 14th, 2024 - New Semester 2024 Update</p>
 		<p>December 31st, 2023 - New Year 2024 Update</p>
-		<p>November 28th, 2023 - 7th HOUSAMO ANNIVERSARY Update</p>		
 		<p>(<a href="https://github.com/tetsubi24/housamo-sorter/blob/master/CHANGELOG.md">Click here</a> to view the full changelog.)</p>
     </div>
 </div>

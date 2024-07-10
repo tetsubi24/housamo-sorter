@@ -8,7 +8,7 @@ characters from a set.
  * Shareable links of sorter results.
  * Versioning of sorter data - you may want to add characters and resources over time. Versioning keeps shareable links valid even if the base character data is changed.
  
-The version in this repo is built for characters from the mobile game [Tokyo Afterschool Summoners](https://housamo.jp), but the sorter can be easily edited to create any custom sorter desired. Check out the [source repository](https://github.com/execfera/charasort) if you'd like to learn how!
+The version in this repo is built for characters from the mobile game [Tokyo Afterschool Summoners](https://housamo.jp/en/), but the sorter can be easily edited to create any custom sorter desired. Check out the [source repository](https://github.com/execfera/charasort) if you'd like to learn how!
 
 ## Related Sorters
 Several others have created other sorters based on other concepts and series, see them [here](https://github.com/execfera/charasort/wiki)!
@@ -18,7 +18,6 @@ Several others have created other sorters based on other concepts and series, se
  * [html2canvas](https://github.com/niklasvh/html2canvas/) for image generation.
  * [seedrandom](https://github.com/davidbau/seedrandom) for PRNG used in character array shuffling.
  * [lz-string](https://github.com/pieroxy/lz-string) for shareable link compression.
- * [SpinKit](http://tobiasahlin.com/spinkit/) for loading animation.
  * [thsort](http://mainyan.sakura.ne.jp/thsort.html) for the original inspiration.
 
 ## Known Issues
