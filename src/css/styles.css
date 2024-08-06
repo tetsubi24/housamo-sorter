@@ -26,7 +26,7 @@ body:before {
   top: 0;
   left: 0;
   width: 100%;
-  height: 100%;
+  height: 110%;
   background: url('../../src/assets/bg.jpg') no-repeat center center;
   background-position: center;
   background-repeat: no-repeat;
@@ -100,10 +100,12 @@ body:before {
   cursor: pointer;
 }
 
-.button:hover {
-  background: rgb(11,43,184,1);
-  background: linear-gradient(rgba(11,43,184,1) 0%, rgba(23,148,245,1) 100%);
-  border: 2px solid #084bc8;
+@media (hover: hover) {
+    .button:hover {
+		background: rgb(11,43,184,1);
+		background: linear-gradient(rgba(11,43,184,1) 0%, rgba(23,148,245,1) 100%);
+		border: 2px solid #084bc8;
+    }
 }
 
 .starting.start.button {
@@ -164,9 +166,12 @@ body:before {
   border-radius: 4px;
 }
 
-.sorter > .image:hover {
-  filter: contrast(95%) brightness(112%);
+@media (hover: hover) {
+    .sorter > .image:hover {
+		filter: contrast(95%) brightness(112%);
+    }
 }
+
 
 .sorter > .text {
   width: 200px;

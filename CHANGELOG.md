@@ -3,6 +3,13 @@ Changes made to housamo-sorter are documented in this file. It's intended to be 
 
 <!-------------------->
 
+## Small Update – 2024-08-06
+### Fixed:
+- Background image not covering the entire screen on mobile.
+- Buttons getting stuck in their highlighted state on mobile.
+
+<!-------------------->
+
 ## Main Story Chapter 15 + Major Visual Update – 2024-07-10
 ### Added:
 - New characters:
