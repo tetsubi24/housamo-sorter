@@ -3,6 +3,25 @@ Changes made to housamo-sorter are documented in this file. It's intended to be 
 
 <!-------------------->
 
+## Top of Summer Mountains! – 2024-09-10
+### Added:
+- New characters:
+	- Y'golonac
+	- Himavat
+	- Kumano Gongen
+	- Xiwangmu, as an unreleased character.
+- New school filter for Ameyoko Fashion Academy.
+- New affiliation filter for Setagaya Mountaineering Club.
+
+### Changed:
+- Multiple changes to Bigfoot:
+	- Now tagged as belonging to the Shinjuku Academy. (Top of Summer Mountains! limited unit.)
+	- Now tagged as a member of the Shinjuku Academy Mountaineers. (Top of Summer Mountains!  limited unit.)
+- Tanngrisnir is now tagged as a member of the Shinjuku Academy Mountaineers. (Top of Summer Mountains!  limited unit.)
+- Enigma is now tagged as a member of the Setagaya Mountaineering Club. (Top of Summer Mountains!  limited unit.)
+	
+<!-------------------->
+
 ## Small Update – 2024-08-06
 ### Fixed:
 - Background image not covering the entire screen on mobile.
