@@ -1,4 +1,4 @@
-dataSetVersion = "2023-12-31"; // Change this when creating a new data set version. YYYY-MM-DD format.
+dataSetVersion = "2024-10-18"; // Change this when creating a new data set version. YYYY-MM-DD format.
 dataSet[dataSetVersion] = {};
 
 dataSet[dataSetVersion].options = [
@@ -8,15 +8,15 @@ dataSet[dataSetVersion].options = [
     tooltip: "Check this to only sort through characters of certain rarities.",
     checked: true,
     sub: [
-      { name: "★★★+", tooltip: "Characters that are named and/or have cards of at least ☆3 rarity.", key: "3+", checked: true },
-	  { name: "★★", tooltip: "Mob characters that have cards of ☆2 rarity.", key: "2" },
-	  { name: "★", tooltip: "Mob characters that have cards of ☆1 rarity.", key: "1" },
+      { name: "★★★+", tooltip: "Characters that are named and/or have cards of at least ★3 rarity.", key: "3+", checked: true },
+	  { name: "★★", tooltip: "Mob characters that have cards of ★2 rarity.", key: "2" },
+	  { name: "★", tooltip: "Mob characters that have cards of ★1 rarity.", key: "1" },
     ]
   },
   {
     name: "Filter by Guild",
     key: "guild",
-    tooltip: "Check this to only sort through characters of certain guilds. Includes Limited variant affiliations.",
+    tooltip: "Check this to only sort through characters who are members of certain guilds. Includes Limited Variant affiliations.",
     checked: false,
     sub: [
       { name: "Summoners", tooltip: "&quot;Shinjuku Summoners&quot;", key: "summoners" },
@@ -37,13 +37,15 @@ dataSet[dataSetVersion].options = [
 	  { name: "Warmongers", tooltip: "&quot;Nerima Warmongers&quot;", key: "warmongers" },
 	  { name: "Rule Makers", tooltip: "&quot;Chuo Rule Makers&quot;", key: "rule_makers" },
 	  { name: "Invaders", tooltip: "&quot;Shinagawa Invaders&quot;", key: "invaders" },
-	  { name: "Unknown", tooltip: "Characters with unknown guild affiliations.", key: "no_guild" },
+	  { name: "Exters", tooltip: " ", key: "exters" },
+	  { name: "Independent", tooltip: "Characters who act independently from the guilds they are members of.", key: "independent" },
+	  { name: "Unaffiliated", tooltip: "Characters who aren't members of any guild.", key: "no_guild" },
     ]
   },
   {
     name: "Filter by School",
     key: "school",
-    tooltip: "Check this to only sort through characters of certain schools. Includes Limited variant affiliations.",
+    tooltip: "Check this to only sort through characters who are students or staff members of certain schools. Includes Limited Variant affiliations.",
     checked: false,
     sub: [
       { name: "Shinjuku Academy", tooltip: " ", key: "shinjuku" },	  
@@ -68,36 +70,38 @@ dataSet[dataSetVersion].options = [
 	  { name: "Kudan Martial Arts Academy", tooltip: " ", key: "kudan" },
 	  { name: "Suidocho Business Academy", tooltip: " ", key: "suidocho" },
 	  { name: "Setagaya Agricultural Academy", tooltip: " ", key: "setagaya" },
-	  { name: "Unknown", tooltip: "Characters with unknown school affiliations.", key: "no_school" },
+	  { name: "Ameyoko Fashion Academy", tooltip: " ", key: "ameyoko" },
+	  { name: "Unknown", tooltip: "Characters whose school affiliations are unknown.", key: "no_school" },
     ]
   },
   {
     name: "Filter by Other Affiliations",
     key: "other",
-    tooltip: "Check this to only sort through characters of certain groups.",
+    tooltip: "Check this to only sort through characters affiliated with certain other groups.",
     checked: false,
     sub: [
       { name: "Eight Dog Warriors", tooltip: "Named &quot;Hakkenshi&quot; in Japanese.", key: "eight" },
 	  { name: "Viral Influence", tooltip: "Named &quot;Buzz Dreamers&quot; in Japanese.", key: "viral" },
 	  { name: "Shinjuku Academy Mountaineers", tooltip: "Named &quot;Shinjuku Wandervogel Club&quot; in Japanese.", key: "mountain" },
+	  { name: "Setagaya Mountaineering Club", tooltip: " ", key: "mountain2" },
     ]
   },
   {
     name: "Filter by World",
     key: "world",
-    tooltip: "Check this to only sort through characters from certain worlds.",
+    tooltip: "Check this to only sort through characters who originate or originated from certain worlds.",
     checked: false,
     sub: [
       { name: "Takamagahara", tooltip: " ", key: "takamagahara" },
 	  { name: "Land of Wa", tooltip: "Also known as Wa no Kuni.", key: "land_of_wa" },
-	  { name: "Kamui Kotan", tooltip: "Also known as Kamuy Kotan.", key: "kamuy_kotan" },
-	  { name: "Penglai", tooltip: "Also known as Hourai.", key: "hourai" },
-	  { name: "Midearth", tooltip: "Also known as Garo Demana or Garothman.", key: "garo_demana" },
-	  { name: "Devaloka", tooltip: "Also known as Deva Loka.", key: "deva_loka" },
+	  { name: "Kamui Kotan", tooltip: "Also known as Kamuy Kotan.", key: "kamui_kotan" },
+	  { name: "Penglai", tooltip: "Also known as Hourai.", key: "penglai" },
+	  { name: "Midearth", tooltip: "Also known as Garo Demana or Garothman.", key: "midearth" },
+	  { name: "Devaloka", tooltip: "Also known as Deva Loka.", key: "devaloka" },
 	  { name: "Nirai Kanai", tooltip: " ", key: "nirai_kanai" },
 	  { name: "Oceanic Realm", tooltip: " ", key: "oceanic_realm" },
 	  { name: "Xanadu", tooltip: " ", key: "xanadu" },
-	  { name: "Shangri-La", tooltip: "Also known as Shangri La.", key: "shangri_la" },
+	  { name: "Shangri-La", tooltip: "Also known as Shangri La.", key: "shangri-la" },
 	  { name: "Yggdrasil", tooltip: " ", key: "yggdrasil" },
 	  { name: "Kitezh", tooltip: " ", key: "kitezh" },
 	  { name: "Tir na Nog", tooltip: "Also known as Tír na nóg.", key: "tir_na_nog" },
@@ -109,11 +113,22 @@ dataSet[dataSetVersion].options = [
 	  { name: "El Dorado", tooltip: " ", key: "el_dorado" },
 	  { name: "Aaru", tooltip: " ", key: "aaru" },
 	  { name: "Old Ones", tooltip: " ", key: "old_ones" },
-	  { name: "Heliopolis", tooltip: " ", key: "heliopolis" },
+	  { name: "Agisymba", tooltip: " ", key: "agisymba" },
 	  { name: "Utopia", tooltip: " ", key: "utopia" },
 	  { name: "Canaan", tooltip: "Only Alternate Forms and Unreleased Characters are unique to this world.", key: "canaan" },
 	  { name: "Tokyo", tooltip: " ", key: "tokyo" },
-	  { name: "Unknown", tooltip: "Characters from unknown worlds.", key: "no_world" },
+	  { name: "Unknown", tooltip: "Characters whose world origins are unknown.", key: "no_world" },
+    ]
+  },
+  {
+    name: "Filter by Gender",
+    key: "gender",
+    tooltip: "Check this to only sort through characters of certain genders.",
+    checked: false,
+    sub: [
+      { name: "Male", tooltip: " ", key: "male" },
+	  { name: "Female", tooltip: " ", key: "female" },
+	  { name: "Other", tooltip: "Characters who don't identify as either male or female, or whose gender identities are uncertain.", key: "no_gender" },
     ]
   },
   {
@@ -150,6 +165,7 @@ dataSet[dataSetVersion].characterData = [
 	  guild: [ "summoners" ],
 	  school: [ "shinjuku" ],
 	  world: [ "no_world" ],
+	  gender: [ "male", "female", "no_gender" ],
 	  protag: true
     }
   },
@@ -161,6 +177,7 @@ dataSet[dataSetVersion].characterData = [
       guild: [ "summoners" ],
 	  school: [ "shinjuku" ],
 	  world: [ "tokyo" ],
+	  gender: [ "male" ],
     }
   },
   {
@@ -171,6 +188,7 @@ dataSet[dataSetVersion].characterData = [
       guild: [ "summoners" ],
 	  school: [ "shinjuku" ],
 	  world: [ "tokyo" ],
+	  gender: [ "male" ],
     }
   },
   {
@@ -181,6 +199,7 @@ dataSet[dataSetVersion].characterData = [
       guild: [ "summoners" ],
 	  school: [ "shinjuku" ],
 	  world: [ "tokyo" ],
+	  gender: [ "male" ],
     },
   },
   {
@@ -191,6 +210,7 @@ dataSet[dataSetVersion].characterData = [
       guild: [ "summoners" ],
 	  school: [ "shinjuku", "kiou" ],
 	  world: [ "tokyo" ],
+	  gender: [ "male" ],
     },
   },
   {
@@ -201,6 +221,7 @@ dataSet[dataSetVersion].characterData = [
       guild: [ "berserkers" ],
 	  school: [ "no_school" ],
 	  world: [ "land_of_wa" ],
+	  gender: [ "male" ],
     },
   },
   {
@@ -210,7 +231,8 @@ dataSet[dataSetVersion].characterData = [
       rarity: [ "3+" ],
       guild: [ "summoners" ],
 	  school: [ "umamichi" ],
-	  world: [ "deva_loka" ],
+	  world: [ "devaloka" ],
+	  gender: [ "male" ],
     },
   },
   {
@@ -221,6 +243,7 @@ dataSet[dataSetVersion].characterData = [
       guild: [ "berserkers" ],
 	  school: [ "bukuro" ],
 	  world: [ "tokyo" ],
+	  gender: [ "male" ],
     },
   },
   {
@@ -231,6 +254,7 @@ dataSet[dataSetVersion].characterData = [
       guild: [ "tycoons" ],
 	  school: [ "roppongi" ],
 	  world: [ "tokyo" ],
+	  gender: [ "male" ],
     },
   },
   {
@@ -241,6 +265,7 @@ dataSet[dataSetVersion].characterData = [
       guild: [ "wisemen" ],
 	  school: [ "togo" ],
 	  world: [ "tokyo" ],
+	  gender: [ "male" ],
     },
   },
   {
@@ -251,6 +276,7 @@ dataSet[dataSetVersion].characterData = [
       guild: [ "missionaries" ],
 	  school: [ "daikanyama" ],
 	  world: [ "tokyo" ],
+	  gender: [ "female" ],
     },
   },
   {
@@ -261,6 +287,7 @@ dataSet[dataSetVersion].characterData = [
       guild: [ "entertainers" ],
 	  school: [ "nakano" ],
 	  world: [ "no_world", "tokyo" ],
+	  gender: [ "female" ],
     },
   },
   {
@@ -272,6 +299,7 @@ dataSet[dataSetVersion].characterData = [
 	  school: [ "shinjuku" ],
 	  other: [ "eight" ],
 	  world: [ "land_of_wa" ],
+	  gender: [ "male" ],
     },
   },
   {
@@ -283,6 +311,7 @@ dataSet[dataSetVersion].characterData = [
 	  school: [ "ueno" ],
 	  other: [ "viral" ],
 	  world: [ "yggdrasil" ],
+	  gender: [ "male" ],
     },
   },
   {
@@ -293,6 +322,7 @@ dataSet[dataSetVersion].characterData = [
       guild: [ "no_guild" ],
 	  school: [ "yoyogi" ],
 	  world: [ "land_of_wa" ],
+	  gender: [ "male" ],
     },
   },
   {
@@ -303,6 +333,7 @@ dataSet[dataSetVersion].characterData = [
       guild: [ "no_guild" ],
 	  school: [ "setagaya" ],
 	  world: [ "olympus" ],
+	  gender: [ "male" ],
     },
   },
   {
@@ -312,7 +343,8 @@ dataSet[dataSetVersion].characterData = [
       rarity: [ "3+" ],
       guild: [ "gurus" ],
 	  school: [ "umamichi" ],
-	  world: [ "hourai" ],
+	  world: [ "penglai" ],
+	  gender: [ "male" ],
     },
   },
   {
@@ -323,6 +355,7 @@ dataSet[dataSetVersion].characterData = [
       guild: [ "berserkers" ],
 	  school: [ "bukuro" ],
 	  world: [ "tokyo" ],
+	  gender: [ "male" ],
     },
   },
   {
@@ -333,6 +366,7 @@ dataSet[dataSetVersion].characterData = [
       guild: [ "no_guild", "missionaries", "invaders" ],
 	  school: [ "daikanyama" ],
 	  world: [ "tokyo", "olympus" ],
+	  gender: [ "male" ],
     },
   },
   {
@@ -343,6 +377,7 @@ dataSet[dataSetVersion].characterData = [
       guild: [ "no_guild" ],
 	  school: [ "no_school" ],
 	  world: [ "tokyo", "land_of_wa" ],
+	  gender: [ "male" ],
     },
   },
   {
@@ -353,6 +388,7 @@ dataSet[dataSetVersion].characterData = [
       guild: [ "agents" ],
 	  school: [ "no_school" ],
 	  world: [ "tokyo", "land_of_wa" ],
+	  gender: [ "male" ],
     },
   },
   {
@@ -363,6 +399,7 @@ dataSet[dataSetVersion].characterData = [
       guild: [ "no_guild" ],
 	  school: [ "toyosu" ],
 	  world: [ "tokyo" ],
+	  gender: [ "male" ],
     },
   },
   {
@@ -373,6 +410,7 @@ dataSet[dataSetVersion].characterData = [
       guild: [ "missionaries" ],
 	  school: [ "shinjuku" ],
 	  world: [ "tokyo" ],
+	  gender: [ "male" ],
     },
   },
   {
@@ -383,6 +421,7 @@ dataSet[dataSetVersion].characterData = [
       guild: [ "no_guild" ],
 	  school: [ "kudan" ],
 	  world: [ "tokyo", "takamagahara" ],
+	  gender: [ "male" ],
     },
   },
   {
@@ -392,7 +431,8 @@ dataSet[dataSetVersion].characterData = [
       rarity: [ "3+" ],
       guild: [ "berserkers" ],
 	  school: [ "bukuro" ],
-	  world: [ "shangri_la" ],
+	  world: [ "shangri-la" ],
+	  gender: [ "male" ],
     },
   },
   {
@@ -403,6 +443,7 @@ dataSet[dataSetVersion].characterData = [
       guild: [ "tycoons" ],
 	  school: [ "roppongi" ],
 	  world: [ "olympus" ],
+	  gender: [ "male" ],
     },
   },
   {
@@ -413,6 +454,7 @@ dataSet[dataSetVersion].characterData = [
       guild: [ "invaders" ],
 	  school: [ "kudan", "no_school" ],
 	  world: [ "xanadu" ],
+	  gender: [ "male" ],
     },
   },
   {
@@ -423,6 +465,7 @@ dataSet[dataSetVersion].characterData = [
       guild: [ "berserkers" ],
 	  school: [ "bukuro" ],
 	  world: [ "yggdrasil" ],
+	  gender: [ "male" ],
     },
   },
   {
@@ -432,7 +475,8 @@ dataSet[dataSetVersion].characterData = [
       rarity: [ "3+" ],
       guild: [ "no_guild" ],
 	  school: [ "toyosu" ],
-	  world: [ "deva_loka" ],
+	  world: [ "devaloka" ],
+	  gender: [ "male" ],
     },
   },
   {
@@ -443,6 +487,7 @@ dataSet[dataSetVersion].characterData = [
       guild: [ "missionaries" ],
 	  school: [ "daikanyama" ],
 	  world: [ "eden" ],
+	  gender: [ "male" ],
     },
   },
   {
@@ -453,6 +498,7 @@ dataSet[dataSetVersion].characterData = [
       guild: [ "beast_tamers" ],
 	  school: [ "ueno" ],
 	  world: [ "tir_na_nog" ],
+	  gender: [ "male" ],
     },
   },
   {
@@ -460,9 +506,10 @@ dataSet[dataSetVersion].characterData = [
     img: "3-star/icon_gunzou01.png",
     opts: {
       rarity: [ "3+" ],
-      guild: [ "no_guild" ],
+      guild: [ "exters" ],
 	  school: [ "yoyogi" ],
 	  world: [ "tokyo", "gehenna" ],
+	  gender: [ "male" ],
     },
   },
   {
@@ -473,6 +520,7 @@ dataSet[dataSetVersion].characterData = [
       guild: [ "outlaws" ],
 	  school: [ "no_school" ],
 	  world: [ "gehenna", "eden" ],
+	  gender: [ "male" ],
     },
   },
   {
@@ -483,6 +531,7 @@ dataSet[dataSetVersion].characterData = [
       guild: [ "no_guild" ],
 	  school: [ "suidocho" ],
 	  world: [ "tokyo" ],
+	  gender: [ "male" ],
     },
   },
   {
@@ -490,9 +539,10 @@ dataSet[dataSetVersion].characterData = [
     img: "3-star/icon_kyuuma01.png",
     opts: {
       rarity: [ "3+" ],
-      guild: [ "no_guild" ],
+      guild: [ "exters" ],
 	  school: [ "yoyogi" ],
 	  world: [ "tokyo", "eden" ],
+	  gender: [ "male" ],
     },
   },
   {
@@ -503,6 +553,7 @@ dataSet[dataSetVersion].characterData = [
       guild: [ "no_guild" ],
 	  school: [ "kudan" ],
 	  world: [ "takamagahara" ],
+	  gender: [ "male" ],
     },
   },
   {
@@ -513,6 +564,7 @@ dataSet[dataSetVersion].characterData = [
       guild: [ "wisemen" ],
 	  school: [ "no_school" ],
 	  world: [ "utopia" ],
+	  gender: [ "male" ],
     },
   },
   {
@@ -523,6 +575,7 @@ dataSet[dataSetVersion].characterData = [
       guild: [ "missionaries" ],
 	  school: [ "daikanyama" ],
 	  world: [ "eden" ],
+	  gender: [ "female" ],
     },
   },
   {
@@ -533,6 +586,7 @@ dataSet[dataSetVersion].characterData = [
       guild: [ "game_masters" ],
 	  school: [ "no_school" ],
 	  world: [ "no_world", "tokyo" ],
+	  gender: [ "female" ],
     },
   },
   {
@@ -542,7 +596,8 @@ dataSet[dataSetVersion].characterData = [
       rarity: [ "3+" ],
       guild: [ "beast_tamers", "game_masters" ],
 	  school: [ "ueno" ],
-	  world: [ "deva_loka" ],
+	  world: [ "devaloka" ],
+	  gender: [ "male" ],
     },
   },
   {
@@ -553,6 +608,7 @@ dataSet[dataSetVersion].characterData = [
       guild: [ "tycoons" ],
 	  school: [ "roppongi" ],
 	  world: [ "gehenna" ],
+	  gender: [ "male" ],
     },
   },
   {
@@ -563,6 +619,7 @@ dataSet[dataSetVersion].characterData = [
       guild: [ "missionaries" ],
 	  school: [ "daikanyama" ],
 	  world: [ "yggdrasil" ],
+	  gender: [ "male" ],
     },
   },
   {
@@ -573,6 +630,7 @@ dataSet[dataSetVersion].characterData = [
       guild: [ "wanderers" ],
 	  school: [ "no_school" ],
 	  world: [ "tir_na_nog" ],
+	  gender: [ "male" ],
     },
   },
   {
@@ -583,6 +641,7 @@ dataSet[dataSetVersion].characterData = [
       guild: [ "berserkers" ],
 	  school: [ "bukuro" ],
 	  world: [ "gehenna" ],
+	  gender: [ "male" ],
     },
   },
   {
@@ -593,6 +652,7 @@ dataSet[dataSetVersion].characterData = [
       guild: [ "creators" ],
 	  school: [ "akihabara" ],
 	  world: [ "tokyo" ],
+	  gender: [ "male" ],
     },
   },
   {
@@ -603,6 +663,7 @@ dataSet[dataSetVersion].characterData = [
       guild: [ "gurus" ],
 	  school: [ "umamichi" ],
 	  world: [ "tokyo", "land_of_wa" ],
+	  gender: [ "male" ],
     },
   },
   {
@@ -612,7 +673,8 @@ dataSet[dataSetVersion].characterData = [
       rarity: [ "3+" ],
       guild: [ "no_guild" ],
 	  school: [ "daikanyama" ],
-	  world: [ "deva_loka" ],
+	  world: [ "devaloka" ],
+	  gender: [ "male" ],
     },
   },
   {
@@ -623,6 +685,7 @@ dataSet[dataSetVersion].characterData = [
       guild: [ "berserkers" ],
 	  school: [ "bukuro" ],
 	  world: [ "utopia" ],
+	  gender: [ "male" ],
     },
   },
   {
@@ -632,7 +695,8 @@ dataSet[dataSetVersion].characterData = [
       rarity: [ "3+" ],
       guild: [ "berserkers" ],
 	  school: [ "bukuro" ],
-	  world: [ "shangri_la", "hourai", "deva_loka" ],
+	  world: [ "shangri-la", "penglai", "devaloka" ],
+	  gender: [ "male" ],
     },
   },
   {
@@ -640,9 +704,10 @@ dataSet[dataSetVersion].characterData = [
     img: "3-star/icon_gandharva01.png",
     opts: {
       rarity: [ "3+" ],
-      guild: [ "no_guild" ],
+      guild: [ "gurus" ],
 	  school: [ "suidocho" ],
-	  world: [ "deva_loka" ],
+	  world: [ "devaloka" ],
+	  gender: [ "male" ],
     },
   },
   {
@@ -650,9 +715,10 @@ dataSet[dataSetVersion].characterData = [
     img: "3-star/icon_nyarlathotep01.png",
     opts: {
       rarity: [ "3+" ],
-      guild: [ "missionaries", "entertainers", "no_guild" ],
+      guild: [ "missionaries", "entertainers", "independent" ],
 	  school: [ "daikanyama" ],
 	  world: [ "old_ones" ],
+	  gender: [ "male" ],
     },
   },
   {
@@ -663,6 +729,7 @@ dataSet[dataSetVersion].characterData = [
       guild: [ "no_guild" ],
 	  school: [ "shinjuku" ],
 	  world: [ "land_of_wa" ],
+	  gender: [ "male" ],
     },
   },
   {
@@ -673,6 +740,7 @@ dataSet[dataSetVersion].characterData = [
       guild: [ "berserkers" ],
 	  school: [ "bukuro" ],
 	  world: [ "olympus" ],
+	  gender: [ "male" ],
     },
   },
   {
@@ -683,6 +751,7 @@ dataSet[dataSetVersion].characterData = [
       guild: [ "berserkers" ],
 	  school: [ "yoyogi" ],
 	  world: [ "tokyo" ],
+	  gender: [ "male" ],
     },
   },
   {
@@ -693,6 +762,7 @@ dataSet[dataSetVersion].characterData = [
       guild: [ "no_guild", "gurus" ],
 	  school: [ "nakano" ],
 	  world: [ "land_of_wa" ],
+	  gender: [ "male" ],
     },
   },
   {
@@ -703,6 +773,7 @@ dataSet[dataSetVersion].characterData = [
       guild: [ "berserkers" ],
 	  school: [ "bukuro" ],
 	  world: [ "yggdrasil" ],
+	  gender: [ "male" ],
     },
   },
   {
@@ -713,6 +784,7 @@ dataSet[dataSetVersion].characterData = [
       guild: [ "no_guild" ],
 	  school: [ "santa" ],
 	  world: [ "tir_na_nog" ],
+	  gender: [ "male" ],
     },
   },
   {
@@ -723,6 +795,7 @@ dataSet[dataSetVersion].characterData = [
       guild: [ "no_guild" ],
 	  school: [ "santa" ],
 	  world: [ "kitezh" ],
+	  gender: [ "male" ],
     },
   },
   {
@@ -733,6 +806,7 @@ dataSet[dataSetVersion].characterData = [
       guild: [ "genociders" ],
 	  school: [ "fujimi" ],
 	  world: [ "eden" ],
+	  gender: [ "female" ],
     },
   },
   {
@@ -743,6 +817,7 @@ dataSet[dataSetVersion].characterData = [
       guild: [ "outlaws" ],
 	  school: [ "shinjuku" ],
 	  world: [ "land_of_wa" ],
+	  gender: [ "male", "no_gender" ],
     },
   },
   {
@@ -752,7 +827,8 @@ dataSet[dataSetVersion].characterData = [
       rarity: [ "3+" ],
       guild: [ "berserkers" ],
 	  school: [ "bukuro" ],
-	  world: [ "kamuy_kotan" ],
+	  world: [ "kamui_kotan" ],
+	  gender: [ "male" ],
     },
   },
   {
@@ -762,7 +838,8 @@ dataSet[dataSetVersion].characterData = [
       rarity: [ "3+" ],
       guild: [ "no_guild" ],
 	  school: [ "daikanyama" ],
-	  world: [ "garo_demana" ],
+	  world: [ "midearth" ],
+	  gender: [ "female" ],
     },
   },
   {
@@ -773,6 +850,7 @@ dataSet[dataSetVersion].characterData = [
       guild: [ "no_guild" ],
 	  school: [ "no_school" ],
 	  world: [ "gehenna" ],
+	  gender: [ "male" ],
     },
   },
   {
@@ -783,6 +861,7 @@ dataSet[dataSetVersion].characterData = [
       guild: [ "tycoons" ],
 	  school: [ "roppongi" ],
 	  world: [ "old_ones" ],
+	  gender: [ "male" ],
     },
   },
   {
@@ -793,6 +872,7 @@ dataSet[dataSetVersion].characterData = [
       guild: [ "no_guild" ],
 	  school: [ "kiou" ],
 	  world: [ "land_of_wa" ],
+	  gender: [ "male" ],
     },
   },
   {
@@ -804,6 +884,7 @@ dataSet[dataSetVersion].characterData = [
 	  school: [ "shinjuku" ],
 	  other: [ "mountain" ],
 	  world: [ "land_of_wa" ],
+	  gender: [ "male" ],
     },
   },
   {
@@ -815,6 +896,7 @@ dataSet[dataSetVersion].characterData = [
 	  school: [ "shinjuku" ],
 	  other: [ "mountain" ],
 	  world: [ "kitezh" ],
+	  gender: [ "male" ],
     },
   },
   {
@@ -825,6 +907,7 @@ dataSet[dataSetVersion].characterData = [
       guild: [ "tycoons" ],
 	  school: [ "roppongi" ],
 	  world: [ "tir_na_nog" ],
+	  gender: [ "female" ],
     },
   },
   {
@@ -835,6 +918,7 @@ dataSet[dataSetVersion].characterData = [
       guild: [ "missionaries" ],
 	  school: [ "daikanyama" ],
 	  world: [ "gehenna" ],
+	  gender: [ "male" ],
     },
   },
   {
@@ -844,7 +928,8 @@ dataSet[dataSetVersion].characterData = [
       rarity: [ "3+" ],
       guild: [ "missionaries" ],
 	  school: [ "daikanyama" ],
-	  world: [ "garo_demana" ],
+	  world: [ "midearth" ],
+	  gender: [ "male" ],
     },
   },
   {
@@ -855,7 +940,8 @@ dataSet[dataSetVersion].characterData = [
       guild: [ "tycoons" ],
 	  school: [ "roppongi" ],
 	  other: [ "viral" ],
-	  world: [ "garo_demana" ],
+	  world: [ "midearth" ],
+	  gender: [ "male" ],
     },
   },
   {
@@ -865,7 +951,8 @@ dataSet[dataSetVersion].characterData = [
       rarity: [ "3+" ],
       guild: [ "tycoons" ],
 	  school: [ "roppongi" ],
-	  world: [ "hourai", "land_of_wa", "deva_loka" ],
+	  world: [ "penglai", "land_of_wa", "devaloka" ],
+	  gender: [ "female" ],
     },
   },
   {
@@ -873,10 +960,11 @@ dataSet[dataSetVersion].characterData = [
     img: "3-star/icon_benten01.png",
     opts: {
       rarity: [ "3+" ],
-      guild: [ "no_guild" ],
+      guild: [ "creators" ],
 	  school: [ "nakano" ],
 	  other: [ "viral" ],
-	  world: [ "deva_loka", "land_of_wa" ],
+	  world: [ "devaloka", "land_of_wa" ],
+	  gender: [ "female" ],
     },
   },
   {
@@ -887,6 +975,7 @@ dataSet[dataSetVersion].characterData = [
       guild: [ "no_guild" ],
 	  school: [ "toyosu" ],
 	  world: [ "eden" ],
+	  gender: [ "male" ],
     },
   },
   {
@@ -898,6 +987,7 @@ dataSet[dataSetVersion].characterData = [
 	  school: [ "suidocho" ],
 	  other: [ "viral" ],
 	  world: [ "olympus" ],
+	  gender: [ "male" ],
     },
   },
   {
@@ -907,7 +997,8 @@ dataSet[dataSetVersion].characterData = [
       rarity: [ "3+" ],
       guild: [ "no_guild" ],
 	  school: [ "shinjuku" ],
-	  world: [ "garo_demana" ],
+	  world: [ "midearth" ],
+	  gender: [ "male" ],
     },
   },
   {
@@ -918,6 +1009,7 @@ dataSet[dataSetVersion].characterData = [
       guild: [ "tycoons" ],
 	  school: [ "roppongi" ],
 	  world: [ "el_dorado" ],
+	  gender: [ "male" ],
     },
   },
   {
@@ -929,6 +1021,7 @@ dataSet[dataSetVersion].characterData = [
 	  school: [ "no_school" ],
 	  other: [ "eight" ],
 	  world: [ "land_of_wa" ],
+	  gender: [ "male" ],
     },
   },
   {
@@ -939,6 +1032,7 @@ dataSet[dataSetVersion].characterData = [
       guild: [ "no_guild" ],
 	  school: [ "setagaya" ],
 	  world: [ "kitezh" ],
+	  gender: [ "male" ],
     },
   },
   {
@@ -949,6 +1043,7 @@ dataSet[dataSetVersion].characterData = [
       guild: [ "no_guild" ],
 	  school: [ "no_school" ],
 	  world: [ "oceanic_realm" ],
+	  gender: [ "male" ],
     },
   },
   {
@@ -959,6 +1054,7 @@ dataSet[dataSetVersion].characterData = [
       guild: [ "no_guild" ],
 	  school: [ "shinjuku" ],
 	  world: [ "olympus" ],
+	  gender: [ "male" ],
     },
   },
   {
@@ -969,6 +1065,7 @@ dataSet[dataSetVersion].characterData = [
       guild: [ "no_guild" ],
 	  school: [ "setagaya", "shinjuku" ],
 	  world: [ "nirai_kanai" ],
+	  gender: [ "male" ],
     },
   },
   {
@@ -979,6 +1076,7 @@ dataSet[dataSetVersion].characterData = [
       guild: [ "crafters" ],
 	  school: [ "kamata" ],
 	  world: [ "tokyo" ],
+	  gender: [ "male" ],
     },
   },
   {
@@ -989,6 +1087,7 @@ dataSet[dataSetVersion].characterData = [
       guild: [ "no_guild" ],
 	  school: [ "setagaya", "shinjuku" ],
 	  world: [ "tir_na_nog" ],
+	  gender: [ "male" ],
     },
   },
   {
@@ -999,6 +1098,7 @@ dataSet[dataSetVersion].characterData = [
       guild: [ "no_guild" ],
 	  school: [ "santa" ],
 	  world: [ "tir_na_nog" ],
+	  gender: [ "male" ],
     },
   },
   {
@@ -1009,6 +1109,7 @@ dataSet[dataSetVersion].characterData = [
       guild: [ "summoners" ],
 	  school: [ "suidocho", "shinjuku" ],
 	  world: [ "land_of_wa" ],
+	  gender: [ "male" ],
     },
   },
   {
@@ -1019,6 +1120,7 @@ dataSet[dataSetVersion].characterData = [
       guild: [ "tycoons", "missionaries" ],
 	  school: [ "roppongi" ],
 	  world: [ "land_of_wa" ],
+	  gender: [ "male" ],
     },
   },
   {
@@ -1029,6 +1131,7 @@ dataSet[dataSetVersion].characterData = [
       guild: [ "no_guild" ],
 	  school: [ "yoyogi" ],
 	  world: [ "great_spirit" ],
+	  gender: [ "male" ],
     },
   },
   {
@@ -1036,9 +1139,10 @@ dataSet[dataSetVersion].characterData = [
     img: "3-star/icon_thunderbird01.png",
     opts: {
       rarity: [ "3+" ],
-      guild: [ "no_guild" ],
+      guild: [ "outlaws", "independent" ],
 	  school: [ "suidocho" ],
 	  world: [ "great_spirit" ],
+	  gender: [ "male" ],
     },
   },
   {
@@ -1050,6 +1154,7 @@ dataSet[dataSetVersion].characterData = [
 	  school: [ "no_school" ],
 	  other: [ "eight" ],
 	  world: [ "land_of_wa" ],
+	  gender: [ "male" ],
     },
   },
   {
@@ -1057,9 +1162,10 @@ dataSet[dataSetVersion].characterData = [
     img: "3-star/icon_musashi01.png",
     opts: {
       rarity: [ "3+" ],
-      guild: [ "wisemen", "crafters", "no_guild" ],
+      guild: [ "wisemen", "crafters", "independent" ],
 	  school: [ "kudan", "no_school" ],
 	  world: [ "tokyo", "land_of_wa" ],
+	  gender: [ "male" ],
     },
   },
   {
@@ -1070,6 +1176,7 @@ dataSet[dataSetVersion].characterData = [
       guild: [ "crafters" ],
 	  school: [ "kamata" ],
 	  world: [ "takamagahara" ],
+	  gender: [ "male" ],
     },
   },
   {
@@ -1080,7 +1187,8 @@ dataSet[dataSetVersion].characterData = [
       guild: [ "no_guild" ],
 	  school: [ "yoyogi" ],
 	  other: [ "mountain" ],
-	  world: [ "deva_loka", "shangri_la" ],
+	  world: [ "devaloka", "shangri-la" ],
+	  gender: [ "female" ],
     },
   },
   {
@@ -1090,7 +1198,8 @@ dataSet[dataSetVersion].characterData = [
       rarity: [ "3+" ],
       guild: [ "outlaws" ],
 	  school: [ "umamichi" ],
-	  world: [ "hourai" ],
+	  world: [ "penglai" ],
+	  gender: [ "male" ],
     },
   },
   {
@@ -1101,6 +1210,7 @@ dataSet[dataSetVersion].characterData = [
       guild: [ "wisemen" ],
 	  school: [ "togo" ],
 	  world: [ "tokyo" ],
+	  gender: [ "male" ],
     },
   },
   {
@@ -1111,6 +1221,7 @@ dataSet[dataSetVersion].characterData = [
       guild: [ "outlaws" ],
 	  school: [ "kabukicho" ],
 	  world: [ "land_of_wa" ],
+	  gender: [ "female" ],
     },
   },
   {
@@ -1121,6 +1232,7 @@ dataSet[dataSetVersion].characterData = [
       guild: [ "no_guild" ],
 	  school: [ "kiou" ],
 	  world: [ "takamagahara" ],
+	  gender: [ "male" ],
     },
   },
   {
@@ -1131,6 +1243,7 @@ dataSet[dataSetVersion].characterData = [
       guild: [ "outlaws" ],
 	  school: [ "suidocho" ],
 	  world: [ "land_of_wa" ],
+	  gender: [ "male" ],
     },
   },
   {
@@ -1140,7 +1253,8 @@ dataSet[dataSetVersion].characterData = [
       rarity: [ "3+" ],
       guild: [ "tycoons" ],
 	  school: [ "roppongi" ],
-	  world: [ "hourai" ],
+	  world: [ "penglai" ],
+	  gender: [ "male" ],
     },
   },
   {
@@ -1151,6 +1265,7 @@ dataSet[dataSetVersion].characterData = [
       guild: [ "no_guild" ],
 	  school: [ "roppongi" ],
 	  world: [ "aaru" ],
+	  gender: [ "male" ],
     },
   },
   {
@@ -1161,6 +1276,7 @@ dataSet[dataSetVersion].characterData = [
       guild: [ "no_guild" ],
 	  school: [ "toyosu" ],
 	  world: [ "takamagahara", "land_of_wa" ],
+	  gender: [ "male" ],
     },
   },
   {
@@ -1171,6 +1287,7 @@ dataSet[dataSetVersion].characterData = [
       guild: [ "no_guild" ],
 	  school: [ "toyosu" ],
 	  world: [ "yggdrasil" ],
+	  gender: [ "male" ],
     },
   },
   {
@@ -1181,6 +1298,7 @@ dataSet[dataSetVersion].characterData = [
       guild: [ "genociders" ],
 	  school: [ "fujimi" ],
 	  world: [ "tokyo" ],
+	  gender: [ "no_gender" ],
     },
   },
   {
@@ -1191,6 +1309,7 @@ dataSet[dataSetVersion].characterData = [
       guild: [ "genociders" ],
 	  school: [ "fujimi" ],
 	  world: [ "old_ones", "tokyo" ],
+	  gender: [ "male" ],
     },
   },
   {
@@ -1201,6 +1320,7 @@ dataSet[dataSetVersion].characterData = [
       guild: [ "genociders" ],
 	  school: [ "fujimi" ],
 	  world: [ "yggdrasil" ],
+	  gender: [ "male" ],
     },
   },
   {
@@ -1210,7 +1330,9 @@ dataSet[dataSetVersion].characterData = [
       rarity: [ "3+" ],
       guild: [ "no_guild" ],
 	  school: [ "santa" ],
+	  other: [ "mountain" ],
 	  world: [ "yggdrasil" ],
+	  gender: [ "male" ],
     },
   },
   {
@@ -1221,6 +1343,7 @@ dataSet[dataSetVersion].characterData = [
       guild: [ "summoners" ],
 	  school: [ "setagaya", "shinjuku" ],
 	  world: [ "yggdrasil" ],
+	  gender: [ "male" ],
     },
   },
   {
@@ -1231,6 +1354,7 @@ dataSet[dataSetVersion].characterData = [
       guild: [ "crafters" ],
 	  school: [ "kamata" ],
 	  world: [ "land_of_wa" ],
+	  gender: [ "male" ],
     },
   },
   {
@@ -1241,6 +1365,7 @@ dataSet[dataSetVersion].characterData = [
       guild: [ "no_guild", "summoners" ],
 	  school: [ "shinjuku" ],
 	  world: [ "gehenna", "eden" ],
+	  gender: [ "male" ],
     },
   },
   {
@@ -1251,6 +1376,7 @@ dataSet[dataSetVersion].characterData = [
       guild: [ "no_guild" ],
 	  school: [ "shinjuku" ],
 	  world: [ "gehenna", "eden" ],
+	  gender: [ "female" ],
     },
   },
   {
@@ -1261,6 +1387,7 @@ dataSet[dataSetVersion].characterData = [
       guild: [ "agents" ],
 	  school: [ "yoyogi" ],
 	  world: [ "tokyo" ],
+	  gender: [ "male" ],
     },
   },
   {
@@ -1271,6 +1398,7 @@ dataSet[dataSetVersion].characterData = [
       guild: [ "outlaws" ],
 	  school: [ "suidocho" ],
 	  world: [ "tokyo" ],
+	  gender: [ "male" ],
     },
   },
   {
@@ -1281,6 +1409,7 @@ dataSet[dataSetVersion].characterData = [
       guild: [ "no_guild" ],
 	  school: [ "no_school" ],
 	  world: [ "utopia", "yggdrasil" ],
+	  gender: [ "male" ],
     },
   },
   {
@@ -1291,6 +1420,7 @@ dataSet[dataSetVersion].characterData = [
       guild: [ "warmongers" ],
 	  school: [ "yoyogi" ],
 	  world: [ "xanadu" ],
+	  gender: [ "male" ],
     },
   },
   {
@@ -1301,6 +1431,7 @@ dataSet[dataSetVersion].characterData = [
       guild: [ "no_guild" ],
 	  school: [ "shinjuku" ],
 	  world: [ "utopia" ],
+	  gender: [ "male" ],
     },
   },
   {
@@ -1311,6 +1442,7 @@ dataSet[dataSetVersion].characterData = [
       guild: [ "agents" ],
 	  school: [ "nakano" ],
 	  world: [ "gehenna" ],
+	  gender: [ "male" ],
     },
   },
   {
@@ -1321,6 +1453,7 @@ dataSet[dataSetVersion].characterData = [
       guild: [ "rule_makers" ],
 	  school: [ "no_school" ],
 	  world: [ "olympus" ],
+	  gender: [ "male" ],
     },
   },
   {
@@ -1331,6 +1464,7 @@ dataSet[dataSetVersion].characterData = [
       guild: [ "outlaws" ],
 	  school: [ "shinjuku", "kabukicho" ],
 	  world: [ "takamagahara" ],
+	  gender: [ "male" ],
     },
   },
   {
@@ -1340,7 +1474,8 @@ dataSet[dataSetVersion].characterData = [
       rarity: [ "3+" ],
       guild: [ "rule_makers" ],
 	  school: [ "ojibo" ],
-	  world: [ "kamuy_kotan" ],
+	  world: [ "kamui_kotan" ],
+	  gender: [ "male" ],
     },
   },
   {
@@ -1351,6 +1486,7 @@ dataSet[dataSetVersion].characterData = [
       guild: [ "beast_tamers" ],
 	  school: [ "ueno" ],
 	  world: [ "yggdrasil" ],
+	  gender: [ "male" ],
     },
   },
   {
@@ -1361,6 +1497,7 @@ dataSet[dataSetVersion].characterData = [
       guild: [ "beast_tamers", "entertainers" ],
 	  school: [ "ueno" ],
 	  world: [ "tir_na_nog" ],
+	  gender: [ "male" ],
     },
   },
   {
@@ -1371,6 +1508,7 @@ dataSet[dataSetVersion].characterData = [
       guild: [ "crafters" ],
 	  school: [ "kamata" ],
 	  world: [ "olympus" ],
+	  gender: [ "male" ],
     },
   },
   {
@@ -1381,6 +1519,7 @@ dataSet[dataSetVersion].characterData = [
       guild: [ "no_guild" ],
 	  school: [ "shinjuku" ],
 	  world: [ "tokyo" ],
+	  gender: [ "male" ],
     },
   },
   {
@@ -1391,6 +1530,7 @@ dataSet[dataSetVersion].characterData = [
       guild: [ "warmongers" ],
 	  school: [ "penitentia" ],
 	  world: [ "el_dorado" ],
+	  gender: [ "male" ],
     },
   },
   {
@@ -1399,8 +1539,9 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       rarity: [ "3+" ],
       guild: [ "creators" ],
-	  school: [ "no_school" ],
+	  school: [ "ameyoko" ],
 	  world: [ "olympus" ],
+	  gender: [ "female" ],
     },
   },
   {
@@ -1411,6 +1552,7 @@ dataSet[dataSetVersion].characterData = [
       guild: [ "entertainers" ],
 	  school: [ "nakano" ],
 	  world: [ "land_of_wa" ],
+	  gender: [ "male" ],
     },
   },
   {
@@ -1420,7 +1562,8 @@ dataSet[dataSetVersion].characterData = [
       rarity: [ "3+" ],
       guild: [ "gurus" ],
 	  school: [ "umamichi" ],
-	  world: [ "hourai" ],
+	  world: [ "penglai" ],
+	  gender: [ "male" ],
     },
   },
   {
@@ -1430,7 +1573,8 @@ dataSet[dataSetVersion].characterData = [
       rarity: [ "3+" ],
       guild: [ "invaders", "game_masters" ],
 	  school: [ "umamichi" ],
-	  world: [ "deva_loka" ],
+	  world: [ "devaloka" ],
+	  gender: [ "male" ],
     },
   },
   {
@@ -1438,9 +1582,10 @@ dataSet[dataSetVersion].characterData = [
     img: "3-star/icon_astaroth01.png",
     opts: {
       rarity: [ "3+" ],
-      guild: [ "no_guild" ],
+      guild: [ "rule_makers", "independent" ],
 	  school: [ "no_school" ],
 	  world: [ "gehenna" ],
+	  gender: [ "no_gender" ],
     },
   },
   {
@@ -1451,6 +1596,7 @@ dataSet[dataSetVersion].characterData = [
       guild: [ "no_guild", "wisemen" ],
 	  school: [ "toyosu" ],
 	  world: [ "old_ones" ],
+	  gender: [ "male" ],
     },
   },
   {
@@ -1461,6 +1607,7 @@ dataSet[dataSetVersion].characterData = [
       guild: [ "no_guild" ],
 	  school: [ "santa" ],
 	  world: [ "tir_na_nog", "eden" ],
+	  gender: [ "male" ],
     },
   },
   {
@@ -1471,6 +1618,7 @@ dataSet[dataSetVersion].characterData = [
       guild: [ "warmongers" ],
 	  school: [ "penitentia" ],
 	  world: [ "el_dorado" ],
+	  gender: [ "male" ],
     },
   },
   {
@@ -1480,7 +1628,8 @@ dataSet[dataSetVersion].characterData = [
       rarity: [ "3+" ],
       guild: [ "warmongers", "summoners" ],
 	  school: [ "penitentia", "shinjuku" ],
-	  world: [ "hourai" ],
+	  world: [ "penglai" ],
+	  gender: [ "male" ],
     },
   },
   {
@@ -1492,6 +1641,7 @@ dataSet[dataSetVersion].characterData = [
 	  school: [ "yoyogi", "penitentia" ],
 	  other: [ "eight" ],
 	  world: [ "land_of_wa" ],
+	  gender: [ "male" ],
     },
   },
   {
@@ -1499,9 +1649,10 @@ dataSet[dataSetVersion].characterData = [
     img: "3-star/icon_jacob01.png",
     opts: {
       rarity: [ "3+" ],
-      guild: [ "missionaries", "no_guild" ],
+      guild: [ "missionaries", "independent" ],
 	  school: [ "daikanyama" ],
 	  world: [ "tokyo" ],
+	  gender: [ "male" ],
     },
   },
   {
@@ -1512,6 +1663,7 @@ dataSet[dataSetVersion].characterData = [
       guild: [ "no_guild" ],
 	  school: [ "daikanyama" ],
 	  world: [ "olympus" ],
+	  gender: [ "female" ],
     },
   },
   {
@@ -1522,6 +1674,7 @@ dataSet[dataSetVersion].characterData = [
       guild: [ "no_guild" ],
 	  school: [ "kudan" ],
 	  world: [ "olympus" ],
+	  gender: [ "male" ],
     },
   },
   {
@@ -1532,6 +1685,7 @@ dataSet[dataSetVersion].characterData = [
       guild: [ "rule_makers" ],
 	  school: [ "no_school" ],
 	  world: [ "aaru" ],
+	  gender: [ "male" ],
     },
   },
   {
@@ -1542,6 +1696,7 @@ dataSet[dataSetVersion].characterData = [
       guild: [ "berserkers" ],
 	  school: [ "bukuro" ],
 	  world: [ "old_ones" ],
+	  gender: [ "male" ],
     },
   },
   {
@@ -1552,6 +1707,7 @@ dataSet[dataSetVersion].characterData = [
       guild: [ "rule_makers" ],
 	  school: [ "no_school" ],
 	  world: [ "gehenna" ],
+	  gender: [ "male" ],
     },
   },
   {
@@ -1562,6 +1718,7 @@ dataSet[dataSetVersion].characterData = [
       guild: [ "creators", "entertainers" ],
 	  school: [ "nakano" ],
 	  world: [ "tir_na_nog" ],
+	  gender: [ "female" ],
     },
   },
   {
@@ -1573,6 +1730,7 @@ dataSet[dataSetVersion].characterData = [
 	  school: [ "nakano" ],
 	  other: [ "eight" ],
 	  world: [ "land_of_wa" ],
+	  gender: [ "male", "no_gender" ],
     },
   },
   {
@@ -1583,6 +1741,7 @@ dataSet[dataSetVersion].characterData = [
       guild: [ "warmongers" ],
 	  school: [ "kiou" ],
 	  world: [ "takamagahara", "land_of_wa" ],
+	  gender: [ "male" ],
     },
   },
   {
@@ -1593,6 +1752,7 @@ dataSet[dataSetVersion].characterData = [
       guild: [ "warmongers" ],
 	  school: [ "nakano" ],
 	  world: [ "nirai_kanai" ],
+	  gender: [ "male" ],
     },
   },
   {
@@ -1603,6 +1763,7 @@ dataSet[dataSetVersion].characterData = [
       guild: [ "warmongers" ],
 	  school: [ "penitentia" ],
 	  world: [ "tir_na_nog" ],
+	  gender: [ "male" ],
     },
   },
   {
@@ -1612,7 +1773,8 @@ dataSet[dataSetVersion].characterData = [
       rarity: [ "3+" ],
       guild: [ "warmongers" ],
 	  school: [ "umamichi" ],
-	  world: [ "hourai" ],
+	  world: [ "penglai" ],
+	  gender: [ "no_gender" ],
     },
   },
   {
@@ -1623,6 +1785,7 @@ dataSet[dataSetVersion].characterData = [
       guild: [ "no_guild" ],
 	  school: [ "no_school" ],
 	  world: [ "yggdrasil", "tokyo" ],
+	  gender: [ "male" ],
     },
   },
   {
@@ -1633,6 +1796,7 @@ dataSet[dataSetVersion].characterData = [
       guild: [ "no_guild" ],
 	  school: [ "no_school" ],
 	  world: [ "yggdrasil" ],
+	  gender: [ "male" ],
     },
   },
   {
@@ -1643,6 +1807,7 @@ dataSet[dataSetVersion].characterData = [
       guild: [ "no_guild" ],
 	  school: [ "no_school" ],
 	  world: [ "yggdrasil" ],
+	  gender: [ "male" ],
     },
   },
   {
@@ -1653,6 +1818,7 @@ dataSet[dataSetVersion].characterData = [
       guild: [ "no_guild" ],
 	  school: [ "no_school" ],
 	  world: [ "yggdrasil" ],
+	  gender: [ "male" ],
     },
   },
   {
@@ -1662,7 +1828,8 @@ dataSet[dataSetVersion].characterData = [
       rarity: [ "3+" ],
       guild: [ "missionaries" ],
 	  school: [ "daikanyama" ],
-	  world: [ "kamuy_kotan" ],
+	  world: [ "kamui_kotan" ],
+	  gender: [ "male" ],
     },
   },
   {
@@ -1673,6 +1840,7 @@ dataSet[dataSetVersion].characterData = [
       guild: [ "no_guild" ],
 	  school: [ "setagaya" ],
 	  world: [ "takamagahara" ],
+	  gender: [ "male" ],
     },
   },
   {
@@ -1683,6 +1851,7 @@ dataSet[dataSetVersion].characterData = [
       guild: [ "no_guild" ],
 	  school: [ "no_school" ],
 	  world: [ "takamagahara" ],
+	  gender: [ "female" ],
     },
   },
   {
@@ -1693,6 +1862,7 @@ dataSet[dataSetVersion].characterData = [
       guild: [ "tycoons" ],
 	  school: [ "roppongi" ],
 	  world: [ "tir_na_nog" ],
+	  gender: [ "male" ],
     },
   },
   {
@@ -1702,7 +1872,8 @@ dataSet[dataSetVersion].characterData = [
       rarity: [ "3+" ],
       guild: [ "crafters" ],
 	  school: [ "no_school" ],
-	  world: [ "deva_loka" ],
+	  world: [ "devaloka" ],
+	  gender: [ "male" ],
     },
   },
   {
@@ -1712,7 +1883,8 @@ dataSet[dataSetVersion].characterData = [
       rarity: [ "3+" ],
       guild: [ "warmongers" ],
 	  school: [ "kudan" ],
-	  world: [ "deva_loka" ],
+	  world: [ "devaloka" ],
+	  gender: [ "male" ],
     },
   },
   {
@@ -1723,6 +1895,7 @@ dataSet[dataSetVersion].characterData = [
       guild: [ "warmongers" ],
 	  school: [ "no_school" ],
 	  world: [ "babilim" ],
+	  gender: [ "male" ],
     },
   },
   {
@@ -1733,6 +1906,7 @@ dataSet[dataSetVersion].characterData = [
       guild: [ "warmongers" ],
 	  school: [ "no_school" ],
 	  world: [ "tokyo", "yggdrasil" ],
+	  gender: [ "male" ],
     },
   },
   {
@@ -1743,6 +1917,7 @@ dataSet[dataSetVersion].characterData = [
       guild: [ "outlaws" ],
 	  school: [ "kabukicho" ],
 	  world: [ "tokyo" ],
+	  gender: [ "female" ],
     },
   },
   {
@@ -1753,6 +1928,7 @@ dataSet[dataSetVersion].characterData = [
       guild: [ "creators" ],
 	  school: [ "akihabara" ],
 	  world: [ "el_dorado" ],
+	  gender: [ "male" ],
     },
   },
   {
@@ -1763,6 +1939,7 @@ dataSet[dataSetVersion].characterData = [
       guild: [ "no_guild", "entertainers" ],
 	  school: [ "bukuro" ],
 	  world: [ "tir_na_nog" ],
+	  gender: [ "male" ],
     },
   },
   {
@@ -1773,6 +1950,7 @@ dataSet[dataSetVersion].characterData = [
       guild: [ "warmongers" ],
 	  school: [ "no_school" ],
 	  world: [ "land_of_wa" ],
+	  gender: [ "male" ],
     },
   },
   {
@@ -1783,6 +1961,7 @@ dataSet[dataSetVersion].characterData = [
       guild: [ "warmongers" ],
 	  school: [ "no_school" ],
 	  world: [ "gehenna" ],
+	  gender: [ "male" ],
     },
   },
   {
@@ -1793,6 +1972,7 @@ dataSet[dataSetVersion].characterData = [
       guild: [ "invaders" ],
 	  school: [ "ojibo" ],
 	  world: [ "great_spirit" ],
+	  gender: [ "male" ],
     },
   },
   {
@@ -1803,6 +1983,7 @@ dataSet[dataSetVersion].characterData = [
       guild: [ "invaders" ],
 	  school: [ "setagaya" ],
 	  world: [ "kitezh" ],
+	  gender: [ "male" ],
     },
   },
   {
@@ -1814,6 +1995,7 @@ dataSet[dataSetVersion].characterData = [
 	  school: [ "no_school" ],
 	  other: [ "eight" ],
 	  world: [ "land_of_wa" ],
+	  gender: [ "male" ],
     },
   },
   {
@@ -1824,6 +2006,7 @@ dataSet[dataSetVersion].characterData = [
       guild: [ "creators" ],
 	  school: [ "akihabara" ],
 	  world: [ "land_of_wa" ],
+	  gender: [ "male" ],
     },
   },
   {
@@ -1834,6 +2017,7 @@ dataSet[dataSetVersion].characterData = [
       guild: [ "outlaws" ],
 	  school: [ "kabukicho" ],
 	  world: [ "kitezh" ],
+	  gender: [ "male" ],
     },
   },
   {
@@ -1844,6 +2028,7 @@ dataSet[dataSetVersion].characterData = [
       guild: [ "creators" ],
 	  school: [ "akihabara" ],
 	  world: [ "old_ones" ],
+	  gender: [ "male" ],
     },
   },
   {
@@ -1853,7 +2038,8 @@ dataSet[dataSetVersion].characterData = [
       rarity: [ "3+" ],
       guild: [ "outlaws", "wisemen" ],
 	  school: [ "togo" ],
-	  world: [ "old_ones" ],
+	  world: [ "old_ones", "tir_na_nog" ],
+	  gender: [ "male" ],
     },
   },
   {
@@ -1863,7 +2049,8 @@ dataSet[dataSetVersion].characterData = [
       rarity: [ "3+" ],
       guild: [ "invaders", "wanderers" ],
 	  school: [ "no_school" ],
-	  world: [ "hourai" ],
+	  world: [ "penglai" ],
+	  gender: [ "male" ],
     },
   },
   {
@@ -1871,9 +2058,10 @@ dataSet[dataSetVersion].characterData = [
     img: "3-star/icon_sandayu01.png",
     opts: {
       rarity: [ "3+" ],
-      guild: [ "agents", "no_guild" ],
+      guild: [ "agents", "independent" ],
 	  school: [ "no_school", "shinjuku", "kabukicho" ],
 	  world: [ "land_of_wa" ],
+	  gender: [ "male" ],
     },
   },
   {
@@ -1884,6 +2072,7 @@ dataSet[dataSetVersion].characterData = [
       guild: [ "creators" ],
 	  school: [ "akihabara" ],
 	  world: [ "eden" ],
+	  gender: [ "male" ],
     },
   },
   {
@@ -1893,7 +2082,8 @@ dataSet[dataSetVersion].characterData = [
       rarity: [ "3+" ],
       guild: [ "invaders" ],
 	  school: [ "no_school" ],
-	  world: [ "shangri_la" ],
+	  world: [ "shangri-la" ],
+	  gender: [ "male" ],
     },
   },
   {
@@ -1904,6 +2094,7 @@ dataSet[dataSetVersion].characterData = [
       guild: [ "no_guild" ],
 	  school: [ "kiou" ],
 	  world: [ "takamagahara" ],
+	  gender: [ "male" ],
     },
   },
   {
@@ -1913,7 +2104,8 @@ dataSet[dataSetVersion].characterData = [
       rarity: [ "3+" ],
       guild: [ "no_guild", "wanderers" ],
 	  school: [ "shinjuku" ],
-	  world: [ "hourai", "old_ones" ],
+	  world: [ "penglai", "old_ones" ],
+	  gender: [ "male" ],
     },
   },
   {
@@ -1924,6 +2116,7 @@ dataSet[dataSetVersion].characterData = [
       guild: [ "no_guild" ],
 	  school: [ "umamichi" ],
 	  world: [ "takamagahara" ],
+	  gender: [ "male" ],
     },
   },
   {
@@ -1933,7 +2126,8 @@ dataSet[dataSetVersion].characterData = [
       rarity: [ "3+" ],
       guild: [ "wanderers" ],
 	  school: [ "umamichi" ],
-	  world: [ "land_of_wa", "shangri_la" ],
+	  world: [ "land_of_wa", "shangri-la" ],
+	  gender: [ "male" ],
     },
   },
   {
@@ -1944,6 +2138,7 @@ dataSet[dataSetVersion].characterData = [
       guild: [ "invaders" ],
 	  school: [ "no_school" ],
 	  world: [ "great_spirit" ],
+	  gender: [ "male" ],
     },
   },
   {
@@ -1954,6 +2149,7 @@ dataSet[dataSetVersion].characterData = [
       guild: [ "invaders" ],
 	  school: [ "no_school" ],
 	  world: [ "oceanic_realm" ],
+	  gender: [ "male" ],
     },
   },
   {
@@ -1964,6 +2160,7 @@ dataSet[dataSetVersion].characterData = [
       guild: [ "wanderers" ],
 	  school: [ "nakano" ],
 	  world: [ "olympus" ],
+	  gender: [ "male" ],
     },
   },
   {
@@ -1974,6 +2171,7 @@ dataSet[dataSetVersion].characterData = [
       guild: [ "entertainers" ],
 	  school: [ "shinjuku" ],
 	  world: [ "tir_na_nog" ],
+	  gender: [ "male" ],
     },
   },
   {
@@ -1983,7 +2181,8 @@ dataSet[dataSetVersion].characterData = [
       rarity: [ "3+" ],
       guild: [ "entertainers" ],
 	  school: [ "suidocho" ],
-	  world: [ "shangri_la" ],
+	  world: [ "shangri-la" ],
+	  gender: [ "male" ],
     },
   },
   {
@@ -1993,7 +2192,9 @@ dataSet[dataSetVersion].characterData = [
       rarity: [ "3+" ],
       guild: [ "creators" ],
 	  school: [ "akihabara" ],
+	  other: [ "mountain2" ],
 	  world: [ "tokyo", "no_world" ],
+	  gender: [ "male" ],
     },
   },
   {
@@ -2001,9 +2202,10 @@ dataSet[dataSetVersion].characterData = [
     img: "3-star/icon_israfil01.png",
     opts: {
       rarity: [ "3+" ],
-      guild: [ "no_guild" ],
+      guild: [ "rule_makers" ],
 	  school: [ "no_school" ],
 	  world: [ "eden" ],
+	  gender: [ "male" ],
     },
   },
   {
@@ -2014,6 +2216,7 @@ dataSet[dataSetVersion].characterData = [
       guild: [ "creators" ],
 	  school: [ "akihabara" ],
 	  world: [ "tokyo" ],
+	  gender: [ "male" ],
     },
   },
   {
@@ -2023,7 +2226,8 @@ dataSet[dataSetVersion].characterData = [
       rarity: [ "3+" ],
       guild: [ "creators", "entertainers" ],
 	  school: [ "akihabara" ],
-	  world: [ "olympus" ],
+	  world: [ "olympus", "yggdrasil", "tir_na_nog" ],
+	  gender: [ "female" ],
     },
   },
   {
@@ -2034,6 +2238,7 @@ dataSet[dataSetVersion].characterData = [
       guild: [ "invaders" ],
 	  school: [ "setagaya" ],
 	  world: [ "kitezh" ],
+	  gender: [ "male" ],
     },
   },
   {
@@ -2041,9 +2246,10 @@ dataSet[dataSetVersion].characterData = [
     img: "3-star/icon_takeminakata01.png",
     opts: {
       rarity: [ "3+" ],
-      guild: [ "invaders", "no_guild" ],
+      guild: [ "invaders", "tycoons" ],
 	  school: [ "roppongi" ],
 	  world: [ "takamagahara" ],
+	  gender: [ "male" ],
     },
   },
   {
@@ -2055,6 +2261,7 @@ dataSet[dataSetVersion].characterData = [
 	  school: [ "no_school" ],
 	  other: [ "eight" ],
 	  world: [ "land_of_wa" ],
+	  gender: [ "male" ],
     },
   },
   {
@@ -2065,6 +2272,7 @@ dataSet[dataSetVersion].characterData = [
       guild: [ "no_guild" ],
 	  school: [ "fire" ],
 	  world: [ "xanadu" ],
+	  gender: [ "male" ],
     },
   },
   {
@@ -2072,9 +2280,10 @@ dataSet[dataSetVersion].characterData = [
     img: "3-star/icon_taishakuten01.png",
     opts: {
       rarity: [ "3+" ],
-      guild: [ "gurus" ],
+      guild: [ "gurus", "no_guild" ],
 	  school: [ "suidocho" ],
-	  world: [ "garo_demana" ],
+	  world: [ "midearth" ],
+	  gender: [ "male" ],
     },
   },
   {
@@ -2085,6 +2294,7 @@ dataSet[dataSetVersion].characterData = [
       guild: [ "invaders" ],
 	  school: [ "no_school" ],
 	  world: [ "tokyo", "yggdrasil" ],
+	  gender: [ "male" ],
     },
   },
   {
@@ -2095,6 +2305,7 @@ dataSet[dataSetVersion].characterData = [
       guild: [ "entertainers" ],
 	  school: [ "umamichi" ],
 	  world: [ "land_of_wa" ],
+	  gender: [ "no_gender" ],
     },
   },
   {
@@ -2105,6 +2316,7 @@ dataSet[dataSetVersion].characterData = [
       guild: [ "no_guild" ],
 	  school: [ "no_school" ],
 	  world: [ "yggdrasil" ],
+	  gender: [ "male" ],
     },
   },
   {
@@ -2115,6 +2327,7 @@ dataSet[dataSetVersion].characterData = [
       guild: [ "creators" ],
 	  school: [ "akihabara" ],
 	  world: [ "gehenna" ],
+	  gender: [ "male" ],
     },
   },
   {
@@ -2122,9 +2335,10 @@ dataSet[dataSetVersion].characterData = [
     img: "3-star/icon_ixbalanque01.png",
     opts: {
       rarity: [ "3+" ],
-      guild: [ "no_guild" ],
+      guild: [ "exters" ],
 	  school: [ "no_school" ],
 	  world: [ "el_dorado" ],
+	  gender: [ "male" ],
     },
   },
   {
@@ -2132,9 +2346,10 @@ dataSet[dataSetVersion].characterData = [
     img: "3-star/icon_sphinx01.png",
     opts: {
       rarity: [ "3+" ],
-      guild: [ "agents", "no_guild" ],
+      guild: [ "agents", "rule_makers" ],
 	  school: [ "akihabara" ],
 	  world: [ "aaru" ],
+	  gender: [ "male" ],
     },
   },
   {
@@ -2142,9 +2357,10 @@ dataSet[dataSetVersion].characterData = [
     img: "3-star/icon_kirito_zero01.png",
     opts: {
       rarity: [ "3+" ],
-      guild: [ "genociders", "no_guild" ],
+      guild: [ "genociders", "independent" ],
 	  school: [ "no_school" ],
 	  world: [ "tokyo" ],
+	  gender: [ "male" ],
     },
   },
   {
@@ -2153,8 +2369,10 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       rarity: [ "3+" ],
       guild: [ "agents", "entertainers" ],
-	  school: [ "no_school" ],
+	  school: [ "no_school", "shinjuku" ],
+	  other: [ "mountain" ],
 	  world: [ "great_spirit" ],
+	  gender: [ "male" ],
     },
   },
   {
@@ -2164,7 +2382,8 @@ dataSet[dataSetVersion].characterData = [
       rarity: [ "3+" ],
       guild: [ "wanderers" ],
 	  school: [ "no_school" ],
-	  world: [ "garo_demana" ],
+	  world: [ "midearth" ],
+	  gender: [ "male" ],
     },
   },
   {
@@ -2175,6 +2394,7 @@ dataSet[dataSetVersion].characterData = [
       guild: [ "summoners" ],
 	  school: [ "shinjuku" ],
 	  world: [ "takamagahara" ],
+	  gender: [ "male" ],
     },
   },
   {
@@ -2184,7 +2404,8 @@ dataSet[dataSetVersion].characterData = [
       rarity: [ "3+" ],
       guild: [ "gurus", "missionaries" ],
 	  school: [ "umamichi" ],
-	  world: [ "shangri_la" ],
+	  world: [ "shangri-la" ],
+	  gender: [ "male" ],
     },
   },
   {
@@ -2195,6 +2416,7 @@ dataSet[dataSetVersion].characterData = [
       guild: [ "beast_tamers" ],
 	  school: [ "ueno" ],
 	  world: [ "old_ones" ],
+	  gender: [ "male" ],
     },
   },
   {
@@ -2205,6 +2427,7 @@ dataSet[dataSetVersion].characterData = [
       guild: [ "wanderers" ],
 	  school: [ "no_school" ],
 	  world: [ "kitezh" ],
+	  gender: [ "male" ],
     },
   },
   {
@@ -2215,6 +2438,7 @@ dataSet[dataSetVersion].characterData = [
       guild: [ "beast_tamers" ],
 	  school: [ "ueno" ],
 	  world: [ "babilim" ],
+	  gender: [ "male" ],
     },
   },
   {
@@ -2226,6 +2450,7 @@ dataSet[dataSetVersion].characterData = [
 	  school: [ "no_school" ],
 	  other: [ "eight" ],
 	  world: [ "land_of_wa" ],
+	  gender: [ "male" ],
     },
   },
   {
@@ -2236,6 +2461,7 @@ dataSet[dataSetVersion].characterData = [
       guild: [ "entertainers" ],
 	  school: [ "nakano" ],
 	  world: [ "gehenna" ],
+	  gender: [ "male" ],
     },
   },
   {
@@ -2246,6 +2472,7 @@ dataSet[dataSetVersion].characterData = [
       guild: [ "entertainers" ],
 	  school: [ "no_school" ],
 	  world: [ "tokyo" ],
+	  gender: [ "male" ],
     },
   },
   {
@@ -2256,6 +2483,7 @@ dataSet[dataSetVersion].characterData = [
       guild: [ "wanderers" ],
 	  school: [ "fire" ],
 	  world: [ "oceanic_realm" ],
+	  gender: [ "male" ],
     },
   },
   {
@@ -2266,6 +2494,7 @@ dataSet[dataSetVersion].characterData = [
       guild: [ "beast_tamers" ],
 	  school: [ "ueno" ],
 	  world: [ "tokyo" ],
+	  gender: [ "male" ],
     },
   },
   {
@@ -2273,9 +2502,10 @@ dataSet[dataSetVersion].characterData = [
     img: "3-star/icon_quantum01.png",
     opts: {
       rarity: [ "3+" ],
-	  guild: [ "summoners", "no_guild" ],
+	  guild: [ "summoners", "independent" ],
 	  school: [ "shinjuku" ],
 	  world: [ "utopia" ],
+	  gender: [ "female" ],
     }
   },
   {
@@ -2285,7 +2515,8 @@ dataSet[dataSetVersion].characterData = [
       rarity: [ "3+" ],
       guild: [ "rule_makers" ],
 	  school: [ "no_school" ],
-	  world: [ "garo_demana" ],
+	  world: [ "midearth" ],
+	  gender: [ "male" ],
     },
   },
   {
@@ -2296,6 +2527,7 @@ dataSet[dataSetVersion].characterData = [
       guild: [ "entertainers" ],
 	  school: [ "penitentia", "no_school" ],
 	  world: [ "yggdrasil" ],
+	  gender: [ "male" ],
     },
   },
   {
@@ -2305,7 +2537,8 @@ dataSet[dataSetVersion].characterData = [
       rarity: [ "3+" ],
       guild: [ "gurus" ],
 	  school: [ "umamichi" ],
-	  world: [ "hourai" ],
+	  world: [ "penglai" ],
+	  gender: [ "male" ],
     },
   },
   {
@@ -2313,9 +2546,10 @@ dataSet[dataSetVersion].characterData = [
     img: "3-star/icon_beowulf01.png",
     opts: {
       rarity: [ "3+" ],
-      guild: [ "game_masters", "no_guild" ],
+      guild: [ "game_masters", "berserkers" ],
 	  school: [ "bukuro", "no_school" ],
 	  world: [ "yggdrasil" ],
+	  gender: [ "male" ],
     },
   },
   {
@@ -2326,6 +2560,7 @@ dataSet[dataSetVersion].characterData = [
       guild: [ "entertainers" ],
 	  school: [ "no_school" ],
 	  world: [ "el_dorado" ],
+	  gender: [ "male" ],
     },
   },
   {
@@ -2336,6 +2571,7 @@ dataSet[dataSetVersion].characterData = [
       guild: [ "missionaries" ],
 	  school: [ "toyosu" ],
 	  world: [ "kitezh" ],
+	  gender: [ "male" ],
     },
   },
   {
@@ -2346,6 +2582,7 @@ dataSet[dataSetVersion].characterData = [
       guild: [ "no_guild" ],
 	  school: [ "no_school" ],
 	  world: [ "yggdrasil" ],
+	  gender: [ "male" ],
     },
   },
   {
@@ -2356,6 +2593,7 @@ dataSet[dataSetVersion].characterData = [
       guild: [ "no_guild" ],
 	  school: [ "no_school" ],
 	  world: [ "yggdrasil" ],
+	  gender: [ "male" ],
     },
   },
   {
@@ -2366,6 +2604,7 @@ dataSet[dataSetVersion].characterData = [
       guild: [ "no_guild" ],
 	  school: [ "no_school" ],
 	  world: [ "yggdrasil" ],
+	  gender: [ "male" ],
     },
   },
   {
@@ -2373,9 +2612,10 @@ dataSet[dataSetVersion].characterData = [
     img: "3-star/icon_shamash01.png",
     opts: {
       rarity: [ "3+" ],
-      guild: [ "no_guild" ],
+      guild: [ "exters" ],
 	  school: [ "penitentia", "no_school" ],
 	  world: [ "babilim" ],
+	  gender: [ "male" ],
     },
   },
   {
@@ -2387,6 +2627,7 @@ dataSet[dataSetVersion].characterData = [
 	  school: [ "no_school" ],
 	  other: [ "eight" ],
 	  world: [ "land_of_wa" ],
+	  gender: [ "male" ],
     },
   },
   {
@@ -2396,7 +2637,8 @@ dataSet[dataSetVersion].characterData = [
       rarity: [ "3+" ],
       guild: [ "entertainers", "rule_makers" ],
 	  school: [ "no_school" ],
-	  world: [ "kamuy_kotan" ],
+	  world: [ "kamui_kotan" ],
+	  gender: [ "male" ],
     },
   },
   {
@@ -2406,7 +2648,8 @@ dataSet[dataSetVersion].characterData = [
       rarity: [ "3+" ],
       guild: [ "gurus" ],
 	  school: [ "umamichi" ],
-	  world: [ "hourai" ],
+	  world: [ "penglai" ],
+	  gender: [ "male" ],
     },
   },
   {
@@ -2417,7 +2660,197 @@ dataSet[dataSetVersion].characterData = [
       guild: [ "gurus" ],
 	  school: [ "umamichi" ],
 	  world: [ "takamagahara" ],
+	  gender: [ "male" ],
     },
+  },
+  {
+    name: "Hippolytus",
+    img: "3-star/icon_hippolytus01.png",
+    opts: {
+      rarity: [ "3+" ],
+      guild: [ "rule_makers" ],
+	  school: [ "setagaya" ],
+	  world: [ "olympus" ],
+	  gender: [ "male" ],
+    },
+  },
+  {
+    name: "Hei Long Yi Quan",
+    img: "3-star/icon_heilongyiquan01.png",
+    opts: {
+      rarity: [ "3+" ],
+      guild: [ "wanderers" ],
+	  school: [ "suidocho" ],
+	  world: [ "penglai" ],
+	  gender: [ "male" ],
+    },
+  },
+  {
+    name: "Prometheus",
+    img: "3-star/icon_prometheus01.png",
+    opts: {
+      rarity: [ "3+" ],
+      guild: [ "wanderers" ],
+	  school: [ "akihabara" ],
+	  world: [ "olympus" ],
+	  gender: [ "male" ],
+    },
+  },
+  {
+    name: "Belphegor",
+    img: "3-star/icon_belphegor01.png",
+    opts: {
+      rarity: [ "3+" ],
+      guild: [ "berserkers" ],
+	  school: [ "bukuro" ],
+	  world: [ "gehenna" ],
+	  gender: [ "male" ],
+    },
+  },
+  {
+    name: "Ame-no-Uzume",
+    img: "3-star/icon_amenouzume01.png",
+    opts: {
+      rarity: [ "3+" ],
+      guild: [ "rule_makers", "independent" ],
+	  school: [ "ameyoko" ],
+	  world: [ "takamagahara" ],
+	  gender: [ "female" ],
+    },
+  },
+  {
+    name: "Willie Wildcat",
+    img: "3-star/icon_williewildcat01.png",
+    opts: {
+      rarity: [ "3+" ],
+      guild: [ "exters" ],
+	  school: [ "no_school" ],
+	  world: [ "utopia" ],
+	  gender: [ "male" ],
+    },
+  },
+  {
+    name: "Amaterasu",
+    img: "3-star/icon_amaterasu01.png",
+    opts: {
+      rarity: [ "3+" ],
+      guild: [ "rule_makers" ],
+	  school: [ "no_school" ],
+	  world: [ "takamagahara" ],
+	  gender: [ "female" ],
+    },
+  },
+  {
+    name: "Raven Arthur",
+    img: "3-star/icon_ravenarthur01.png",
+    opts: {
+      rarity: [ "3+" ],
+      guild: [ "game_masters" ],
+	  school: [ "fire" ],
+	  world: [ "tir_na_nog" ],
+	  gender: [ "male" ],
+    },
+  },
+  {
+    name: "Tu'er Shen",
+    img: "3-star/icon_tuershen01.png",
+    opts: {
+      rarity: [ "3+" ],
+      guild: [ "wanderers", "rule_makers", "independent" ],
+	  school: [ "ameyoko" ],
+	  world: [ "penglai" ],
+	  gender: [ "male" ],
+    },
+  },
+  {
+    name: "Michael",
+    img: "3-star/icon_michael01.png",
+    opts: {
+      rarity: [ "3+" ],
+	  guild: [ "rule_makers" ],
+	  school: [ "no_school" ],
+	  world: [ "eden" ],
+	  gender: [ "male" ],
+    }
+  },
+  {
+    name: "Baphomet",
+    img: "3-star/icon_baphomet01.png",
+    opts: {
+      rarity: [ "3+" ],
+	  guild: [ "rule_makers" ],
+	  school: [ "no_school" ],
+	  world: [ "gehenna" ],
+	  gender: [ "no_gender" ],
+    }
+  },
+  {
+    name: "Kokopelli",
+    img: "3-star/icon_kokopelli01.png",
+    opts: {
+      rarity: [ "3+" ],
+	  guild: [ "exters" ],
+	  school: [ "no_school" ],
+	  world: [ "great_spirit", "tokyo" ],
+	  gender: [ "male" ],
+    }
+  },
+  {
+    name: "Sanzo",
+    img: "3-star/icon_sanzo01.png",
+    opts: {
+      rarity: [ "3+" ],
+	  guild: [ "gurus" ],
+	  school: [ "umamichi" ],
+	  world: [ "tokyo" ],
+	  gender: [ "male" ],
+    }
+  },
+  {
+    name: "Y'golonac",
+    img: "3-star/icon_ygolonac01.png",
+    opts: {
+      rarity: [ "3+" ],
+	  guild: [ "outlaws" ],
+	  school: [ "suidocho" ],
+	  world: [ "old_ones" ],
+	  gender: [ "male" ],
+    }
+  },
+  {
+    name: "Himavat",
+    img: "3-star/icon_himavat01.png",
+    opts: {
+      rarity: [ "3+" ],
+	  guild: [ "no_guild" ],
+	  school: [ "setagaya" ],
+	  other: [ "mountain2" ],
+	  world: [ "devaloka" ],
+	  gender: [ "male" ],
+    }
+  },
+  {
+    name: "Kumano Gongen",
+    img: "3-star/icon_kumanogongen01.png",
+    opts: {
+      rarity: [ "3+" ],
+	  guild: [ "gurus", "no_guild" ],
+	  school: [ "setagaya" ],
+	  other: [ "mountain2" ],
+	  world: [ "land_of_wa" ],
+	  gender: [ "male" ],
+    }
+  },
+  {
+    name: "Saturnus",
+    img: "3-star/icon_saturnus01.png",
+    opts: {
+      rarity: [ "3+" ],
+	  guild: [ "no_guild" ],
+	  school: [ "setagaya" ],
+	  world: [ "olympus" ],
+	  gender: [ "male" ],
+    }
   },
   
 /******
@@ -2432,6 +2865,7 @@ dataSet[dataSetVersion].characterData = [
       guild: [ "berserkers" ],
 	  school: [ "bukuro" ],
 	  world: [ "tokyo" ],
+	  gender: [ "male" ],
 	  alt: true
     },
   },
@@ -2443,6 +2877,7 @@ dataSet[dataSetVersion].characterData = [
       guild: [ "tycoons" ],
 	  school: [ "roppongi" ],
 	  world: [ "olympus" ],
+	  gender: [ "male" ],
 	  alt: true
     },
   },
@@ -2454,6 +2889,7 @@ dataSet[dataSetVersion].characterData = [
       guild: [ "berserkers" ],
 	  school: [ "yoyogi" ],
 	  world: [ "tokyo" ],
+	  gender: [ "male" ],
 	  alt: true
     },
   },
@@ -2465,6 +2901,7 @@ dataSet[dataSetVersion].characterData = [
       guild: [ "no_guild" ],
 	  school: [ "santa" ],
 	  world: [ "kitezh" ],
+	  gender: [ "male" ],
 	  alt: true
     },
   },
@@ -2476,6 +2913,7 @@ dataSet[dataSetVersion].characterData = [
       guild: [ "outlaws" ],
 	  school: [ "shinjuku" ],
 	  world: [ "land_of_wa" ],
+	  gender: [ "female", "no_gender" ],
 	  alt: true
     },
   },
@@ -2487,6 +2925,7 @@ dataSet[dataSetVersion].characterData = [
       guild: [ "no_guild", "summoners" ],
 	  school: [ "shinjuku" ],
 	  world: [ "gehenna", "eden" ],
+	  gender: [ "male" ],
 	  alt: true
     },
   },
@@ -2498,6 +2937,7 @@ dataSet[dataSetVersion].characterData = [
       guild: [ "agents" ],
 	  school: [ "nakano" ],
 	  world: [ "gehenna" ],
+	  gender: [ "male" ],
 	  alt: true
     },
   },
@@ -2509,6 +2949,7 @@ dataSet[dataSetVersion].characterData = [
       guild: [ "rule_makers" ],
 	  school: [ "no_school" ],
 	  world: [ "olympus" ],
+	  gender: [ "male" ],
 	  alt: true
     },
   },
@@ -2520,6 +2961,7 @@ dataSet[dataSetVersion].characterData = [
       guild: [ "crafters" ],
 	  school: [ "kamata" ],
 	  world: [ "olympus" ],
+	  gender: [ "male" ],
 	  alt: true
     },
   },
@@ -2531,6 +2973,7 @@ dataSet[dataSetVersion].characterData = [
       guild: [ "entertainers" ],
 	  school: [ "nakano" ],
 	  world: [ "land_of_wa" ],
+	  gender: [ "male" ],
 	  alt: true
     },
   },
@@ -2539,9 +2982,10 @@ dataSet[dataSetVersion].characterData = [
     img: "alts/icon_astaroth01_skin1.png",
     opts: {
       rarity: [ "3+" ],
-      guild: [ "no_guild" ],
+      guild: [ "rule_makers", "independent" ],
 	  school: [ "no_school" ],
 	  world: [ "canaan" ],
+	  gender: [ "no_gender" ],
 	  alt: true
     },
   },
@@ -2550,9 +2994,10 @@ dataSet[dataSetVersion].characterData = [
     img: "alts/icon_dagon01_skin1.png",
     opts: {
       rarity: [ "3+" ],
-      guild: [ "no_guild" ],
+      guild: [ "no_guild", "wisemen" ],
 	  school: [ "toyosu" ],
 	  world: [ "canaan" ],
+	  gender: [ "male" ],
 	  alt: true
     },
   },
@@ -2564,6 +3009,7 @@ dataSet[dataSetVersion].characterData = [
       guild: [ "warmongers" ],
 	  school: [ "penitentia" ],
 	  world: [ "el_dorado" ],
+	  gender: [ "male" ],
 	  alt: true
     },
   },
@@ -2574,7 +3020,8 @@ dataSet[dataSetVersion].characterData = [
       rarity: [ "3+" ],
       guild: [ "missionaries" ],
 	  school: [ "daikanyama" ],
-	  world: [ "kamuy_kotan" ],
+	  world: [ "kamui_kotan" ],
+	  gender: [ "male" ],
 	  alt: true
     },
   },
@@ -2585,7 +3032,8 @@ dataSet[dataSetVersion].characterData = [
       rarity: [ "3+" ],
       guild: [ "crafters" ],
 	  school: [ "no_school" ],
-	  world: [ "deva_loka" ],
+	  world: [ "devaloka" ],
+	  gender: [ "male" ],
 	  alt: true
     },
   },
@@ -2596,7 +3044,8 @@ dataSet[dataSetVersion].characterData = [
       rarity: [ "3+" ],
       guild: [ "warmongers" ],
 	  school: [ "kudan" ],
-	  world: [ "deva_loka", "shangri_la" ],
+	  world: [ "devaloka", "shangri-la" ],
+	  gender: [ "male" ],
 	  alt: true
     },
   },
@@ -2608,6 +3057,7 @@ dataSet[dataSetVersion].characterData = [
       guild: [ "warmongers" ],
 	  school: [ "no_school" ],
 	  world: [ "babilim" ],
+	  gender: [ "male" ],
 	  alt: true
     },
   },
@@ -2618,7 +3068,8 @@ dataSet[dataSetVersion].characterData = [
       rarity: [ "3+" ],
       guild: [ "outlaws", "wisemen" ],
 	  school: [ "togo" ],
-	  world: [ "tir_na_nog" ],
+	  world: [ "tir_na_nog", "tir_na_nog" ],
+	  gender: [ "male" ],
 	  alt: true
     },
   },
@@ -2630,6 +3081,7 @@ dataSet[dataSetVersion].characterData = [
       guild: [ "no_guild" ],
 	  school: [ "no_school" ],
 	  world: [ "yggdrasil" ],
+	  gender: [ "male" ],
 	  alt: true
     },
   },
@@ -2641,17 +3093,19 @@ dataSet[dataSetVersion].characterData = [
       guild: [ "beast_tamers" ],
 	  school: [ "ueno" ],
 	  world: [ "tokyo" ],
+	  gender: [ "male" ],
 	  alt: true
     },
   },
   {
-    name: "Wym",
+    name: "Wyrm",
     img: "alts/icon_beowulf01_wyrm.png",
     opts: {
       rarity: [ "3+" ],
-      guild: [ "game_masters", "no_guild" ],
+      guild: [ "game_masters", "berserkers" ],
 	  school: [ "bukuro", "no_school" ],
 	  world: [ "yggdrasil" ],
+	  gender: [ "male" ],
 	  alt: true
     },
   },
@@ -2663,6 +3117,7 @@ dataSet[dataSetVersion].characterData = [
       guild: [ "no_guild" ],
 	  school: [ "no_school" ],
 	  world: [ "yggdrasil" ],
+	  gender: [ "male" ],
 	  alt: true
     },
   },
@@ -2674,6 +3129,19 @@ dataSet[dataSetVersion].characterData = [
 	  guild: [ "no_guild" ],
 	  school: [ "no_school" ],
 	  world: [ "yggdrasil" ],
+	  gender: [ "male" ],
+	  alt: true
+    }
+  },
+  {
+    name: "Saturnus (Saturday)",
+    img: "alts/icon_saturnus01_skin2.png",
+    opts: {
+      rarity: [ "3+" ],
+	  guild: [ "no_guild" ],
+	  school: [ "setagaya" ],
+	  world: [ "olympus" ],
+	  gender: [ "male" ],
 	  alt: true
     }
   },
@@ -2690,6 +3158,7 @@ dataSet[dataSetVersion].characterData = [
 	  guild: [ "summoners" ],
 	  school: [ "no_school" ],
 	  world: [ "land_of_wa" ],
+	  gender: [ "male" ],
     }
   },
   {
@@ -2700,6 +3169,7 @@ dataSet[dataSetVersion].characterData = [
 	  guild: [ "summoners" ],
 	  school: [ "no_school" ],
 	  world: [ "land_of_wa" ],
+	  gender: [ "male" ],
     }
   },
   {
@@ -2710,6 +3180,7 @@ dataSet[dataSetVersion].characterData = [
 	  guild: [ "summoners" ],
 	  school: [ "no_school" ],
 	  world: [ "land_of_wa" ],
+	  gender: [ "male" ],
     }
   },
   {
@@ -2720,6 +3191,7 @@ dataSet[dataSetVersion].characterData = [
 	  guild: [ "summoners" ],
 	  school: [ "no_school" ],
 	  world: [ "land_of_wa" ],
+	  gender: [ "male" ],
     }
   },
   {
@@ -2730,6 +3202,7 @@ dataSet[dataSetVersion].characterData = [
 	  guild: [ "summoners" ],
 	  school: [ "no_school" ],
 	  world: [ "land_of_wa" ],
+	  gender: [ "male" ],
     }
   },
   {
@@ -2739,6 +3212,8 @@ dataSet[dataSetVersion].characterData = [
       rarity: [ "2" ],
 	  guild: [ "summoners" ],
 	  school: [ "no_school" ],
+	  world: [ "no_world" ],
+	  gender: [ "male" ],
     }
   },
   {
@@ -2748,6 +3223,8 @@ dataSet[dataSetVersion].characterData = [
       rarity: [ "2" ],
 	  guild: [ "summoners" ],
 	  school: [ "no_school" ],
+	  world: [ "no_world" ],
+	  gender: [ "male" ],
     }
   },
   {
@@ -2757,6 +3234,8 @@ dataSet[dataSetVersion].characterData = [
       rarity: [ "2" ],
 	  guild: [ "summoners" ],
 	  school: [ "no_school" ],
+	  world: [ "no_world" ],
+	  gender: [ "male" ],
     }
   },
   {
@@ -2766,6 +3245,8 @@ dataSet[dataSetVersion].characterData = [
       rarity: [ "2" ],
 	  guild: [ "summoners" ],
 	  school: [ "no_school" ],
+	  world: [ "no_world" ],
+	  gender: [ "male" ],
     }
   },
   {
@@ -2775,6 +3256,8 @@ dataSet[dataSetVersion].characterData = [
       rarity: [ "2" ],
 	  guild: [ "summoners" ],
 	  school: [ "no_school" ],
+	  world: [ "no_world" ],
+	  gender: [ "male" ],
     }
   },
   {
@@ -2785,6 +3268,7 @@ dataSet[dataSetVersion].characterData = [
 	  guild: [ "summoners" ],
 	  school: [ "no_school" ],
 	  world: [ "yggdrasil" ],
+	  gender: [ "no_gender" ],
     }
   },
   {
@@ -2795,6 +3279,7 @@ dataSet[dataSetVersion].characterData = [
 	  guild: [ "summoners" ],
 	  school: [ "no_school" ],
 	  world: [ "yggdrasil" ],
+	  gender: [ "no_gender" ],
     }
   },
   {
@@ -2805,6 +3290,7 @@ dataSet[dataSetVersion].characterData = [
 	  guild: [ "summoners" ],
 	  school: [ "no_school" ],
 	  world: [ "yggdrasil" ],
+	  gender: [ "no_gender" ],
     }
   },
   {
@@ -2815,6 +3301,7 @@ dataSet[dataSetVersion].characterData = [
 	  guild: [ "summoners" ],
 	  school: [ "no_school" ],
 	  world: [ "yggdrasil" ],
+	  gender: [ "no_gender" ],
     }
   },
   {
@@ -2825,6 +3312,7 @@ dataSet[dataSetVersion].characterData = [
 	  guild: [ "summoners" ],
 	  school: [ "no_school" ],
 	  world: [ "yggdrasil" ],
+	  gender: [ "no_gender" ],
     }
   },
   {
@@ -2834,6 +3322,8 @@ dataSet[dataSetVersion].characterData = [
       rarity: [ "2" ],
 	  guild: [ "summoners" ],
 	  school: [ "no_school" ],
+	  world: [ "no_world" ],
+	  gender: [ "male" ],
     }
   },
   {
@@ -2843,6 +3333,8 @@ dataSet[dataSetVersion].characterData = [
       rarity: [ "2" ],
 	  guild: [ "summoners" ],
 	  school: [ "no_school" ],
+	  world: [ "no_world" ],
+	  gender: [ "male" ],
     }
   },
   {
@@ -2852,6 +3344,8 @@ dataSet[dataSetVersion].characterData = [
       rarity: [ "2" ],
 	  guild: [ "summoners" ],
 	  school: [ "no_school" ],
+	  world: [ "no_world" ],
+	  gender: [ "male" ],
     }
   },
   {
@@ -2861,6 +3355,8 @@ dataSet[dataSetVersion].characterData = [
       rarity: [ "2" ],
 	  guild: [ "summoners" ],
 	  school: [ "no_school" ],
+	  world: [ "no_world" ],
+	  gender: [ "male" ],
     }
   },
   {
@@ -2870,6 +3366,8 @@ dataSet[dataSetVersion].characterData = [
       rarity: [ "2" ],
 	  guild: [ "summoners" ],
 	  school: [ "no_school" ],
+	  world: [ "no_world" ],
+	  gender: [ "male" ],
     }
   },
   {
@@ -2879,6 +3377,8 @@ dataSet[dataSetVersion].characterData = [
       rarity: [ "2" ],
 	  guild: [ "summoners" ],
 	  school: [ "no_school" ],
+	  world: [ "no_world" ],
+	  gender: [ "male" ],
     }
   },
   {
@@ -2888,6 +3388,8 @@ dataSet[dataSetVersion].characterData = [
       rarity: [ "2" ],
 	  guild: [ "summoners" ],
 	  school: [ "no_school" ],
+	  world: [ "no_world" ],
+	  gender: [ "male" ],
     }
   },
   {
@@ -2897,6 +3399,8 @@ dataSet[dataSetVersion].characterData = [
       rarity: [ "2" ],
 	  guild: [ "summoners" ],
 	  school: [ "no_school" ],
+	  world: [ "no_world" ],
+	  gender: [ "male" ],
     }
   },
   {
@@ -2906,6 +3410,8 @@ dataSet[dataSetVersion].characterData = [
       rarity: [ "2" ],
 	  guild: [ "summoners" ],
 	  school: [ "no_school" ],
+	  world: [ "no_world" ],
+	  gender: [ "male" ],
     }
   },
   {
@@ -2915,6 +3421,8 @@ dataSet[dataSetVersion].characterData = [
       rarity: [ "2" ],
 	  guild: [ "summoners" ],
 	  school: [ "no_school" ],
+	  world: [ "no_world" ],
+	  gender: [ "male" ],
     }
   },
   {
@@ -2924,6 +3432,8 @@ dataSet[dataSetVersion].characterData = [
       rarity: [ "2" ],
 	  guild: [ "summoners" ],
 	  school: [ "no_school" ],
+	  world: [ "no_world" ],
+	  gender: [ "female" ],
     }
   },
   {
@@ -2933,6 +3443,8 @@ dataSet[dataSetVersion].characterData = [
       rarity: [ "2" ],
 	  guild: [ "summoners" ],
 	  school: [ "no_school" ],
+	  world: [ "no_world" ],
+	  gender: [ "female" ],
     }
   },
   {
@@ -2942,6 +3454,8 @@ dataSet[dataSetVersion].characterData = [
       rarity: [ "2" ],
 	  guild: [ "summoners" ],
 	  school: [ "no_school" ],
+	  world: [ "no_world" ],
+	  gender: [ "female" ],
     }
   },
   {
@@ -2951,6 +3465,8 @@ dataSet[dataSetVersion].characterData = [
       rarity: [ "2" ],
 	  guild: [ "summoners" ],
 	  school: [ "no_school" ],
+	  world: [ "no_world" ],
+	  gender: [ "female" ],
     }
   },
   {
@@ -2960,6 +3476,8 @@ dataSet[dataSetVersion].characterData = [
       rarity: [ "2" ],
 	  guild: [ "summoners" ],
 	  school: [ "no_school" ],
+	  world: [ "no_world" ],
+	  gender: [ "female" ],
     }
   },
   {
@@ -2969,6 +3487,8 @@ dataSet[dataSetVersion].characterData = [
       rarity: [ "2" ],
 	  guild: [ "summoners" ],
 	  school: [ "no_school" ],
+	  world: [ "no_world" ],
+	  gender: [ "male" ],
     }
   },
   {
@@ -2978,6 +3498,8 @@ dataSet[dataSetVersion].characterData = [
       rarity: [ "2" ],
 	  guild: [ "summoners" ],
 	  school: [ "no_school" ],
+	  world: [ "no_world" ],
+	  gender: [ "male" ],
     }
   },
   {
@@ -2987,6 +3509,8 @@ dataSet[dataSetVersion].characterData = [
       rarity: [ "2" ],
 	  guild: [ "summoners" ],
 	  school: [ "no_school" ],
+	  world: [ "no_world" ],
+	  gender: [ "male" ],
     }
   },
   {
@@ -2996,6 +3520,8 @@ dataSet[dataSetVersion].characterData = [
       rarity: [ "2" ],
 	  guild: [ "summoners" ],
 	  school: [ "no_school" ],
+	  world: [ "no_world" ],
+	  gender: [ "male" ],
     }
   },
   {
@@ -3005,6 +3531,8 @@ dataSet[dataSetVersion].characterData = [
       rarity: [ "2" ],
 	  guild: [ "summoners" ],
 	  school: [ "no_school" ],
+	  world: [ "no_world" ],
+	  gender: [ "male" ],
     }
   },
   {
@@ -3015,6 +3543,7 @@ dataSet[dataSetVersion].characterData = [
 	  guild: [ "summoners" ],
 	  school: [ "no_school" ],
 	  world: [ "oceanic_realm" ],
+	  gender: [ "male" ],
     }
   },
   {
@@ -3025,6 +3554,7 @@ dataSet[dataSetVersion].characterData = [
 	  guild: [ "summoners" ],
 	  school: [ "no_school" ],
 	  world: [ "oceanic_realm" ],
+	  gender: [ "male" ],
     }
   },
   {
@@ -3035,6 +3565,7 @@ dataSet[dataSetVersion].characterData = [
 	  guild: [ "summoners" ],
 	  school: [ "no_school" ],
 	  world: [ "oceanic_realm" ],
+	  gender: [ "male" ],
     }
   },
   {
@@ -3045,6 +3576,7 @@ dataSet[dataSetVersion].characterData = [
 	  guild: [ "summoners" ],
 	  school: [ "no_school" ],
 	  world: [ "oceanic_realm" ],
+	  gender: [ "male" ],
     }
   },
   {
@@ -3055,6 +3587,7 @@ dataSet[dataSetVersion].characterData = [
 	  guild: [ "summoners" ],
 	  school: [ "no_school" ],
 	  world: [ "oceanic_realm" ],
+	  gender: [ "male" ],
     }
   },
   {
@@ -3065,6 +3598,7 @@ dataSet[dataSetVersion].characterData = [
 	  guild: [ "summoners" ],
 	  school: [ "no_school" ],
 	  world: [ "land_of_wa" ],
+	  gender: [ "male" ],
     }
   },
   {
@@ -3075,6 +3609,7 @@ dataSet[dataSetVersion].characterData = [
 	  guild: [ "summoners" ],
 	  school: [ "no_school" ],
 	  world: [ "takamagahara" ],
+	  gender: [ "male" ],
     }
   },
   {
@@ -3085,6 +3620,7 @@ dataSet[dataSetVersion].characterData = [
 	  guild: [ "summoners" ],
 	  school: [ "no_school" ],
 	  world: [ "takamagahara" ],
+	  gender: [ "male" ],
     }
   },
   {
@@ -3095,6 +3631,7 @@ dataSet[dataSetVersion].characterData = [
 	  guild: [ "summoners" ],
 	  school: [ "no_school" ],
 	  world: [ "takamagahara" ],
+	  gender: [ "male" ],
     }
   },
   {
@@ -3105,6 +3642,7 @@ dataSet[dataSetVersion].characterData = [
 	  guild: [ "summoners" ],
 	  school: [ "no_school" ],
 	  world: [ "takamagahara" ],
+	  gender: [ "male" ],
     }
   },
   {
@@ -3115,6 +3653,7 @@ dataSet[dataSetVersion].characterData = [
 	  guild: [ "summoners" ],
 	  school: [ "no_school" ],
 	  world: [ "takamagahara" ],
+	  gender: [ "male" ],
     }
   },
   {
@@ -3125,6 +3664,7 @@ dataSet[dataSetVersion].characterData = [
 	  guild: [ "summoners" ],
 	  school: [ "no_school" ],
 	  world: [ "takamagahara" ],
+	  gender: [ "male" ],
     }
   },
   {
@@ -3134,6 +3674,8 @@ dataSet[dataSetVersion].characterData = [
       rarity: [ "2" ],
 	  guild: [ "summoners" ],
 	  school: [ "no_school" ],
+	  world: [ "no_world" ],
+	  gender: [ "male" ],
     }
   },
   {
@@ -3143,6 +3685,8 @@ dataSet[dataSetVersion].characterData = [
       rarity: [ "2" ],
 	  guild: [ "summoners" ],
 	  school: [ "no_school" ],
+	  world: [ "no_world" ],
+	  gender: [ "male" ],
     }
   },
   {
@@ -3152,6 +3696,8 @@ dataSet[dataSetVersion].characterData = [
       rarity: [ "2" ],
 	  guild: [ "summoners" ],
 	  school: [ "no_school" ],
+	  world: [ "no_world" ],
+	  gender: [ "male" ],
     }
   },
   {
@@ -3161,6 +3707,8 @@ dataSet[dataSetVersion].characterData = [
       rarity: [ "2" ],
 	  guild: [ "summoners" ],
 	  school: [ "no_school" ],
+	  world: [ "no_world" ],
+	  gender: [ "male" ],
     }
   },
   {
@@ -3170,6 +3718,8 @@ dataSet[dataSetVersion].characterData = [
       rarity: [ "2" ],
 	  guild: [ "summoners" ],
 	  school: [ "no_school" ],
+	  world: [ "no_world" ],
+	  gender: [ "male" ],
     }
   },
   {
@@ -3179,6 +3729,8 @@ dataSet[dataSetVersion].characterData = [
       rarity: [ "2" ],
 	  guild: [ "summoners" ],
 	  school: [ "no_school" ],
+	  world: [ "no_world" ],
+	  gender: [ "male" ],
     }
   },
   {
@@ -3188,6 +3740,8 @@ dataSet[dataSetVersion].characterData = [
       rarity: [ "2" ],
 	  guild: [ "summoners" ],
 	  school: [ "no_school" ],
+	  world: [ "no_world" ],
+	  gender: [ "female" ],
     }
   },
   {
@@ -3197,6 +3751,8 @@ dataSet[dataSetVersion].characterData = [
       rarity: [ "2" ],
 	  guild: [ "summoners" ],
 	  school: [ "no_school" ],
+	  world: [ "no_world" ],
+	  gender: [ "male" ],
     }
   },
   {
@@ -3206,6 +3762,8 @@ dataSet[dataSetVersion].characterData = [
       rarity: [ "2" ],
 	  guild: [ "summoners" ],
 	  school: [ "no_school" ],
+	  world: [ "no_world" ],
+	  gender: [ "male" ],
     }
   },
   {
@@ -3215,6 +3773,8 @@ dataSet[dataSetVersion].characterData = [
       rarity: [ "2" ],
 	  guild: [ "summoners" ],
 	  school: [ "no_school" ],
+	  world: [ "no_world" ],
+	  gender: [ "male" ],
     }
   },
   {
@@ -3224,6 +3784,8 @@ dataSet[dataSetVersion].characterData = [
       rarity: [ "2" ],
 	  guild: [ "summoners" ],
 	  school: [ "no_school" ],
+	  world: [ "no_world" ],
+	  gender: [ "male" ],
     }
   },
   {
@@ -3233,6 +3795,8 @@ dataSet[dataSetVersion].characterData = [
       rarity: [ "2" ],
 	  guild: [ "summoners" ],
 	  school: [ "no_school" ],
+	  world: [ "no_world" ],
+	  gender: [ "male" ],
     }
   },
   {
@@ -3242,6 +3806,8 @@ dataSet[dataSetVersion].characterData = [
       rarity: [ "2" ],
 	  guild: [ "summoners" ],
 	  school: [ "no_school" ],
+	  world: [ "no_world" ],
+	  gender: [ "male" ],
     }
   },
   {
@@ -3251,6 +3817,8 @@ dataSet[dataSetVersion].characterData = [
       rarity: [ "2" ],
 	  guild: [ "summoners" ],
 	  school: [ "no_school" ],
+	  world: [ "no_world" ],
+	  gender: [ "male" ],
     }
   },
   {
@@ -3260,6 +3828,8 @@ dataSet[dataSetVersion].characterData = [
       rarity: [ "2" ],
 	  guild: [ "summoners" ],
 	  school: [ "no_school" ],
+	  world: [ "no_world" ],
+	  gender: [ "male" ],
     }
   },
   {
@@ -3269,6 +3839,8 @@ dataSet[dataSetVersion].characterData = [
       rarity: [ "2" ],
 	  guild: [ "summoners" ],
 	  school: [ "no_school" ],
+	  world: [ "no_world" ],
+	  gender: [ "male" ],
     }
   },
   {
@@ -3278,6 +3850,8 @@ dataSet[dataSetVersion].characterData = [
       rarity: [ "2" ],
 	  guild: [ "summoners" ],
 	  school: [ "no_school" ],
+	  world: [ "no_world" ],
+	  gender: [ "male" ],
     }
   },
   {
@@ -3287,6 +3861,8 @@ dataSet[dataSetVersion].characterData = [
       rarity: [ "2" ],
 	  guild: [ "summoners" ],
 	  school: [ "no_school" ],
+	  world: [ "no_world" ],
+	  gender: [ "male" ],
     }
   },
   {
@@ -3296,6 +3872,8 @@ dataSet[dataSetVersion].characterData = [
       rarity: [ "2" ],
 	  guild: [ "summoners" ],
 	  school: [ "no_school" ],
+	  world: [ "no_world" ],
+	  gender: [ "male" ],
     }
   },
   {
@@ -3305,6 +3883,8 @@ dataSet[dataSetVersion].characterData = [
       rarity: [ "2" ],
 	  guild: [ "summoners" ],
 	  school: [ "no_school" ],
+	  world: [ "no_world" ],
+	  gender: [ "male" ],
     }
   },
   {
@@ -3314,6 +3894,8 @@ dataSet[dataSetVersion].characterData = [
       rarity: [ "2" ],
 	  guild: [ "summoners" ],
 	  school: [ "no_school" ],
+	  world: [ "no_world" ],
+	  gender: [ "male" ],
     }
   },
   {
@@ -3324,6 +3906,7 @@ dataSet[dataSetVersion].characterData = [
 	  guild: [ "summoners" ],
 	  school: [ "no_school" ],
 	  world: [ "el_dorado" ],
+	  gender: [ "male" ],
     }
   },
   {
@@ -3334,6 +3917,7 @@ dataSet[dataSetVersion].characterData = [
 	  guild: [ "summoners" ],
 	  school: [ "no_school" ],
 	  world: [ "el_dorado" ],
+	  gender: [ "male" ],
     }
   },
   {
@@ -3344,6 +3928,7 @@ dataSet[dataSetVersion].characterData = [
 	  guild: [ "summoners" ],
 	  school: [ "no_school" ],
 	  world: [ "el_dorado" ],
+	  gender: [ "male" ],
     }
   },
   {
@@ -3354,6 +3939,7 @@ dataSet[dataSetVersion].characterData = [
 	  guild: [ "summoners" ],
 	  school: [ "no_school" ],
 	  world: [ "el_dorado" ],
+	  gender: [ "male" ],
     }
   },
   {
@@ -3364,6 +3950,7 @@ dataSet[dataSetVersion].characterData = [
 	  guild: [ "summoners" ],
 	  school: [ "no_school" ],
 	  world: [ "el_dorado" ],
+	  gender: [ "male" ],
     }
   },
   {
@@ -3374,6 +3961,7 @@ dataSet[dataSetVersion].characterData = [
 	  guild: [ "summoners" ],
 	  school: [ "no_school" ],
 	  world: [ "el_dorado" ],
+	  gender: [ "male" ],
     }
   },
   {
@@ -3384,6 +3972,7 @@ dataSet[dataSetVersion].characterData = [
 	  guild: [ "summoners" ],
 	  school: [ "no_school" ],
 	  world: [ "el_dorado" ],
+	  gender: [ "male" ],
     }
   },
   {
@@ -3394,6 +3983,7 @@ dataSet[dataSetVersion].characterData = [
 	  guild: [ "summoners" ],
 	  school: [ "no_school" ],
 	  world: [ "el_dorado" ],
+	  gender: [ "male" ],
     }
   },
   {
@@ -3403,6 +3993,8 @@ dataSet[dataSetVersion].characterData = [
       rarity: [ "2" ],
 	  guild: [ "summoners" ],
 	  school: [ "no_school" ],
+	  world: [ "no_world" ],
+	  gender: [ "female" ],
     }
   },
   {
@@ -3412,6 +4004,8 @@ dataSet[dataSetVersion].characterData = [
       rarity: [ "2" ],
 	  guild: [ "summoners" ],
 	  school: [ "no_school" ],
+	  world: [ "no_world" ],
+	  gender: [ "female" ],
     }
   },
   {
@@ -3421,6 +4015,8 @@ dataSet[dataSetVersion].characterData = [
       rarity: [ "2" ],
 	  guild: [ "summoners" ],
 	  school: [ "no_school" ],
+	  world: [ "no_world" ],
+	  gender: [ "female" ],
     }
   },
   {
@@ -3430,6 +4026,8 @@ dataSet[dataSetVersion].characterData = [
       rarity: [ "2" ],
 	  guild: [ "summoners" ],
 	  school: [ "no_school" ],
+	  world: [ "no_world" ],
+	  gender: [ "female" ],
     }
   },
   {
@@ -3439,6 +4037,8 @@ dataSet[dataSetVersion].characterData = [
       rarity: [ "2" ],
 	  guild: [ "summoners" ],
 	  school: [ "no_school" ],
+	  world: [ "no_world" ],
+	  gender: [ "female" ],
     }
   },
   {
@@ -3448,6 +4048,8 @@ dataSet[dataSetVersion].characterData = [
       rarity: [ "2" ],
 	  guild: [ "summoners" ],
 	  school: [ "no_school" ],
+	  world: [ "no_world" ],
+	  gender: [ "female" ],
     }
   },
   {
@@ -3457,6 +4059,8 @@ dataSet[dataSetVersion].characterData = [
       rarity: [ "2" ],
 	  guild: [ "summoners" ],
 	  school: [ "no_school" ],
+	  world: [ "no_world" ],
+	  gender: [ "female" ],
     }
   },
   {
@@ -3466,6 +4070,8 @@ dataSet[dataSetVersion].characterData = [
       rarity: [ "2" ],
 	  guild: [ "summoners" ],
 	  school: [ "no_school" ],
+	  world: [ "no_world" ],
+	  gender: [ "female" ],
     }
   },
   {
@@ -3475,7 +4081,8 @@ dataSet[dataSetVersion].characterData = [
       rarity: [ "2" ],
 	  guild: [ "summoners" ],
 	  school: [ "no_school" ],
-	  world: [ "hourai" ],
+	  world: [ "penglai" ],
+	  gender: [ "male" ],
     }
   },
   {
@@ -3485,7 +4092,8 @@ dataSet[dataSetVersion].characterData = [
       rarity: [ "2" ],
 	  guild: [ "summoners" ],
 	  school: [ "no_school" ],
-	  world: [ "hourai" ],
+	  world: [ "penglai" ],
+	  gender: [ "male" ],
     }
   },
   {
@@ -3495,7 +4103,8 @@ dataSet[dataSetVersion].characterData = [
       rarity: [ "2" ],
 	  guild: [ "summoners" ],
 	  school: [ "no_school" ],
-	  world: [ "hourai" ],
+	  world: [ "penglai" ],
+	  gender: [ "male" ],
     }
   },
   {
@@ -3505,7 +4114,8 @@ dataSet[dataSetVersion].characterData = [
       rarity: [ "2" ],
 	  guild: [ "summoners" ],
 	  school: [ "no_school" ],
-	  world: [ "hourai" ],
+	  world: [ "penglai" ],
+	  gender: [ "male" ],
     }
   },
   {
@@ -3515,7 +4125,8 @@ dataSet[dataSetVersion].characterData = [
       rarity: [ "2" ],
 	  guild: [ "summoners" ],
 	  school: [ "no_school" ],
-	  world: [ "hourai" ],
+	  world: [ "penglai" ],
+	  gender: [ "male" ],
     }
   },
   {
@@ -3526,6 +4137,7 @@ dataSet[dataSetVersion].characterData = [
 	  guild: [ "summoners" ],
 	  school: [ "no_school" ],
 	  world: [ "oceanic_realm" ],
+	  gender: [ "male" ],
     }
   },
   {
@@ -3536,6 +4148,7 @@ dataSet[dataSetVersion].characterData = [
 	  guild: [ "summoners" ],
 	  school: [ "no_school" ],
 	  world: [ "oceanic_realm" ],
+	  gender: [ "male" ],
     }
   },
   {
@@ -3546,6 +4159,7 @@ dataSet[dataSetVersion].characterData = [
 	  guild: [ "summoners" ],
 	  school: [ "no_school" ],
 	  world: [ "oceanic_realm" ],
+	  gender: [ "male" ],
     }
   },
   {
@@ -3555,6 +4169,8 @@ dataSet[dataSetVersion].characterData = [
       rarity: [ "2" ],
 	  guild: [ "summoners" ],
 	  school: [ "no_school" ],
+	  world: [ "no_world" ],
+	  gender: [ "male" ],
     }
   },
   {
@@ -3564,6 +4180,8 @@ dataSet[dataSetVersion].characterData = [
       rarity: [ "2" ],
 	  guild: [ "summoners" ],
 	  school: [ "no_school" ],
+	  world: [ "no_world" ],
+	  gender: [ "male" ],
     }
   },
   {
@@ -3573,6 +4191,8 @@ dataSet[dataSetVersion].characterData = [
       rarity: [ "2" ],
 	  guild: [ "summoners" ],
 	  school: [ "no_school" ],
+	  world: [ "no_world" ],
+	  gender: [ "male" ],
     }
   },
   {
@@ -3582,6 +4202,8 @@ dataSet[dataSetVersion].characterData = [
       rarity: [ "2" ],
 	  guild: [ "summoners" ],
 	  school: [ "no_school" ],
+	  world: [ "no_world" ],
+	  gender: [ "male" ],
     }
   },
   {
@@ -3591,6 +4213,8 @@ dataSet[dataSetVersion].characterData = [
       rarity: [ "2" ],
 	  guild: [ "summoners" ],
 	  school: [ "no_school" ],
+	  world: [ "no_world" ],
+	  gender: [ "male" ],
     }
   },
   {
@@ -3600,6 +4224,8 @@ dataSet[dataSetVersion].characterData = [
       rarity: [ "2" ],
 	  guild: [ "summoners" ],
 	  school: [ "no_school" ],
+	  world: [ "no_world" ],
+	  gender: [ "male" ],
     }
   },
   {
@@ -3609,6 +4235,8 @@ dataSet[dataSetVersion].characterData = [
       rarity: [ "2" ],
 	  guild: [ "summoners" ],
 	  school: [ "no_school" ],
+	  world: [ "no_world" ],
+	  gender: [ "male" ],
     }
   },
   {
@@ -3618,6 +4246,8 @@ dataSet[dataSetVersion].characterData = [
       rarity: [ "2" ],
 	  guild: [ "summoners" ],
 	  school: [ "no_school" ],
+	  world: [ "no_world" ],
+	  gender: [ "male" ],
     }
   },
   {
@@ -3627,7 +4257,8 @@ dataSet[dataSetVersion].characterData = [
       rarity: [ "2" ],
 	  guild: [ "summoners" ],
 	  school: [ "no_school" ],
-	  world: [ "kamuy_kotan" ],
+	  world: [ "kamui_kotan" ],
+	  gender: [ "male" ],
     }
   },
   {
@@ -3637,7 +4268,8 @@ dataSet[dataSetVersion].characterData = [
       rarity: [ "2" ],
 	  guild: [ "summoners" ],
 	  school: [ "no_school" ],
-	  world: [ "kamuy_kotan" ],
+	  world: [ "kamui_kotan" ],
+	  gender: [ "male" ],
     }
   },
   {
@@ -3647,7 +4279,8 @@ dataSet[dataSetVersion].characterData = [
       rarity: [ "2" ],
 	  guild: [ "summoners" ],
 	  school: [ "no_school" ],
-	  world: [ "kamuy_kotan" ],
+	  world: [ "kamui_kotan" ],
+	  gender: [ "male" ],
     }
   },
   {
@@ -3657,7 +4290,8 @@ dataSet[dataSetVersion].characterData = [
       rarity: [ "2" ],
 	  guild: [ "summoners" ],
 	  school: [ "no_school" ],
-	  world: [ "kamuy_kotan" ],
+	  world: [ "kamui_kotan" ],
+	  gender: [ "male" ],
     }
   },
   {
@@ -3667,7 +4301,8 @@ dataSet[dataSetVersion].characterData = [
       rarity: [ "2" ],
 	  guild: [ "summoners" ],
 	  school: [ "no_school" ],
-	  world: [ "kamuy_kotan" ],
+	  world: [ "kamui_kotan" ],
+	  gender: [ "male" ],
     }
   },
   {
@@ -3677,7 +4312,8 @@ dataSet[dataSetVersion].characterData = [
       rarity: [ "2" ],
 	  guild: [ "summoners" ],
 	  school: [ "no_school" ],
-	  world: [ "kamuy_kotan" ],
+	  world: [ "kamui_kotan" ],
+	  gender: [ "male" ],
     }
   },
   {
@@ -3687,7 +4323,8 @@ dataSet[dataSetVersion].characterData = [
       rarity: [ "2" ],
 	  guild: [ "summoners" ],
 	  school: [ "no_school" ],
-	  world: [ "kamuy_kotan" ],
+	  world: [ "kamui_kotan" ],
+	  gender: [ "male" ],
     }
   },
   {
@@ -3697,7 +4334,8 @@ dataSet[dataSetVersion].characterData = [
       rarity: [ "2" ],
 	  guild: [ "summoners" ],
 	  school: [ "no_school" ],
-	  world: [ "kamuy_kotan" ],
+	  world: [ "kamui_kotan" ],
+	  gender: [ "male" ],
     }
   },
   {
@@ -3707,7 +4345,8 @@ dataSet[dataSetVersion].characterData = [
       rarity: [ "2" ],
 	  guild: [ "summoners" ],
 	  school: [ "no_school" ],
-	  world: [ "hourai" ],
+	  world: [ "penglai" ],
+	  gender: [ "male" ],
     }
   },
   {
@@ -3717,7 +4356,8 @@ dataSet[dataSetVersion].characterData = [
       rarity: [ "2" ],
 	  guild: [ "summoners" ],
 	  school: [ "no_school" ],
-	  world: [ "hourai" ],
+	  world: [ "penglai" ],
+	  gender: [ "male" ],
     }
   },
   {
@@ -3727,7 +4367,8 @@ dataSet[dataSetVersion].characterData = [
       rarity: [ "2" ],
 	  guild: [ "summoners" ],
 	  school: [ "no_school" ],
-	  world: [ "hourai" ],
+	  world: [ "penglai" ],
+	  gender: [ "male" ],
     }
   },
   {
@@ -3737,6 +4378,8 @@ dataSet[dataSetVersion].characterData = [
       rarity: [ "2" ],
 	  guild: [ "summoners" ],
 	  school: [ "no_school" ],
+	  world: [ "no_world" ],
+	  gender: [ "male" ],
     }
   },
   {
@@ -3746,6 +4389,8 @@ dataSet[dataSetVersion].characterData = [
       rarity: [ "2" ],
 	  guild: [ "summoners" ],
 	  school: [ "no_school" ],
+	  world: [ "no_world" ],
+	  gender: [ "male" ],
     }
   },
   {
@@ -3755,6 +4400,8 @@ dataSet[dataSetVersion].characterData = [
       rarity: [ "2" ],
 	  guild: [ "summoners" ],
 	  school: [ "no_school" ],
+	  world: [ "no_world" ],
+	  gender: [ "male" ],
     }
   },
   {
@@ -3764,6 +4411,8 @@ dataSet[dataSetVersion].characterData = [
       rarity: [ "2" ],
 	  guild: [ "summoners" ],
 	  school: [ "no_school" ],
+	  world: [ "no_world" ],
+	  gender: [ "male" ],
     }
   },
   {
@@ -3773,6 +4422,8 @@ dataSet[dataSetVersion].characterData = [
       rarity: [ "2" ],
 	  guild: [ "summoners" ],
 	  school: [ "no_school" ],
+	  world: [ "no_world" ],
+	  gender: [ "male" ],
     }
   },
   {
@@ -3782,6 +4433,8 @@ dataSet[dataSetVersion].characterData = [
       rarity: [ "2" ],
 	  guild: [ "summoners" ],
 	  school: [ "no_school" ],
+	  world: [ "no_world" ],
+	  gender: [ "male" ],
     }
   },
   {
@@ -3791,6 +4444,8 @@ dataSet[dataSetVersion].characterData = [
       rarity: [ "2" ],
 	  guild: [ "summoners" ],
 	  school: [ "no_school" ],
+	  world: [ "no_world" ],
+	  gender: [ "male" ],
     }
   },
   {
@@ -3800,6 +4455,8 @@ dataSet[dataSetVersion].characterData = [
       rarity: [ "2" ],
 	  guild: [ "summoners" ],
 	  school: [ "no_school" ],
+	  world: [ "no_world" ],
+	  gender: [ "male" ],
     }
   },
   {
@@ -3809,6 +4466,8 @@ dataSet[dataSetVersion].characterData = [
       rarity: [ "2" ],
 	  guild: [ "summoners" ],
 	  school: [ "no_school" ],
+	  world: [ "no_world" ],
+	  gender: [ "male" ],
     }
   },
   {
@@ -3818,6 +4477,8 @@ dataSet[dataSetVersion].characterData = [
       rarity: [ "2" ],
 	  guild: [ "summoners" ],
 	  school: [ "no_school" ],
+	  world: [ "no_world" ],
+	  gender: [ "male" ],
     }
   },
   {
@@ -3828,6 +4489,7 @@ dataSet[dataSetVersion].characterData = [
 	  guild: [ "summoners" ],
 	  school: [ "no_school" ],
 	  world: [ "old_ones" ],
+	  gender: [ "male" ],
     }
   },
   {
@@ -3838,6 +4500,7 @@ dataSet[dataSetVersion].characterData = [
 	  guild: [ "summoners" ],
 	  school: [ "no_school" ],
 	  world: [ "old_ones" ],
+	  gender: [ "male" ],
     }
   },
   {
@@ -3848,6 +4511,7 @@ dataSet[dataSetVersion].characterData = [
 	  guild: [ "summoners" ],
 	  school: [ "no_school" ],
 	  world: [ "old_ones" ],
+	  gender: [ "male" ],
     }
   },
   {
@@ -3858,6 +4522,7 @@ dataSet[dataSetVersion].characterData = [
 	  guild: [ "summoners" ],
 	  school: [ "no_school" ],
 	  world: [ "old_ones" ],
+	  gender: [ "male" ],
     }
   },
   {
@@ -3868,6 +4533,7 @@ dataSet[dataSetVersion].characterData = [
 	  guild: [ "summoners" ],
 	  school: [ "no_school" ],
 	  world: [ "old_ones" ],
+	  gender: [ "male" ],
     }
   },
   {
@@ -3878,6 +4544,7 @@ dataSet[dataSetVersion].characterData = [
 	  guild: [ "summoners" ],
 	  school: [ "no_school" ],
 	  world: [ "old_ones" ],
+	  gender: [ "male" ],
     }
   },
   {
@@ -3888,6 +4555,7 @@ dataSet[dataSetVersion].characterData = [
 	  guild: [ "summoners" ],
 	  school: [ "no_school" ],
 	  world: [ "old_ones" ],
+	  gender: [ "male" ],
     }
   },
   {
@@ -3898,6 +4566,7 @@ dataSet[dataSetVersion].characterData = [
 	  guild: [ "summoners" ],
 	  school: [ "no_school" ],
 	  world: [ "old_ones" ],
+	  gender: [ "male" ],
     }
   },
   {
@@ -3907,6 +4576,8 @@ dataSet[dataSetVersion].characterData = [
       rarity: [ "2" ],
 	  guild: [ "summoners" ],
 	  school: [ "no_school" ],
+	  world: [ "no_world" ],
+	  gender: [ "male" ],
     }
   },
   {
@@ -3916,6 +4587,8 @@ dataSet[dataSetVersion].characterData = [
       rarity: [ "2" ],
 	  guild: [ "summoners" ],
 	  school: [ "no_school" ],
+	  world: [ "no_world" ],
+	  gender: [ "male" ],
     }
   },
   {
@@ -3925,6 +4598,8 @@ dataSet[dataSetVersion].characterData = [
       rarity: [ "2" ],
 	  guild: [ "summoners" ],
 	  school: [ "no_school" ],
+	  world: [ "no_world" ],
+	  gender: [ "male" ],
     }
   },
   {
@@ -3934,6 +4609,8 @@ dataSet[dataSetVersion].characterData = [
       rarity: [ "2" ],
 	  guild: [ "summoners" ],
 	  school: [ "no_school" ],
+	  world: [ "no_world" ],
+	  gender: [ "male" ],
     }
   },
   {
@@ -3943,6 +4620,8 @@ dataSet[dataSetVersion].characterData = [
       rarity: [ "2" ],
 	  guild: [ "summoners" ],
 	  school: [ "no_school" ],
+	  world: [ "no_world" ],
+	  gender: [ "male" ],
     }
   },
   {
@@ -3952,6 +4631,8 @@ dataSet[dataSetVersion].characterData = [
       rarity: [ "2" ],
 	  guild: [ "summoners" ],
 	  school: [ "no_school" ],
+	  world: [ "no_world" ],
+	  gender: [ "male" ],
     }
   },
   {
@@ -3961,6 +4642,8 @@ dataSet[dataSetVersion].characterData = [
       rarity: [ "2" ],
 	  guild: [ "summoners" ],
 	  school: [ "no_school" ],
+	  world: [ "no_world" ],
+	  gender: [ "male" ],
     }
   },
   {
@@ -3970,6 +4653,8 @@ dataSet[dataSetVersion].characterData = [
       rarity: [ "2" ],
 	  guild: [ "summoners" ],
 	  school: [ "no_school" ],
+	  world: [ "no_world" ],
+	  gender: [ "male" ],
     }
   },
   {
@@ -3979,6 +4664,8 @@ dataSet[dataSetVersion].characterData = [
       rarity: [ "2" ],
 	  guild: [ "summoners" ],
 	  school: [ "no_school" ],
+	  world: [ "no_world" ],
+	  gender: [ "male" ],
     }
   },
   {
@@ -3988,6 +4675,8 @@ dataSet[dataSetVersion].characterData = [
       rarity: [ "2" ],
 	  guild: [ "summoners" ],
 	  school: [ "no_school" ],
+	  world: [ "no_world" ],
+	  gender: [ "male" ],
     }
   },
   {
@@ -3997,6 +4686,8 @@ dataSet[dataSetVersion].characterData = [
       rarity: [ "2" ],
 	  guild: [ "summoners" ],
 	  school: [ "no_school" ],
+	  world: [ "no_world" ],
+	  gender: [ "male" ],
     }
   },
   {
@@ -4006,6 +4697,8 @@ dataSet[dataSetVersion].characterData = [
       rarity: [ "2" ],
 	  guild: [ "summoners" ],
 	  school: [ "no_school" ],
+	  world: [ "no_world" ],
+	  gender: [ "male" ],
     }
   },
   {
@@ -4015,6 +4708,8 @@ dataSet[dataSetVersion].characterData = [
       rarity: [ "2" ],
 	  guild: [ "summoners" ],
 	  school: [ "no_school" ],
+	  world: [ "no_world" ],
+	  gender: [ "male" ],
     }
   },
   {
@@ -4024,6 +4719,8 @@ dataSet[dataSetVersion].characterData = [
       rarity: [ "2" ],
 	  guild: [ "summoners" ],
 	  school: [ "no_school" ],
+	  world: [ "no_world" ],
+	  gender: [ "male" ],
     }
   },
   {
@@ -4033,6 +4730,8 @@ dataSet[dataSetVersion].characterData = [
       rarity: [ "2" ],
 	  guild: [ "summoners" ],
 	  school: [ "no_school" ],
+	  world: [ "no_world" ],
+	  gender: [ "male" ],
     }
   },
   {
@@ -4042,6 +4741,8 @@ dataSet[dataSetVersion].characterData = [
       rarity: [ "2" ],
 	  guild: [ "summoners" ],
 	  school: [ "no_school" ],
+	  world: [ "no_world" ],
+	  gender: [ "male" ],
     }
   },
   {
@@ -4051,6 +4752,8 @@ dataSet[dataSetVersion].characterData = [
       rarity: [ "2" ],
 	  guild: [ "summoners" ],
 	  school: [ "no_school" ],
+	  world: [ "no_world" ],
+	  gender: [ "male" ],
     }
   },
   {
@@ -4060,6 +4763,8 @@ dataSet[dataSetVersion].characterData = [
       rarity: [ "2" ],
 	  guild: [ "summoners" ],
 	  school: [ "no_school" ],
+	  world: [ "no_world" ],
+	  gender: [ "male" ],
     }
   },
   {
@@ -4069,6 +4774,8 @@ dataSet[dataSetVersion].characterData = [
       rarity: [ "2" ],
 	  guild: [ "summoners" ],
 	  school: [ "no_school" ],
+	  world: [ "no_world" ],
+	  gender: [ "male" ],
     }
   },
   {
@@ -4078,6 +4785,8 @@ dataSet[dataSetVersion].characterData = [
       rarity: [ "2" ],
 	  guild: [ "summoners" ],
 	  school: [ "no_school" ],
+	  world: [ "no_world" ],
+	  gender: [ "male" ],
     }
   },
   {
@@ -4087,6 +4796,8 @@ dataSet[dataSetVersion].characterData = [
       rarity: [ "2" ],
 	  guild: [ "summoners" ],
 	  school: [ "no_school" ],
+	  world: [ "no_world" ],
+	  gender: [ "male" ],
     }
   },
   {
@@ -4096,6 +4807,8 @@ dataSet[dataSetVersion].characterData = [
       rarity: [ "2" ],
 	  guild: [ "summoners" ],
 	  school: [ "no_school" ],
+	  world: [ "no_world" ],
+	  gender: [ "male" ],
     }
   },
   {
@@ -4105,6 +4818,8 @@ dataSet[dataSetVersion].characterData = [
       rarity: [ "2" ],
 	  guild: [ "summoners" ],
 	  school: [ "no_school" ],
+	  world: [ "no_world" ],
+	  gender: [ "male" ],
     }
   },
   {
@@ -4114,6 +4829,8 @@ dataSet[dataSetVersion].characterData = [
       rarity: [ "2" ],
 	  guild: [ "summoners" ],
 	  school: [ "no_school" ],
+	  world: [ "no_world" ],
+	  gender: [ "male" ],
     }
   },
   {
@@ -4123,6 +4840,8 @@ dataSet[dataSetVersion].characterData = [
       rarity: [ "2" ],
 	  guild: [ "summoners" ],
 	  school: [ "no_school" ],
+	  world: [ "gehenna" ],
+	  gender: [ "no_gender" ],
     }
   },
   {
@@ -4132,6 +4851,8 @@ dataSet[dataSetVersion].characterData = [
       rarity: [ "2" ],
 	  guild: [ "summoners" ],
 	  school: [ "no_school" ],
+	  world: [ "no_world" ],
+	  gender: [ "male" ],
     }
   },
   {
@@ -4141,6 +4862,8 @@ dataSet[dataSetVersion].characterData = [
       rarity: [ "2" ],
 	  guild: [ "summoners" ],
 	  school: [ "no_school" ],
+	  world: [ "no_world" ],
+	  gender: [ "male" ],
     }
   },
   {
@@ -4150,6 +4873,8 @@ dataSet[dataSetVersion].characterData = [
       rarity: [ "2" ],
 	  guild: [ "summoners" ],
 	  school: [ "no_school" ],
+	  world: [ "no_world" ],
+	  gender: [ "male" ],
     }
   },
   {
@@ -4159,6 +4884,8 @@ dataSet[dataSetVersion].characterData = [
       rarity: [ "2" ],
 	  guild: [ "summoners" ],
 	  school: [ "no_school" ],
+	  world: [ "no_world" ],
+	  gender: [ "male" ],
     }
   },
   {
@@ -4168,6 +4895,8 @@ dataSet[dataSetVersion].characterData = [
       rarity: [ "2" ],
 	  guild: [ "summoners" ],
 	  school: [ "no_school" ],
+	  world: [ "no_world" ],
+	  gender: [ "male" ],
     }
   },
   {
@@ -4177,6 +4906,8 @@ dataSet[dataSetVersion].characterData = [
       rarity: [ "2" ],
 	  guild: [ "summoners" ],
 	  school: [ "no_school" ],
+	  world: [ "no_world" ],
+	  gender: [ "male" ],
     }
   },
   {
@@ -4186,6 +4917,8 @@ dataSet[dataSetVersion].characterData = [
       rarity: [ "2" ],
 	  guild: [ "summoners" ],
 	  school: [ "no_school" ],
+	  world: [ "no_world" ],
+	  gender: [ "male" ],
     }
   },
   {
@@ -4195,6 +4928,8 @@ dataSet[dataSetVersion].characterData = [
       rarity: [ "2" ],
 	  guild: [ "summoners" ],
 	  school: [ "no_school" ],
+	  world: [ "no_world" ],
+	  gender: [ "male" ],
     }
   },
   {
@@ -4204,6 +4939,8 @@ dataSet[dataSetVersion].characterData = [
       rarity: [ "2" ],
 	  guild: [ "summoners" ],
 	  school: [ "no_school" ],
+	  world: [ "no_world" ],
+	  gender: [ "male" ],
     }
   },
   {
@@ -4213,6 +4950,8 @@ dataSet[dataSetVersion].characterData = [
       rarity: [ "2" ],
 	  guild: [ "summoners" ],
 	  school: [ "no_school" ],
+	  world: [ "no_world" ],
+	  gender: [ "male" ],
     }
   },
   {
@@ -4222,6 +4961,8 @@ dataSet[dataSetVersion].characterData = [
       rarity: [ "2" ],
 	  guild: [ "summoners" ],
 	  school: [ "no_school" ],
+	  world: [ "no_world" ],
+	  gender: [ "male" ],
     }
   },
   {
@@ -4231,6 +4972,8 @@ dataSet[dataSetVersion].characterData = [
       rarity: [ "2" ],
 	  guild: [ "summoners" ],
 	  school: [ "no_school" ],
+	  world: [ "no_world" ],
+	  gender: [ "male" ],
     }
   },
   {
@@ -4240,6 +4983,8 @@ dataSet[dataSetVersion].characterData = [
       rarity: [ "2" ],
 	  guild: [ "summoners" ],
 	  school: [ "no_school" ],
+	  world: [ "no_world" ],
+	  gender: [ "male" ],
     }
   },
   {
@@ -4249,6 +4994,8 @@ dataSet[dataSetVersion].characterData = [
       rarity: [ "2" ],
 	  guild: [ "summoners" ],
 	  school: [ "no_school" ],
+	  world: [ "no_world" ],
+	  gender: [ "male" ],
     }
   },
   {
@@ -4258,6 +5005,8 @@ dataSet[dataSetVersion].characterData = [
       rarity: [ "2" ],
 	  guild: [ "summoners" ],
 	  school: [ "no_school" ],
+	  world: [ "no_world" ],
+	  gender: [ "male" ],
     }
   },
   {
@@ -4267,6 +5016,8 @@ dataSet[dataSetVersion].characterData = [
       rarity: [ "2" ],
 	  guild: [ "summoners" ],
 	  school: [ "no_school" ],
+	  world: [ "no_world" ],
+	  gender: [ "male" ],
     }
   },
   {
@@ -4276,96 +5027,129 @@ dataSet[dataSetVersion].characterData = [
       rarity: [ "2" ],
 	  guild: [ "summoners" ],
 	  school: [ "no_school" ],
+	  world: [ "no_world" ],
+	  gender: [ "male" ],
     }
   },
   {
-    name: "Fire Event Driver",
+    name: "Red Livestreamer",
     img: "2-star/icon_livestreamerfire01b.png",
     opts: {
       rarity: [ "2" ],
 	  guild: [ "summoners" ],
 	  school: [ "no_school" ],
+	  world: [ "no_world" ],
+	  gender: [ "male" ],
     }
   },
   {
-    name: "Water Event Driver",
+    name: "Blue Livestreamer",
     img: "2-star/icon_livestreamerwater01b.png",
     opts: {
       rarity: [ "2" ],
 	  guild: [ "summoners" ],
 	  school: [ "no_school" ],
+	  world: [ "no_world" ],
+	  gender: [ "male" ],
     }
   },
   {
-    name: "Wood Event Driver",
+    name: "Green Livestreamer",
     img: "2-star/icon_livestreamerearth01b.png",
     opts: {
       rarity: [ "2" ],
 	  guild: [ "summoners" ],
 	  school: [ "no_school" ],
+	  world: [ "no_world" ],
+	  gender: [ "male" ],
     }
   },
   {
-    name: "Aether Event Driver",
+    name: "Yellow Livestreamer",
     img: "2-star/icon_livestreamerlight01b.png",
     opts: {
       rarity: [ "2" ],
 	  guild: [ "summoners" ],
 	  school: [ "no_school" ],
+	  world: [ "no_world" ],
+	  gender: [ "male" ],
     }
   },
   {
-    name: "Nether Event Driver",
+    name: "Purple Livestreamer",
     img: "2-star/icon_livestreamerdark01b.png",
     opts: {
       rarity: [ "2" ],
 	  guild: [ "summoners" ],
 	  school: [ "no_school" ],
+	  world: [ "no_world" ],
+	  gender: [ "male" ],
     }
   },
   {
-    name: "Infernal Event Driver",
+    name: "Black Livestreamer",
     img: "2-star/icon_livestreamerevil01b.png",
     opts: {
       rarity: [ "2" ],
 	  guild: [ "summoners" ],
 	  school: [ "no_school" ],
+	  world: [ "no_world" ],
+	  gender: [ "male" ],
     }
   },
   {
-    name: "Valiant Event Driver",
+    name: "White Livestreamer",
     img: "2-star/icon_livestreamerhero01b.png",
     opts: {
       rarity: [ "2" ],
 	  guild: [ "summoners" ],
 	  school: [ "no_school" ],
+	  world: [ "no_world" ],
+	  gender: [ "male" ],
     }
   },
   {
-    name: "World Event Driver",
+    name: "Brown Livestreamer",
     img: "2-star/icon_livestreamerworld01b.png",
     opts: {
       rarity: [ "2" ],
 	  guild: [ "summoners" ],
 	  school: [ "no_school" ],
+	  world: [ "no_world" ],
+	  gender: [ "male" ],
     }
   },
   {
-    name: "Infinite Missing",
+    name: "Missing ∀",
+    img: "2-star/icon_missingall01b.png",
+    opts: {
+      rarity: [ "2" ],
+	  guild: [ "summoners" ],
+	  school: [ "no_school" ],
+	  world: [ "no_world" ],
+	  gender: [ "male", "no_gender" ],
+    }
+  },
+  {
+    name: "Missing ∞",
     img: "2-star/icon_missingmugen01b.png",
     opts: {
       rarity: [ "2" ],
 	  guild: [ "summoners" ],
 	  school: [ "no_school" ],
+	  world: [ "no_world" ],
+	  gender: [ "male", "no_gender" ],
     }
   },
   {
-    name: "Null Missing",
+    name: "Missing Φ",
     img: "2-star/icon_missingzero01b.png",
     opts: {
       rarity: [ "2" ],
 	  guild: [ "summoners" ],
 	  school: [ "no_school" ],
+	  world: [ "no_world" ],
+	  gender: [ "male", "no_gender" ],
     }
   },
   {
@@ -4375,6 +5159,129 @@ dataSet[dataSetVersion].characterData = [
       rarity: [ "2" ],
 	  guild: [ "summoners" ],
 	  school: [ "no_school" ],
+	  world: [ "no_world" ],
+	  gender: [ "no_gender" ],
+    }
+  },
+  {
+    name: "Fire Drone Pilot",
+    img: "2-star/icon_dronepilotfire01b.png",
+    opts: {
+      rarity: [ "2" ],
+	  guild: [ "summoners" ],
+	  school: [ "no_school" ],
+	  world: [ "no_world" ],
+	  gender: [ "no_gender" ],
+    }
+  },
+  {
+    name: "Water Drone Pilot",
+    img: "2-star/icon_dronepilotwater01b.png",
+    opts: {
+      rarity: [ "2" ],
+	  guild: [ "summoners" ],
+	  school: [ "no_school" ],
+	  world: [ "no_world" ],
+	  gender: [ "no_gender" ],
+    }
+  },
+  {
+    name: "Wood Drone Pilot",
+    img: "2-star/icon_dronepilotearth01b.png",
+    opts: {
+      rarity: [ "2" ],
+	  guild: [ "summoners" ],
+	  school: [ "no_school" ],
+	  world: [ "no_world" ],
+	  gender: [ "no_gender" ],
+    }
+  },
+  {
+    name: "Aether Drone Pilot",
+    img: "2-star/icon_dronepilotlight01b.png",
+    opts: {
+      rarity: [ "2" ],
+	  guild: [ "summoners" ],
+	  school: [ "no_school" ],
+	  world: [ "no_world" ],
+	  gender: [ "no_gender" ],
+    }
+  },
+  {
+    name: "Nether Drone Pilot",
+    img: "2-star/icon_dronepilotdark01b.png",
+    opts: {
+      rarity: [ "2" ],
+	  guild: [ "summoners" ],
+	  school: [ "no_school" ],
+	  world: [ "no_world" ],
+	  gender: [ "no_gender" ],
+    }
+  },
+  {
+    name: "Infernal Drone Pilot",
+    img: "2-star/icon_dronepilotevil01b.png",
+    opts: {
+      rarity: [ "2" ],
+	  guild: [ "summoners" ],
+	  school: [ "no_school" ],
+	  world: [ "no_world" ],
+	  gender: [ "no_gender" ],
+    }
+  },
+  {
+    name: "Valiant Drone Pilot",
+    img: "2-star/icon_dronepilothero01b.png",
+    opts: {
+      rarity: [ "2" ],
+	  guild: [ "summoners" ],
+	  school: [ "no_school" ],
+	  world: [ "no_world" ],
+	  gender: [ "no_gender" ],
+    }
+  },
+  {
+    name: "World Drone Pilot",
+    img: "2-star/icon_dronepilotworld01b.png",
+    opts: {
+      rarity: [ "2" ],
+	  guild: [ "summoners" ],
+	  school: [ "no_school" ],
+	  world: [ "no_world" ],
+	  gender: [ "no_gender" ],
+    }
+  },
+  {
+    name: "Starman ∀",
+    img: "2-star/icon_starmanall01b.png",
+    opts: {
+      rarity: [ "2" ],
+	  guild: [ "summoners" ],
+	  school: [ "no_school" ],
+	  world: [ "no_world" ],
+	  gender: [ "male" ],
+    }
+  },
+  {
+    name: "Starman ∞",
+    img: "2-star/icon_starmanmugen01b.png",
+    opts: {
+      rarity: [ "2" ],
+	  guild: [ "summoners" ],
+	  school: [ "no_school" ],
+	  world: [ "no_world" ],
+	  gender: [ "male" ],
+    }
+  },
+  {
+    name: "Starman Φ",
+    img: "2-star/icon_starmanzero01b.png",
+    opts: {
+      rarity: [ "2" ],
+	  guild: [ "summoners" ],
+	  school: [ "no_school" ],
+	  world: [ "no_world" ],
+	  gender: [ "male" ],
     }
   },
   
@@ -4389,6 +5296,8 @@ dataSet[dataSetVersion].characterData = [
       rarity: [ "1" ],
 	  guild: [ "summoners" ],
 	  school: [ "no_school" ],
+	  world: [ "no_world" ],
+	  gender: [ "no_gender" ],
     }
   },
   {
@@ -4398,6 +5307,8 @@ dataSet[dataSetVersion].characterData = [
       rarity: [ "1" ],
 	  guild: [ "summoners" ],
 	  school: [ "no_school" ],
+	  world: [ "no_world" ],
+	  gender: [ "no_gender" ],
     }
   },
   {
@@ -4407,6 +5318,8 @@ dataSet[dataSetVersion].characterData = [
       rarity: [ "1" ],
 	  guild: [ "summoners" ],
 	  school: [ "no_school" ],
+	  world: [ "no_world" ],
+	  gender: [ "no_gender" ],
     }
   },
   {
@@ -4416,6 +5329,8 @@ dataSet[dataSetVersion].characterData = [
       rarity: [ "1" ],
 	  guild: [ "summoners" ],
 	  school: [ "no_school" ],
+	  world: [ "no_world" ],
+	  gender: [ "no_gender" ],
     }
   },
   {
@@ -4425,6 +5340,8 @@ dataSet[dataSetVersion].characterData = [
       rarity: [ "1" ],
 	  guild: [ "summoners" ],
 	  school: [ "no_school" ],
+	  world: [ "no_world" ],
+	  gender: [ "no_gender" ],
     }
   },
   {
@@ -4435,6 +5352,7 @@ dataSet[dataSetVersion].characterData = [
 	  guild: [ "summoners" ],
 	  school: [ "no_school" ],
 	  world: [ "old_ones" ],
+	  gender: [ "no_gender" ],
     }
   },
   {
@@ -4445,6 +5363,7 @@ dataSet[dataSetVersion].characterData = [
 	  guild: [ "summoners" ],
 	  school: [ "no_school" ],
 	  world: [ "old_ones" ],
+	  gender: [ "no_gender" ],
     }
   },
   {
@@ -4455,6 +5374,7 @@ dataSet[dataSetVersion].characterData = [
 	  guild: [ "summoners" ],
 	  school: [ "no_school" ],
 	  world: [ "old_ones" ],
+	  gender: [ "no_gender" ],
     }
   },
   {
@@ -4465,6 +5385,7 @@ dataSet[dataSetVersion].characterData = [
 	  guild: [ "summoners" ],
 	  school: [ "no_school" ],
 	  world: [ "old_ones" ],
+	  gender: [ "no_gender" ],
     }
   },
   {
@@ -4475,6 +5396,7 @@ dataSet[dataSetVersion].characterData = [
 	  guild: [ "summoners" ],
 	  school: [ "no_school" ],
 	  world: [ "old_ones" ],
+	  gender: [ "no_gender" ],
     }
   },
   {
@@ -4485,6 +5407,7 @@ dataSet[dataSetVersion].characterData = [
 	  guild: [ "summoners" ],
 	  school: [ "no_school" ],
 	  world: [ "tokyo" ],
+	  gender: [ "male" ],
     }
   },
   {
@@ -4495,6 +5418,7 @@ dataSet[dataSetVersion].characterData = [
 	  guild: [ "summoners" ],
 	  school: [ "no_school" ],
 	  world: [ "tokyo" ],
+	  gender: [ "male" ],
     }
   },
   {
@@ -4505,6 +5429,7 @@ dataSet[dataSetVersion].characterData = [
 	  guild: [ "summoners" ],
 	  school: [ "no_school" ],
 	  world: [ "tokyo" ],
+	  gender: [ "male" ],
     }
   },
   {
@@ -4515,6 +5440,7 @@ dataSet[dataSetVersion].characterData = [
 	  guild: [ "summoners" ],
 	  school: [ "no_school" ],
 	  world: [ "tokyo" ],
+	  gender: [ "male" ],
     }
   },
   {
@@ -4525,6 +5451,7 @@ dataSet[dataSetVersion].characterData = [
 	  guild: [ "summoners" ],
 	  school: [ "no_school" ],
 	  world: [ "tokyo" ],
+	  gender: [ "male" ],
     }
   },
   {
@@ -4535,6 +5462,7 @@ dataSet[dataSetVersion].characterData = [
 	  guild: [ "summoners" ],
 	  school: [ "no_school" ],
 	  world: [ "tokyo" ],
+	  gender: [ "female" ],
     }
   },
   {
@@ -4545,6 +5473,7 @@ dataSet[dataSetVersion].characterData = [
 	  guild: [ "summoners" ],
 	  school: [ "no_school" ],
 	  world: [ "tokyo" ],
+	  gender: [ "female" ],
     }
   },
   {
@@ -4555,6 +5484,7 @@ dataSet[dataSetVersion].characterData = [
 	  guild: [ "summoners" ],
 	  school: [ "no_school" ],
 	  world: [ "tokyo" ],
+	  gender: [ "female" ],
     }
   },
   {
@@ -4565,6 +5495,7 @@ dataSet[dataSetVersion].characterData = [
 	  guild: [ "summoners" ],
 	  school: [ "no_school" ],
 	  world: [ "tokyo" ],
+	  gender: [ "female" ],
     }
   },
   {
@@ -4575,6 +5506,7 @@ dataSet[dataSetVersion].characterData = [
 	  guild: [ "summoners" ],
 	  school: [ "no_school" ],
 	  world: [ "tokyo" ],
+	  gender: [ "female" ],
     }
   },
   {
@@ -4584,6 +5516,8 @@ dataSet[dataSetVersion].characterData = [
       rarity: [ "1" ],
 	  guild: [ "summoners" ],
 	  school: [ "no_school" ],
+	  world: [ "no_world" ],
+	  gender: [ "male" ],
     }
   },
   {
@@ -4593,6 +5527,8 @@ dataSet[dataSetVersion].characterData = [
       rarity: [ "1" ],
 	  guild: [ "summoners" ],
 	  school: [ "no_school" ],
+	  world: [ "no_world" ],
+	  gender: [ "male" ],
     }
   },
   {
@@ -4602,6 +5538,8 @@ dataSet[dataSetVersion].characterData = [
       rarity: [ "1" ],
 	  guild: [ "summoners" ],
 	  school: [ "no_school" ],
+	  world: [ "no_world" ],
+	  gender: [ "male" ],
     }
   },
   {
@@ -4611,6 +5549,8 @@ dataSet[dataSetVersion].characterData = [
       rarity: [ "1" ],
 	  guild: [ "summoners" ],
 	  school: [ "no_school" ],
+	  world: [ "no_world" ],
+	  gender: [ "male" ],
     }
   },
   {
@@ -4620,6 +5560,8 @@ dataSet[dataSetVersion].characterData = [
       rarity: [ "1" ],
 	  guild: [ "summoners" ],
 	  school: [ "no_school" ],
+	  world: [ "no_world" ],
+	  gender: [ "male" ],
     }
   },
   {
@@ -4629,6 +5571,8 @@ dataSet[dataSetVersion].characterData = [
       rarity: [ "1" ],
 	  guild: [ "summoners" ],
 	  school: [ "no_school" ],
+	  world: [ "no_world" ],
+	  gender: [ "no_gender" ],
     }
   },
   {
@@ -4638,6 +5582,8 @@ dataSet[dataSetVersion].characterData = [
       rarity: [ "1" ],
 	  guild: [ "summoners" ],
 	  school: [ "no_school" ],
+	  world: [ "no_world" ],
+	  gender: [ "no_gender" ],
     }
   },
   {
@@ -4647,6 +5593,8 @@ dataSet[dataSetVersion].characterData = [
       rarity: [ "1" ],
 	  guild: [ "summoners" ],
 	  school: [ "no_school" ],
+	  world: [ "no_world" ],
+	  gender: [ "no_gender" ],
     }
   },
   {
@@ -4656,6 +5604,8 @@ dataSet[dataSetVersion].characterData = [
       rarity: [ "1" ],
 	  guild: [ "summoners" ],
 	  school: [ "no_school" ],
+	  world: [ "no_world" ],
+	  gender: [ "no_gender" ],
     }
   },
   {
@@ -4665,6 +5615,8 @@ dataSet[dataSetVersion].characterData = [
       rarity: [ "1" ],
 	  guild: [ "summoners" ],
 	  school: [ "no_school" ],
+	  world: [ "no_world" ],
+	  gender: [ "no_gender" ],
     }
   },
   {
@@ -4674,6 +5626,8 @@ dataSet[dataSetVersion].characterData = [
       rarity: [ "1" ],
 	  guild: [ "summoners" ],
 	  school: [ "no_school" ],
+	  world: [ "no_world" ],
+	  gender: [ "no_gender" ],
     }
   },
   {
@@ -4684,6 +5638,7 @@ dataSet[dataSetVersion].characterData = [
 	  guild: [ "summoners" ],
 	  school: [ "no_school" ],
 	  world: [ "land_of_wa" ],
+	  gender: [ "male" ],
     }
   },
   {
@@ -4694,6 +5649,7 @@ dataSet[dataSetVersion].characterData = [
 	  guild: [ "summoners" ],
 	  school: [ "no_school" ],
 	  world: [ "land_of_wa" ],
+	  gender: [ "male" ],
     }
   },
   {
@@ -4704,6 +5660,7 @@ dataSet[dataSetVersion].characterData = [
 	  guild: [ "summoners" ],
 	  school: [ "no_school" ],
 	  world: [ "land_of_wa" ],
+	  gender: [ "male" ],
     }
   },
   {
@@ -4714,6 +5671,7 @@ dataSet[dataSetVersion].characterData = [
 	  guild: [ "summoners" ],
 	  school: [ "no_school" ],
 	  world: [ "land_of_wa" ],
+	  gender: [ "male" ],
     }
   },
   {
@@ -4724,6 +5682,7 @@ dataSet[dataSetVersion].characterData = [
 	  guild: [ "summoners" ],
 	  school: [ "no_school" ],
 	  world: [ "land_of_wa" ],
+	  gender: [ "male" ],
     }
   },
   {
@@ -4734,6 +5693,7 @@ dataSet[dataSetVersion].characterData = [
 	  guild: [ "summoners" ],
 	  school: [ "no_school" ],
 	  world: [ "eden" ],
+	  gender: [ "male" ],
     }
   },
   {
@@ -4744,6 +5704,7 @@ dataSet[dataSetVersion].characterData = [
 	  guild: [ "summoners" ],
 	  school: [ "no_school" ],
 	  world: [ "eden" ],
+	  gender: [ "male" ],
     }
   },
   {
@@ -4754,6 +5715,7 @@ dataSet[dataSetVersion].characterData = [
 	  guild: [ "summoners" ],
 	  school: [ "no_school" ],
 	  world: [ "eden" ],
+	  gender: [ "male" ],
     }
   },
   {
@@ -4764,6 +5726,7 @@ dataSet[dataSetVersion].characterData = [
 	  guild: [ "summoners" ],
 	  school: [ "no_school" ],
 	  world: [ "eden" ],
+	  gender: [ "male" ],
     }
   },
   {
@@ -4774,6 +5737,7 @@ dataSet[dataSetVersion].characterData = [
 	  guild: [ "summoners" ],
 	  school: [ "no_school" ],
 	  world: [ "eden" ],
+	  gender: [ "male" ],
     }
   },
   {
@@ -4783,6 +5747,8 @@ dataSet[dataSetVersion].characterData = [
       rarity: [ "1" ],
 	  guild: [ "summoners" ],
 	  school: [ "no_school" ],
+	  world: [ "no_world" ],
+	  gender: [ "female" ],
     }
   },
   {
@@ -4792,6 +5758,8 @@ dataSet[dataSetVersion].characterData = [
       rarity: [ "1" ],
 	  guild: [ "summoners" ],
 	  school: [ "no_school" ],
+	  world: [ "no_world" ],
+	  gender: [ "female" ],
     }
   },
   {
@@ -4801,6 +5769,8 @@ dataSet[dataSetVersion].characterData = [
       rarity: [ "1" ],
 	  guild: [ "summoners" ],
 	  school: [ "no_school" ],
+	  world: [ "no_world" ],
+	  gender: [ "female" ],
     }
   },
   {
@@ -4810,6 +5780,8 @@ dataSet[dataSetVersion].characterData = [
       rarity: [ "1" ],
 	  guild: [ "summoners" ],
 	  school: [ "no_school" ],
+	  world: [ "no_world" ],
+	  gender: [ "female" ],
     }
   },
   {
@@ -4819,6 +5791,8 @@ dataSet[dataSetVersion].characterData = [
       rarity: [ "1" ],
 	  guild: [ "summoners" ],
 	  school: [ "no_school" ],
+	  world: [ "no_world" ],
+	  gender: [ "female" ],
     }
   },
   {
@@ -4828,6 +5802,8 @@ dataSet[dataSetVersion].characterData = [
       rarity: [ "1" ],
 	  guild: [ "summoners" ],
 	  school: [ "no_school" ],
+	  world: [ "no_world" ],
+	  gender: [ "male" ],
     }
   },
   {
@@ -4837,6 +5813,8 @@ dataSet[dataSetVersion].characterData = [
       rarity: [ "1" ],
 	  guild: [ "summoners" ],
 	  school: [ "no_school" ],
+	  world: [ "no_world" ],
+	  gender: [ "male" ],
     }
   },
   {
@@ -4846,6 +5824,8 @@ dataSet[dataSetVersion].characterData = [
       rarity: [ "1" ],
 	  guild: [ "summoners" ],
 	  school: [ "no_school" ],
+	  world: [ "no_world" ],
+	  gender: [ "male" ],
     }
   },
   {
@@ -4855,6 +5835,8 @@ dataSet[dataSetVersion].characterData = [
       rarity: [ "1" ],
 	  guild: [ "summoners" ],
 	  school: [ "no_school" ],
+	  world: [ "no_world" ],
+	  gender: [ "male" ],
     }
   },
   {
@@ -4864,6 +5846,8 @@ dataSet[dataSetVersion].characterData = [
       rarity: [ "1" ],
 	  guild: [ "summoners" ],
 	  school: [ "no_school" ],
+	  world: [ "no_world" ],
+	  gender: [ "male" ],
     }
   },
   {
@@ -4873,6 +5857,8 @@ dataSet[dataSetVersion].characterData = [
       rarity: [ "1" ],
 	  guild: [ "summoners" ],
 	  school: [ "no_school" ],
+	  world: [ "no_world" ],
+	  gender: [ "no_gender" ],
     }
   },
   {
@@ -4883,6 +5869,7 @@ dataSet[dataSetVersion].characterData = [
 	  guild: [ "summoners" ],
 	  school: [ "no_school" ],
 	  world: [ "old_ones" ],
+	  gender: [ "no_gender" ],
     }
   },
   {
@@ -4892,6 +5879,8 @@ dataSet[dataSetVersion].characterData = [
       rarity: [ "1" ],
 	  guild: [ "summoners" ],
 	  school: [ "no_school" ],
+	  world: [ "no_world" ],
+	  gender: [ "male" ],
     }
   },
   {
@@ -4901,6 +5890,8 @@ dataSet[dataSetVersion].characterData = [
       rarity: [ "1" ],
 	  guild: [ "summoners" ],
 	  school: [ "no_school" ],
+	  world: [ "no_world" ],
+	  gender: [ "no_gender" ],
     }
   },
   {
@@ -4910,6 +5901,8 @@ dataSet[dataSetVersion].characterData = [
       rarity: [ "1" ],
 	  guild: [ "summoners" ],
 	  school: [ "no_school" ],
+	  world: [ "no_world" ],
+	  gender: [ "no_gender" ],
     }
   },
   {
@@ -4919,6 +5912,8 @@ dataSet[dataSetVersion].characterData = [
       rarity: [ "1" ],
 	  guild: [ "summoners" ],
 	  school: [ "no_school" ],
+	  world: [ "no_world" ],
+	  gender: [ "no_gender" ],
     }
   },
   {
@@ -4928,6 +5923,8 @@ dataSet[dataSetVersion].characterData = [
       rarity: [ "1" ],
 	  guild: [ "summoners" ],
 	  school: [ "no_school" ],
+	  world: [ "no_world" ],
+	  gender: [ "no_gender" ],
     }
   },
   {
@@ -4937,6 +5934,8 @@ dataSet[dataSetVersion].characterData = [
       rarity: [ "1" ],
 	  guild: [ "summoners" ],
 	  school: [ "no_school" ],
+	  world: [ "no_world" ],
+	  gender: [ "no_gender" ],
     }
   },
   {
@@ -4946,6 +5945,8 @@ dataSet[dataSetVersion].characterData = [
       rarity: [ "1" ],
 	  guild: [ "summoners" ],
 	  school: [ "no_school" ],
+	  world: [ "no_world" ],
+	  gender: [ "no_gender" ],
     }
   },
   {
@@ -4956,6 +5957,7 @@ dataSet[dataSetVersion].characterData = [
 	  guild: [ "summoners" ],
 	  school: [ "no_school" ],
 	  world: [ "eden" ],
+	  gender: [ "male" ],
     }
   },
   {
@@ -4966,6 +5968,7 @@ dataSet[dataSetVersion].characterData = [
 	  guild: [ "summoners" ],
 	  school: [ "no_school" ],
 	  world: [ "eden" ],
+	  gender: [ "male" ],
     }
   },
   {
@@ -4976,6 +5979,7 @@ dataSet[dataSetVersion].characterData = [
 	  guild: [ "summoners" ],
 	  school: [ "no_school" ],
 	  world: [ "eden" ],
+	  gender: [ "male" ],
     }
   },
 
@@ -4988,7 +5992,10 @@ dataSet[dataSetVersion].characterData = [
     img: "unreleased/icon_salomon01.png",
     opts: {
       rarity: [ "3+" ],
+	  guild: [ "summoners" ],
+	  school: [ "shinjuku" ],
 	  world: [ "no_world" ],
+	  gender: [ "male" ],
 	  unreleased: true
     }
   },
@@ -4997,26 +6004,23 @@ dataSet[dataSetVersion].characterData = [
     img: "unreleased/icon_kyouma01.png",
     opts: {
       rarity: [ "3+" ],
-	  world: [ "tokyo" ],
+	  guild: [ "no_guild" ],
+	  school: [ "shinjuku" ],
+	  world: [ "tokyo", "no_world" ],
+	  gender: [ "male" ],
 	  unreleased: true
     }
   },
   {
-    name: "Michael",
-    img: "3-star/icon_michael01.png",
+    name: "Solomon",
+    img: "unreleased/icon_solomon01.png",
     opts: {
       rarity: [ "3+" ],
-	  world: [ "eden" ],
+	  guild: [ "no_guild" ],
+	  school: [ "no_school" ],
+	  world: [ "no_world" ],
+	  gender: [ "male" ],
 	  unreleased: true
-    }
-  },
-  {
-    name: "Amaterasu",
-    img: "3-star/icon_amaterasu01.png",
-    opts: {
-      rarity: [ "3+" ],
-	  world: [ "takamagahara" ],
-	  unreleased: true	  
     }
   },
   {
@@ -5024,7 +6028,72 @@ dataSet[dataSetVersion].characterData = [
     img: "unreleased/icon_curren01.png",
     opts: {
       rarity: [ "3+" ],
+	  guild: [ "rule_makers" ],
+	  school: [ "no_school" ],
 	  world: [ "tokyo" ],
+	  gender: [ "female" ],
+	  unreleased: true
+    }
+  },
+  {
+    name: "Onyankopon",
+    img: "unreleased/icon_onyankopon01.png",
+    opts: {
+      rarity: [ "3+" ],
+	  guild: [ "rule_makers" ],
+	  school: [ "no_school" ],
+	  world: [ "agisymba" ],
+	  gender: [ "male" ],
+	  unreleased: true
+    }
+  },
+  {
+    name: "Bohemio",
+    img: "unreleased/icon_bohemio01.png",
+    opts: {
+      rarity: [ "3+" ],
+	  guild: [ "wanderers" ],
+	  school: [ "no_school" ],
+	  world: [ "tokyo" ],
+	  gender: [ "male" ],
+	  unreleased: true
+    }
+  },
+  {
+    name: "Xiwangmu",
+    img: "unreleased/icon_xiwangmu01.png",
+    opts: {
+      rarity: [ "3+" ],
+	  guild: [ "no_guild" ],
+	  school: [ "setagaya" ],
+	  other: [ "mountain2" ],
+	  world: [ "penglai" ],
+	  gender: [ "female" ],
+	  unreleased: true
+    }
+  },
+  {
+    name: "Nisroch",
+    img: "unreleased/icon_nisroch01.png",
+    opts: {
+      rarity: [ "3+" ],
+	  guild: [ "wanderers" ],
+	  school: [ "no_school" ],
+	  world: [ "no_world" ],
+	  gender: [ "male" ],
+	  unreleased: true
+    }
+  },
+  {
+    name: "Jersey Devil",
+    img: "unreleased/icon_jerseydevil01.png",
+    opts: {
+      rarity: [ "3+" ],
+	  guild: [ "no_guild" ],
+	  school: [ "no_school" ],
+	  other: [ "mountain2" ],
+	  world: [ "no_world" ],
+	  gender: [ "male" ],
 	  unreleased: true
     }
   },
@@ -5033,23 +6102,10 @@ dataSet[dataSetVersion].characterData = [
     img: "unreleased/icon_odin01.png",
     opts: {
       rarity: [ "3+" ],
+	  guild: [ "no_guild" ],
+	  school: [ "no_school" ],
 	  world: [ "yggdrasil" ],
-	  unreleased: true
-    }
-  },
-  {
-    name: "Prometheus",
-    img: "3-star/icon_prometheus01.png",
-    opts: {
-      rarity: [ "3+" ],
-	  unreleased: true
-    }
-  },
-  {
-    name: "Raven",
-    img: "3-star/icon_ravenarthur01.png",
-    opts: {
-      rarity: [ "3+" ],
+	  gender: [ "male" ],
 	  unreleased: true
     }
   },
@@ -5058,7 +6114,10 @@ dataSet[dataSetVersion].characterData = [
     img: "unreleased/icon_yogsothoth02.png",
     opts: {
       rarity: [ "3+" ],
+	  guild: [ "no_guild" ],
+	  school: [ "no_school" ],
 	  world: [ "old_ones" ],
+	  gender: [ "male" ],
 	  unreleased: true
     }
   },
@@ -5067,7 +6126,10 @@ dataSet[dataSetVersion].characterData = [
     img: "unreleased/icon_thor02.png",
     opts: {
       rarity: [ "3+" ],
+	  guild: [ "no_guild" ],
+	  school: [ "no_school" ],
 	  world: [ "yggdrasil" ],
+	  gender: [ "male" ],
 	  unreleased: true
     }
   },
@@ -5076,7 +6138,10 @@ dataSet[dataSetVersion].characterData = [
     img: "unreleased/icon_fisher02_skin1.png",
     opts: {
       rarity: [ "3+" ],
+	  guild: [ "no_guild" ],
+	  school: [ "no_school" ],
 	  world: [ "tir_na_nog" ],
+	  gender: [ "male" ],
 	  unreleased: true
     }
   },
@@ -5085,7 +6150,10 @@ dataSet[dataSetVersion].characterData = [
     img: "unreleased/icon_yukimura02.png",
     opts: {
       rarity: [ "3+" ],
+	  guild: [ "no_guild" ],
+	  school: [ "no_school" ],
 	  world: [ "land_of_wa" ],
+	  gender: [ "male" ],
 	  unreleased: true
     }
   },
@@ -5094,7 +6162,10 @@ dataSet[dataSetVersion].characterData = [
     img: "unreleased/icon_jeanne02.png",
     opts: {
       rarity: [ "3+" ],
+	  guild: [ "no_guild" ],
+	  school: [ "no_school" ],
 	  world: [ "eden" ],
+	  gender: [ "female" ],
 	  unreleased: true
     }
   },
@@ -5103,7 +6174,10 @@ dataSet[dataSetVersion].characterData = [
     img: "unreleased/icon_mahakala02.png",
     opts: {
       rarity: [ "3+" ],
-	  world: [ "deva_loka", "shangri_la" ],
+	  guild: [ "no_guild" ],
+	  school: [ "no_school" ],
+	  world: [ "devaloka", "shangri-la" ],
+	  gender: [ "male" ],
 	  unreleased: true
     }
   },
@@ -5112,7 +6186,10 @@ dataSet[dataSetVersion].characterData = [
     img: "unreleased/icon_ramu01.png",
     opts: {
       rarity: [ "3+" ],
+	  guild: [ "no_guild" ],
+	  school: [ "no_school" ],
 	  world: [ "oceanic_realm" ],
+	  gender: [ "male" ],
 	  unreleased: true
     }
   },
@@ -5121,7 +6198,22 @@ dataSet[dataSetVersion].characterData = [
     img: "unreleased/icon_overlord02.png",
     opts: {
       rarity: [ "3+" ],
+	  guild: [ "no_guild" ],
+	  school: [ "no_school" ],
 	  world: [ "utopia" ],
+	  gender: [ "no_gender" ],
+	  unreleased: true
+    }
+  },
+  {
+    name: "Sefirot",
+    img: "unreleased/icon_sefirot02_skin1.png",
+    opts: {
+      rarity: [ "3+" ],
+	  guild: [ "no_guild" ],
+	  school: [ "no_school" ],
+	  world: [ "eden" ],
+	  gender: [ "male" ],
 	  unreleased: true
     }
   },
@@ -5130,7 +6222,22 @@ dataSet[dataSetVersion].characterData = [
     img: "unreleased/icon_typhoeus02.png",
     opts: {
       rarity: [ "3+" ],
+	  guild: [ "no_guild" ],
+	  school: [ "no_school" ],
 	  world: [ "gehenna", "eden" ],
+	  gender: [ "male" ],
+	  unreleased: true
+    }
+  },
+  {
+    name: "Capo",
+    img: "unreleased/icon_werewolfCapo01.png",
+    opts: {
+      rarity: [ "3+", "1" ],
+	  guild: [ "no_guild" ],
+	  school: [ "no_school" ],
+	  world: [ "no_world" ],
+	  gender: [ "male" ],
 	  unreleased: true
     }
   },
@@ -5139,7 +6246,10 @@ dataSet[dataSetVersion].characterData = [
     img: "unreleased/icon_yamanomusume01.png",
     opts: {
       rarity: [ "3+" ],
-	  world: [ "deva_loka" ],
+	  guild: [ "no_guild" ],
+	  school: [ "no_school" ],
+	  world: [ "devaloka" ],
+	  gender: [ "female" ],
 	  unreleased: true
     }
   },
@@ -5148,7 +6258,10 @@ dataSet[dataSetVersion].characterData = [
     img: "unreleased/icon_alberich02.png",
     opts: {
       rarity: [ "3+" ],
+	  guild: [ "no_guild" ],
+	  school: [ "no_school" ],
 	  world: [ "tir_na_nog" ],
+	  gender: [ "male" ],
 	  unreleased: true
     }
   },
@@ -5157,7 +6270,10 @@ dataSet[dataSetVersion].characterData = [
     img: "unreleased/icon_bael01_skin3.png",
     opts: {
       rarity: [ "3+" ],
+	  guild: [ "no_guild" ],
+	  school: [ "no_school" ],
 	  world: [ "canaan" ],
+	  gender: [ "male" ],
 	  unreleased: true
     }
   },
@@ -5166,7 +6282,10 @@ dataSet[dataSetVersion].characterData = [
     img: "unreleased/icon_tangaroa01_skin2.png",
     opts: {
       rarity: [ "3+" ],
+	  guild: [ "no_guild" ],
+	  school: [ "no_school" ],
 	  world: [ "canaan" ],
+	  gender: [ "male" ],
 	  unreleased: true
     }
   },
@@ -5175,7 +6294,10 @@ dataSet[dataSetVersion].characterData = [
     img: "unreleased/icon_nomad01_skin8.png",
     opts: {
       rarity: [ "3+" ],
+	  guild: [ "no_guild" ],
+	  school: [ "no_school" ],
 	  world: [ "canaan" ],
+	  gender: [ "male" ],
 	  unreleased: true
     }
   },
@@ -5184,7 +6306,10 @@ dataSet[dataSetVersion].characterData = [
     img: "unreleased/icon_asterios01_skin2.png",
     opts: {
       rarity: [ "3+" ],
+	  guild: [ "no_guild" ],
+	  school: [ "no_school" ],
 	  world: [ "canaan" ],
+	  gender: [ "male" ],
 	  unreleased: true
     }
   },
@@ -5193,7 +6318,10 @@ dataSet[dataSetVersion].characterData = [
     img: "unreleased/icon_kurogane01_skin2.png",
     opts: {
       rarity: [ "3+" ],
+	  guild: [ "no_guild" ],
+	  school: [ "no_school" ],
 	  world: [ "canaan" ],
+	  gender: [ "male" ],
 	  unreleased: true
     }
   },
@@ -5202,7 +6330,10 @@ dataSet[dataSetVersion].characterData = [
     img: "unreleased/icon_robinson01_skin2.png",
     opts: {
       rarity: [ "3+" ],
+	  guild: [ "no_guild" ],
+	  school: [ "no_school" ],
 	  world: [ "canaan" ],
+	  gender: [ "male" ],
 	  unreleased: true
     }
   },
@@ -5211,7 +6342,22 @@ dataSet[dataSetVersion].characterData = [
     img: "unreleased/icon_kijimuna01_skin2.png",
     opts: {
       rarity: [ "3+" ],
+	  guild: [ "no_guild" ],
+	  school: [ "no_school" ],
 	  world: [ "canaan" ],
+	  gender: [ "male" ],
+	  unreleased: true
+    }
+  },
+  {
+    name: "Grimalkin",
+    img: "unreleased/icon_caitsith01_evil.png",
+    opts: {
+      rarity: [ "3+" ],
+	  guild: [ "no_guild" ],
+	  school: [ "no_school" ],
+	  world: [ "tir_na_nog" ],
+	  gender: [ "male" ],
 	  unreleased: true
     }
   },
@@ -5220,7 +6366,10 @@ dataSet[dataSetVersion].characterData = [
     img: "unreleased/icon_onamuji01.png",
     opts: {
       rarity: [ "3+" ],
+	  guild: [ "no_guild" ],
+	  school: [ "no_school" ],
 	  world: [ "takamagahara" ],
+	  gender: [ "male" ],
 	  unreleased: true
     }
   },
@@ -5229,17 +6378,46 @@ dataSet[dataSetVersion].characterData = [
     img: "unreleased/icon_airavata01.png",
     opts: {
       rarity: [ "3+" ],
-	  world: [ "deva_loka" ],
+	  guild: [ "no_guild" ],
+	  school: [ "no_school" ],
+	  world: [ "devaloka" ],
+	  gender: [ "male" ],
 	  unreleased: true
     }
   },
   {
-    name: "All-round Missing",
-    img: "2-star/icon_missingall01b.png",
+    name: "Valiant Deity",
+    img: "unreleased/icon_tenjinuniformhero01b.png",
     opts: {
       rarity: [ "2" ],
 	  guild: [ "summoners" ],
 	  school: [ "no_school" ],
+	  world: [ "takamagahara" ],
+	  gender: [ "male" ],
+	  unreleased: true
+    }
+  },
+  {
+    name: "World Deity",
+    img: "unreleased/icon_tenjinuniformworld01b.png",
+    opts: {
+      rarity: [ "2" ],
+	  guild: [ "summoners" ],
+	  school: [ "no_school" ],
+	  world: [ "takamagahara" ],
+	  gender: [ "male" ],
+	  unreleased: true
+    }
+  },
+  {
+    name: "Valiant Mermaid",
+    img: "unreleased/icon_naminootomehero01.png",
+    opts: {
+      rarity: [ "2" ],
+	  guild: [ "summoners" ],
+	  school: [ "no_school" ],
+	  world: [ "no_world" ],
+	  gender: [ "female" ],
 	  unreleased: true
     }
   },
@@ -5250,6 +6428,8 @@ dataSet[dataSetVersion].characterData = [
       rarity: [ "1" ],
 	  guild: [ "summoners" ],
 	  school: [ "no_school" ],
+	  world: [ "no_world" ],
+	  gender: [ "no_gender" ],
 	  unreleased: true
     }
   },
@@ -5260,6 +6440,8 @@ dataSet[dataSetVersion].characterData = [
       rarity: [ "1" ],
 	  guild: [ "summoners" ],
 	  school: [ "no_school" ],
+	  world: [ "no_world" ],
+	  gender: [ "no_gender" ],
 	  unreleased: true
     }
   },
@@ -5270,6 +6452,8 @@ dataSet[dataSetVersion].characterData = [
       rarity: [ "1" ],
 	  guild: [ "summoners" ],
 	  school: [ "no_school" ],
+	  world: [ "no_world" ],
+	  gender: [ "no_gender" ],
 	  unreleased: true
     }
   },
@@ -5280,6 +6464,8 @@ dataSet[dataSetVersion].characterData = [
       rarity: [ "1" ],
 	  guild: [ "summoners" ],
 	  school: [ "no_school" ],
+	  world: [ "no_world" ],
+	  gender: [ "no_gender" ],
 	  unreleased: true
     }
   },

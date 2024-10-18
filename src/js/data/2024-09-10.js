@@ -148,7 +148,7 @@ dataSet[dataSetVersion].characterData = [
 
   {
     name: "Protagonist",
-    img: "Hr5HVGp.gif",
+    img: "3-star/icon_player01.gif",
     opts: {
       rarity: [ "3+" ],
 	  guild: [ "summoners" ],
@@ -159,7 +159,7 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "Shiro",
-    img: "Hr5H6c7.png",
+    img: "3-star/icon_shirou01.png",
     opts: {
       rarity: [ "3+" ],
       guild: [ "summoners" ],
@@ -169,7 +169,7 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "Kengo",
-    img: "Hr591B2.png",
+    img: "3-star/icon_kengo01.png",
     opts: {
       rarity: [ "3+" ],
       guild: [ "summoners" ],
@@ -179,7 +179,7 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "Ryota",
-    img: "Hr5HO9n.png",
+    img: "3-star/icon_ryouta01.png",
     opts: {
       rarity: [ "3+" ],
       guild: [ "summoners" ],
@@ -189,7 +189,7 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "Toji",
-    img: "Hr5JVDb.png",
+    img: "3-star/icon_touji01.png",
     opts: {
       rarity: [ "3+" ],
       guild: [ "summoners" ],
@@ -199,7 +199,7 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "Oniwaka",
-    img: "Hr5HuCQ.png",
+    img: "3-star/icon_oniwaka01.png",
     opts: {
       rarity: [ "3+" ],
       guild: [ "berserkers" ],
@@ -209,7 +209,7 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "Hanuman",
-    img: "HrRys07.png",
+    img: "3-star/icon_hanuman01.png",
     opts: {
       rarity: [ "3+" ],
       guild: [ "summoners" ],
@@ -219,7 +219,7 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "Claude",
-    img: "HrRyol9.png",
+    img: "3-star/icon_claude01.png",
     opts: {
       rarity: [ "3+" ],
       guild: [ "berserkers" ],
@@ -229,7 +229,7 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "Licht",
-    img: "Hr59rkg.png",
+    img: "3-star/icon_licht01.png",
     opts: {
       rarity: [ "3+" ],
       guild: [ "tycoons" ],
@@ -239,7 +239,7 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "Duo",
-    img: "HrRy5oQ.png",
+    img: "3-star/icon_duo01.png",
     opts: {
       rarity: [ "3+" ],
       guild: [ "wisemen" ],
@@ -249,7 +249,7 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "Maria",
-    img: "Hr59mYX.png",
+    img: "3-star/icon_maria01.png",
     opts: {
       rarity: [ "3+" ],
       guild: [ "missionaries" ],
@@ -259,7 +259,7 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "Christine",
-    img: "HrRynK7.png",
+    img: "3-star/icon_christine01.png",
     opts: {
       rarity: [ "3+" ],
       guild: [ "entertainers" ],
@@ -269,7 +269,7 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "Moritaka",
-    img: "Hr5HdQ4.png",
+    img: "3-star/icon_moritaka01.png",
     opts: {
       rarity: [ "3+" ],
       guild: [ "summoners" ],
@@ -280,7 +280,7 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "Fenrir",
-    img: "HrRyGRa.png",
+    img: "3-star/icon_fenrir01.png",
     opts: {
       rarity: [ "3+" ],
       guild: [ "beast_tamers" ],
@@ -291,7 +291,7 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "Ashigara",
-    img: "HrRpSnV.png",
+    img: "3-star/icon_ashigara01.png",
     opts: {
       rarity: [ "3+" ],
       guild: [ "no_guild" ],
@@ -301,7 +301,7 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "Asterius",
-    img: "HrRpg6P.png",
+    img: "3-star/icon_asterios01.png",
     opts: {
       rarity: [ "3+" ],
       guild: [ "no_guild" ],
@@ -311,7 +311,7 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "Ganglie",
-    img: "HrRy8Rs.png",
+    img: "3-star/icon_gouryou01.png",
     opts: {
       rarity: [ "3+" ],
       guild: [ "gurus" ],
@@ -321,7 +321,7 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "Ikutoshi",
-    img: "Hr59fea.png",
+    img: "3-star/icon_ikutoshi01.png",
     opts: {
       rarity: [ "3+" ],
       guild: [ "berserkers" ],
@@ -331,7 +331,7 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "Shinya",
-    img: "Hr5H4FS.png",
+    img: "3-star/icon_shinya01.png",
     opts: {
       rarity: [ "3+" ],
       guild: [ "no_guild", "missionaries", "invaders" ],
@@ -341,7 +341,7 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "Kenta",
-    img: "Hr59E1S.png",
+    img: "3-star/icon_kenta01.png",
     opts: {
       rarity: [ "3+" ],
       guild: [ "no_guild" ],
@@ -351,7 +351,7 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "Kotaro",
-    img: "Hr59hmb.png",
+    img: "3-star/icon_kotarou01.png",
     opts: {
       rarity: [ "3+" ],
       guild: [ "agents" ],
@@ -361,7 +361,7 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "Eita",
-    img: "HrRyll1.png",
+    img: "3-star/icon_eita01.png",
     opts: {
       rarity: [ "3+" ],
       guild: [ "no_guild" ],
@@ -371,7 +371,7 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "Choji",
-    img: "HrRyBPS.png",
+    img: "3-star/icon_chouji01.png",
     opts: {
       rarity: [ "3+" ],
       guild: [ "missionaries" ],
@@ -381,7 +381,7 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "Jugo",
-    img: "Hr59aIf.png",
+    img: "3-star/icon_juugo01.png",
     opts: {
       rarity: [ "3+" ],
       guild: [ "no_guild" ],
@@ -391,7 +391,7 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "Macan",
-    img: "Hr59sQR.png",
+    img: "3-star/icon_magan01.png",
     opts: {
       rarity: [ "3+" ],
       guild: [ "berserkers" ],
@@ -401,7 +401,7 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "Ophion",
-    img: "Hr5HAGV.png",
+    img: "3-star/icon_ophion01.png",
     opts: {
       rarity: [ "3+" ],
       guild: [ "tycoons" ],
@@ -411,7 +411,7 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "Temujin",
-    img: "Hr5JuNs.png",
+    img: "3-star/icon_temujin01.png",
     opts: {
       rarity: [ "3+" ],
       guild: [ "invaders" ],
@@ -421,7 +421,7 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "Garmr",
-    img: "HrRyjiN.png",
+    img: "3-star/icon_garmr01.png",
     opts: {
       rarity: [ "3+" ],
       guild: [ "berserkers" ],
@@ -431,7 +431,7 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "Makara",
-    img: "Hr59QBp.png",
+    img: "3-star/icon_makara01.png",
     opts: {
       rarity: [ "3+" ],
       guild: [ "no_guild" ],
@@ -441,7 +441,7 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "Azazel",
-    img: "HrRpP8g.png",
+    img: "3-star/icon_azazel01.png",
     opts: {
       rarity: [ "3+" ],
       guild: [ "missionaries" ],
@@ -451,7 +451,7 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "Cu Sith",
-    img: "HrRyIHu.png",
+    img: "3-star/icon_cusith01.png",
     opts: {
       rarity: [ "3+" ],
       guild: [ "beast_tamers" ],
@@ -461,7 +461,7 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "Gunzo",
-    img: "HrRyUbf.png",
+    img: "3-star/icon_gunzou01.png",
     opts: {
       rarity: [ "3+" ],
       guild: [ "exters" ],
@@ -471,7 +471,7 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "Marchosias",
-    img: "Hr59t4I.png",
+    img: "3-star/icon_marchosias01.png",
     opts: {
       rarity: [ "3+" ],
       guild: [ "outlaws" ],
@@ -481,7 +481,7 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "Nobuharu",
-    img: "Hr5HBa9.png",
+    img: "3-star/icon_nobuharu01.png",
     opts: {
       rarity: [ "3+" ],
       guild: [ "no_guild" ],
@@ -491,7 +491,7 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "Kyuma",
-    img: "Hr59vEB.png",
+    img: "3-star/icon_kyuuma01.png",
     opts: {
       rarity: [ "3+" ],
       guild: [ "exters" ],
@@ -501,7 +501,7 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "Kagutsuchi",
-    img: "Hr59cX4.png",
+    img: "3-star/icon_kagutsuchi01.png",
     opts: {
       rarity: [ "3+" ],
       guild: [ "no_guild" ],
@@ -511,7 +511,7 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "R-19",
-    img: "Hr5Hjat.png",
+    img: "3-star/icon_riku01.png",
     opts: {
       rarity: [ "3+" ],
       guild: [ "wisemen" ],
@@ -521,7 +521,7 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "Gabriel",
-    img: "HrRyXxR.png",
+    img: "3-star/icon_gabriel01.png",
     opts: {
       rarity: [ "3+" ],
       guild: [ "missionaries" ],
@@ -531,7 +531,7 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "Alice",
-    img: "HrRpW67.png",
+    img: "3-star/icon_alice01.png",
     opts: {
       rarity: [ "3+" ],
       guild: [ "game_masters" ],
@@ -541,7 +541,7 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "Jambavan",
-    img: "Hr59Tgt.png",
+    img: "3-star/icon_jambavat01.png",
     opts: {
       rarity: [ "3+" ],
       guild: [ "beast_tamers", "game_masters" ],
@@ -551,7 +551,7 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "Lucifuge",
-    img: "Hr59PTJ.png",
+    img: "3-star/icon_lucifuge01.png",
     opts: {
       rarity: [ "3+" ],
       guild: [ "tycoons" ],
@@ -561,7 +561,7 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "Hati",
-    img: "Hr59ZEN.png",
+    img: "3-star/icon_managarmr01.png",
     opts: {
       rarity: [ "3+" ],
       guild: [ "missionaries" ],
@@ -571,7 +571,7 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "Barguest",
-    img: "HrRpZtR.png",
+    img: "3-star/icon_barguest01.png",
     opts: {
       rarity: [ "3+" ],
       guild: [ "wanderers" ],
@@ -581,7 +581,7 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "Bathym",
-    img: "HrRpbMN.png",
+    img: "3-star/icon_bathym01.png",
     opts: {
       rarity: [ "3+" ],
       guild: [ "berserkers" ],
@@ -591,7 +591,7 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "Kuniyoshi",
-    img: "Hr59OLQ.png",
+    img: "3-star/icon_kuniyoshi01.png",
     opts: {
       rarity: [ "3+" ],
       guild: [ "creators" ],
@@ -601,7 +601,7 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "Motosumi",
-    img: "Hr5H3Cl.png",
+    img: "3-star/icon_motosumi01.png",
     opts: {
       rarity: [ "3+" ],
       guild: [ "gurus" ],
@@ -611,7 +611,7 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "Kalki",
-    img: "Hr59lLl.png",
+    img: "3-star/icon_kalki01.png",
     opts: {
       rarity: [ "3+" ],
       guild: [ "no_guild" ],
@@ -621,7 +621,7 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "Nomad",
-    img: "Hr5HxTb.png",
+    img: "3-star/icon_nomad01.png",
     opts: {
       rarity: [ "3+" ],
       guild: [ "berserkers" ],
@@ -631,7 +631,7 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "Snow",
-    img: "Hr5HDox.png",
+    img: "3-star/icon_snow01.png",
     opts: {
       rarity: [ "3+" ],
       guild: [ "berserkers" ],
@@ -641,7 +641,7 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "Gandharva",
-    img: "HrRyhVp.png",
+    img: "3-star/icon_gandharva01.png",
     opts: {
       rarity: [ "3+" ],
       guild: [ "gurus" ],
@@ -651,7 +651,7 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "Nyarlathotep",
-    img: "Hr5Hzjj.png",
+    img: "3-star/icon_nyarlathotep01.png",
     opts: {
       rarity: [ "3+" ],
       guild: [ "missionaries", "entertainers", "independent" ],
@@ -661,7 +661,7 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "Shuten",
-    img: "Hr5Hs9e.png",
+    img: "3-star/icon_shuten01.png",
     opts: {
       rarity: [ "3+" ],
       guild: [ "no_guild" ],
@@ -671,7 +671,7 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "Pollux",
-    img: "Hr5HW6N.png",
+    img: "3-star/icon_pollux01.png",
     opts: {
       rarity: [ "3+" ],
       guild: [ "berserkers" ],
@@ -681,7 +681,7 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "Taurus Mask",
-    img: "Hr5JIHX.png",
+    img: "3-star/icon_taurus01.png",
     opts: {
       rarity: [ "3+" ],
       guild: [ "berserkers" ],
@@ -691,7 +691,7 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "Jiraiya",
-    img: "Hr59R7n.png",
+    img: "3-star/icon_jiraiya01.png",
     opts: {
       rarity: [ "3+" ],
       guild: [ "no_guild", "gurus" ],
@@ -701,7 +701,7 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "Andvari",
-    img: "HrRpNyb.png",
+    img: "3-star/icon_andvari01.png",
     opts: {
       rarity: [ "3+" ],
       guild: [ "berserkers" ],
@@ -711,7 +711,7 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "Yule",
-    img: "Hr597mG.png",
+    img: "3-star/icon_joul01.png",
     opts: {
       rarity: [ "3+" ],
       guild: [ "no_guild" ],
@@ -721,7 +721,7 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "Ded",
-    img: "HrRyADx.png",
+    img: "3-star/icon_ded01.png",
     opts: {
       rarity: [ "3+" ],
       guild: [ "no_guild" ],
@@ -731,7 +731,7 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "Babalon",
-    img: "HrRyLg9.png",
+    img: "3-star/icon_harlot01.png",
     opts: {
       rarity: [ "3+" ],
       guild: [ "genociders" ],
@@ -741,7 +741,7 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "Ibaraki",
-    img: "Hr59FdF.png",
+    img: "3-star/icon_ibaraki01.png",
     opts: {
       rarity: [ "3+" ],
       guild: [ "outlaws" ],
@@ -751,7 +751,7 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "Horkeu Kamui",
-    img: "Hr599sV.png",
+    img: "3-star/icon_horkeukamui01.png",
     opts: {
       rarity: [ "3+" ],
       guild: [ "berserkers" ],
@@ -761,7 +761,7 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "Taromaiti",
-    img: "Hr5JxSt.png",
+    img: "3-star/icon_taromaiti01.png",
     opts: {
       rarity: [ "3+" ],
       guild: [ "no_guild" ],
@@ -771,7 +771,7 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "Sitri",
-    img: "Hr5HZtj.png",
+    img: "3-star/icon_sitri01.png",
     opts: {
       rarity: [ "3+" ],
       guild: [ "no_guild" ],
@@ -781,7 +781,7 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "Tsathoggua",
-    img: "Hr5JNfV.png",
+    img: "3-star/icon_tuatgua01.png",
     opts: {
       rarity: [ "3+" ],
       guild: [ "tycoons" ],
@@ -791,7 +791,7 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "Hogen",
-    img: "Hr592g1.png",
+    img: "3-star/icon_hougen01.png",
     opts: {
       rarity: [ "3+" ],
       guild: [ "no_guild" ],
@@ -801,7 +801,7 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "Zao",
-    img: "Hr5Jbbs.png",
+    img: "3-star/icon_zaou01.png",
     opts: {
       rarity: [ "3+" ],
       guild: [ "no_guild" ],
@@ -812,7 +812,7 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "Chernobog",
-    img: "HrRyqV2.png",
+    img: "3-star/icon_chernobog01.png",
     opts: {
       rarity: [ "3+" ],
       guild: [ "no_guild" ],
@@ -823,7 +823,7 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "Melusine",
-    img: "Hr59yps.png",
+    img: "3-star/icon_melusine01.png",
     opts: {
       rarity: [ "3+" ],
       guild: [ "tycoons" ],
@@ -833,7 +833,7 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "Zabaniyya",
-    img: "Hr5JDen.png",
+    img: "3-star/icon_zabaniya01.png",
     opts: {
       rarity: [ "3+" ],
       guild: [ "missionaries" ],
@@ -843,7 +843,7 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "Arsalan",
-    img: "HrRpvZQ.png",
+    img: "3-star/icon_arslan01.png",
     opts: {
       rarity: [ "3+" ],
       guild: [ "missionaries" ],
@@ -853,7 +853,7 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "Ifrit",
-    img: "Hr59K5g.png",
+    img: "3-star/icon_ifrit01.png",
     opts: {
       rarity: [ "3+" ],
       guild: [ "tycoons" ],
@@ -864,7 +864,7 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "Hakumen",
-    img: "HrRyifS.png",
+    img: "3-star/icon_hakumen01.png",
     opts: {
       rarity: [ "3+" ],
       guild: [ "tycoons" ],
@@ -874,7 +874,7 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "Benten",
-    img: "HrRpyFt.png",
+    img: "3-star/icon_benten01.png",
     opts: {
       rarity: [ "3+" ],
       guild: [ "creators" ],
@@ -885,7 +885,7 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "Ahab",
-    img: "HrRpcyG.png",
+    img: "3-star/icon_ahab01.png",
     opts: {
       rarity: [ "3+" ],
       guild: [ "no_guild" ],
@@ -895,7 +895,7 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "Typhon",
-    img: "Hr5JeUP.png",
+    img: "3-star/icon_typhon01.png",
     opts: {
       rarity: [ "3+" ],
       guild: [ "no_guild" ],
@@ -906,7 +906,7 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "Jinn",
-    img: "Hr59AdX.png",
+    img: "3-star/icon_jinn01.png",
     opts: {
       rarity: [ "3+" ],
       guild: [ "no_guild" ],
@@ -916,7 +916,7 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "Xolotl",
-    img: "Hr5J6sR.png",
+    img: "3-star/icon_xolotl01.png",
     opts: {
       rarity: [ "3+" ],
       guild: [ "tycoons" ],
@@ -926,7 +926,7 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "Tadatomo",
-    img: "Hr5JHS1.png",
+    img: "3-star/icon_tadatomo01.png",
     opts: {
       rarity: [ "3+" ],
       guild: [ "agents", "summoners" ],
@@ -937,7 +937,7 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "Volos",
-    img: "Hr5JUba.png",
+    img: "3-star/icon_volos01.png",
     opts: {
       rarity: [ "3+" ],
       guild: [ "no_guild" ],
@@ -947,7 +947,7 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "Tangaroa",
-    img: "Hr5JBPp.png",
+    img: "3-star/icon_tangaroa01.png",
     opts: {
       rarity: [ "3+" ],
       guild: [ "no_guild" ],
@@ -957,7 +957,7 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "Triton",
-    img: "Hr5JXxj.png",
+    img: "3-star/icon_triton01.png",
     opts: {
       rarity: [ "3+" ],
       guild: [ "no_guild" ],
@@ -967,7 +967,7 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "Kijimuna",
-    img: "Hr59Gr7.png",
+    img: "3-star/icon_kijimuna01.png",
     opts: {
       rarity: [ "3+" ],
       guild: [ "no_guild" ],
@@ -977,7 +977,7 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "Kurogane",
-    img: "Hr59kBV.png",
+    img: "3-star/icon_kurogane01.png",
     opts: {
       rarity: [ "3+" ],
       guild: [ "crafters" ],
@@ -987,7 +987,7 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "Robinson",
-    img: "Hr5Hw8X.png",
+    img: "3-star/icon_robinson01.png",
     opts: {
       rarity: [ "3+" ],
       guild: [ "no_guild" ],
@@ -997,7 +997,7 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "Krampus",
-    img: "Hr59wIj.png",
+    img: "3-star/icon_krampus01.png",
     opts: {
       rarity: [ "3+" ],
       guild: [ "no_guild" ],
@@ -1007,7 +1007,7 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "Agyo",
-    img: "HrRp0uf.png",
+    img: "3-star/icon_agyou01.png",
     opts: {
       rarity: [ "3+" ],
       guild: [ "summoners" ],
@@ -1017,7 +1017,7 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "Aizen",
-    img: "HrRp1j4.png",
+    img: "3-star/icon_aizen01.png",
     opts: {
       rarity: [ "3+" ],
       guild: [ "tycoons", "missionaries" ],
@@ -1027,7 +1027,7 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "Wakan Tanka",
-    img: "Hr5JrzJ.png",
+    img: "3-star/icon_wakantanka01.png",
     opts: {
       rarity: [ "3+" ],
       guild: [ "no_guild" ],
@@ -1037,7 +1037,7 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "Thunderbird",
-    img: "Hr5JllS.png",
+    img: "3-star/icon_thunderbird01.png",
     opts: {
       rarity: [ "3+" ],
       guild: [ "outlaws", "independent" ],
@@ -1047,7 +1047,7 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "Shino",
-    img: "Hr5HgP2.png",
+    img: "3-star/icon_shino01.png",
     opts: {
       rarity: [ "3+" ],
       guild: [ "outlaws" ],
@@ -1058,7 +1058,7 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "Musashi",
-    img: "Hr5HFG2.png",
+    img: "3-star/icon_musashi01.png",
     opts: {
       rarity: [ "3+" ],
       guild: [ "wisemen", "crafters", "independent" ],
@@ -1068,7 +1068,7 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "Amatsumara",
-    img: "HrRpjae.png",
+    img: "3-star/icon_amatsumara01.png",
     opts: {
       rarity: [ "3+" ],
       guild: [ "crafters" ],
@@ -1078,7 +1078,7 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "Durga",
-    img: "HrRy7VV.png",
+    img: "3-star/icon_durga01.png",
     opts: {
       rarity: [ "3+" ],
       guild: [ "no_guild" ],
@@ -1089,7 +1089,7 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "Tetsuox",
-    img: "Hr5JADG.png",
+    img: "3-star/icon_tetsugyuu01.png",
     opts: {
       rarity: [ "3+" ],
       guild: [ "outlaws" ],
@@ -1099,7 +1099,7 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "Shuichi",
-    img: "Hr5HLAu.png",
+    img: "3-star/icon_shuuichi01.png",
     opts: {
       rarity: [ "3+" ],
       guild: [ "wisemen" ],
@@ -1109,7 +1109,7 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "Suzuka",
-    img: "Hr5J9cP.png",
+    img: "3-star/icon_suzuka01.png",
     opts: {
       rarity: [ "3+" ],
       guild: [ "outlaws" ],
@@ -1119,7 +1119,7 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "Tajikarao",
-    img: "Hr5JdHF.png",
+    img: "3-star/icon_tadikarao01.png",
     opts: {
       rarity: [ "3+" ],
       guild: [ "no_guild" ],
@@ -1129,7 +1129,7 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "Gyobu",
-    img: "HrRy4Wl.png",
+    img: "3-star/icon_gyoubu01.png",
     opts: {
       rarity: [ "3+" ],
       guild: [ "outlaws" ],
@@ -1139,7 +1139,7 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "Gyumao",
-    img: "HrRy6s2.png",
+    img: "3-star/icon_gyuumaou01.png",
     opts: {
       rarity: [ "3+" ],
       guild: [ "tycoons" ],
@@ -1149,7 +1149,7 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "Seth",
-    img: "Hr5HSn4.png",
+    img: "3-star/icon_seth01.png",
     opts: {
       rarity: [ "3+" ],
       guild: [ "no_guild" ],
@@ -1159,7 +1159,7 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "Ebisu",
-    img: "HrRyYiB.png",
+    img: "3-star/icon_ebisu01.png",
     opts: {
       rarity: [ "3+" ],
       guild: [ "no_guild" ],
@@ -1169,7 +1169,7 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "Aegir",
-    img: "HrRpEZl.png",
+    img: "3-star/icon_aegir01.png",
     opts: {
       rarity: [ "3+" ],
       guild: [ "no_guild" ],
@@ -1179,7 +1179,7 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "Arc",
-    img: "HrRpkwx.png",
+    img: "3-star/icon_arc01.png",
     opts: {
       rarity: [ "3+" ],
       guild: [ "genociders" ],
@@ -1189,7 +1189,7 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "Azathoth",
-    img: "HrRp6cF.png",
+    img: "3-star/icon_azathoth01.png",
     opts: {
       rarity: [ "3+" ],
       guild: [ "genociders" ],
@@ -1199,7 +1199,7 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "Surtr",
-    img: "Hr5HyKB.png",
+    img: "3-star/icon_surtr01.png",
     opts: {
       rarity: [ "3+" ],
       guild: [ "genociders" ],
@@ -1209,7 +1209,7 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "Tanngrisnir",
-    img: "Hr5JolI.png",
+    img: "3-star/icon_tanngrisnir01.png",
     opts: {
       rarity: [ "3+" ],
       guild: [ "no_guild" ],
@@ -1220,7 +1220,7 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "Gullinbursti",
-    img: "HrRySOG.png",
+    img: "3-star/icon_gullinbursti01.png",
     opts: {
       rarity: [ "3+" ],
       guild: [ "summoners" ],
@@ -1230,7 +1230,7 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "Takemaru",
-    img: "Hr5J3Na.png",
+    img: "3-star/icon_takemaru01.png",
     opts: {
       rarity: [ "3+" ],
       guild: [ "crafters" ],
@@ -1240,7 +1240,7 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "Behemoth",
-    img: "HrRpmPI.png",
+    img: "3-star/icon_behemoth01.png",
     opts: {
       rarity: [ "3+" ],
       guild: [ "no_guild", "summoners" ],
@@ -1250,7 +1250,7 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "Ziz",
-    img: "Hr5JyXf.png",
+    img: "3-star/icon_ziz01.png",
     opts: {
       rarity: [ "3+" ],
       guild: [ "no_guild" ],
@@ -1260,7 +1260,7 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "Mineaki",
-    img: "Hr5HJjf.png",
+    img: "3-star/icon_mineaki01.png",
     opts: {
       rarity: [ "3+" ],
       guild: [ "agents" ],
@@ -1270,7 +1270,7 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "Tetsuya",
-    img: "Hr5J5xf.png",
+    img: "3-star/icon_tetsuya01.png",
     opts: {
       rarity: [ "3+" ],
       guild: [ "outlaws" ],
@@ -1280,7 +1280,7 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "Breke",
-    img: "HrRy3Nf.png",
+    img: "3-star/icon_breke01.png",
     opts: {
       rarity: [ "3+" ],
       guild: [ "no_guild" ],
@@ -1290,7 +1290,7 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "Avarga",
-    img: "HrRp4F1.png",
+    img: "3-star/icon_avarga01.png",
     opts: {
       rarity: [ "3+" ],
       guild: [ "warmongers" ],
@@ -1300,7 +1300,7 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "Algernon",
-    img: "HrRpVGS.png",
+    img: "3-star/icon_algernon01.png",
     opts: {
       rarity: [ "3+" ],
       guild: [ "no_guild" ],
@@ -1310,7 +1310,7 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "Ose",
-    img: "Hr5Ha8F.png",
+    img: "3-star/icon_ose01.png",
     opts: {
       rarity: [ "3+" ],
       guild: [ "agents" ],
@@ -1320,7 +1320,7 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "Oz",
-    img: "Hr5H0ua.png",
+    img: "3-star/icon_oz01.png",
     opts: {
       rarity: [ "3+" ],
       guild: [ "rule_makers" ],
@@ -1330,7 +1330,7 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "Tsukuyomi",
-    img: "Hr5JhWx.png",
+    img: "3-star/icon_tsukuyomi01.png",
     opts: {
       rarity: [ "3+" ],
       guild: [ "outlaws" ],
@@ -1340,7 +1340,7 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "Korpokkur",
-    img: "Hr59Xku.png",
+    img: "3-star/icon_korpokkur01.png",
     opts: {
       rarity: [ "3+" ],
       guild: [ "rule_makers" ],
@@ -1350,7 +1350,7 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "Alp",
-    img: "HrRphF9.png",
+    img: "3-star/icon_alp01.png",
     opts: {
       rarity: [ "3+" ],
       guild: [ "beast_tamers" ],
@@ -1360,7 +1360,7 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "Leib",
-    img: "Hr59U21.png",
+    img: "3-star/icon_leib01.png",
     opts: {
       rarity: [ "3+" ],
       guild: [ "beast_tamers", "entertainers" ],
@@ -1370,7 +1370,7 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "Hephaestus",
-    img: "HrRyDOb.png",
+    img: "3-star/icon_hephaestus01.png",
     opts: {
       rarity: [ "3+" ],
       guild: [ "crafters" ],
@@ -1380,7 +1380,7 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "Furufumi",
-    img: "HrRyMOJ.png",
+    img: "3-star/icon_furufumi01.png",
     opts: {
       rarity: [ "3+" ],
       guild: [ "no_guild" ],
@@ -1390,7 +1390,7 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "Hombre Tigre",
-    img: "HrRyyWQ.png",
+    img: "3-star/icon_hombretigre01.png",
     opts: {
       rarity: [ "3+" ],
       guild: [ "warmongers" ],
@@ -1400,7 +1400,7 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "Arachne",
-    img: "HrRpeuj.png",
+    img: "3-star/icon_aracne01.png",
     opts: {
       rarity: [ "3+" ],
       guild: [ "creators" ],
@@ -1410,7 +1410,7 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "Goemon",
-    img: "HrRyOlt.png",
+    img: "3-star/icon_goemon01.png",
     opts: {
       rarity: [ "3+" ],
       guild: [ "entertainers" ],
@@ -1420,7 +1420,7 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "Licho",
-    img: "Hr59gYF.png",
+    img: "3-star/icon_licho01.png",
     opts: {
       rarity: [ "3+" ],
       guild: [ "gurus" ],
@@ -1430,7 +1430,7 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "Sanat Kumara",
-    img: "Hr5Heus.png",
+    img: "3-star/icon_sanatkumara01.png",
     opts: {
       rarity: [ "3+" ],
       guild: [ "invaders", "game_masters" ],
@@ -1440,7 +1440,7 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "Astaroth",
-    img: "HrRpUMB.png",
+    img: "3-star/icon_astaroth01.png",
     opts: {
       rarity: [ "3+" ],
       guild: [ "rule_makers", "independent" ],
@@ -1450,7 +1450,7 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "Dagon",
-    img: "HrRyTAb.png",
+    img: "3-star/icon_dagon01.png",
     opts: {
       rarity: [ "3+" ],
       guild: [ "no_guild", "wisemen" ],
@@ -1460,7 +1460,7 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "Tomte",
-    img: "Hr5JMOu.png",
+    img: "3-star/icon_tomte01.png",
     opts: {
       rarity: [ "3+" ],
       guild: [ "no_guild" ],
@@ -1470,7 +1470,7 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "Tezcatlipoca",
-    img: "Hr5J7V4.png",
+    img: "3-star/icon_tezcatlipoca01.png",
     opts: {
       rarity: [ "3+" ],
       guild: [ "warmongers" ],
@@ -1480,7 +1480,7 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "Shennong",
-    img: "Hr5HUMl.png",
+    img: "3-star/icon_shennong01.png",
     opts: {
       rarity: [ "3+" ],
       guild: [ "warmongers", "summoners" ],
@@ -1490,7 +1490,7 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "Yasuyori",
-    img: "Hr5Js0N.png",
+    img: "3-star/icon_yasuyori01.png",
     opts: {
       rarity: [ "3+" ],
       guild: [ "warmongers" ],
@@ -1501,7 +1501,7 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "Jacob",
-    img: "Hr59I1I.png",
+    img: "3-star/icon_jacob01.png",
     opts: {
       rarity: [ "3+" ],
       guild: [ "missionaries", "independent" ],
@@ -1511,7 +1511,7 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "Echo",
-    img: "HrRycKP.png",
+    img: "3-star/icon_echo01.png",
     opts: {
       rarity: [ "3+" ],
       guild: [ "no_guild" ],
@@ -1521,7 +1521,7 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "Heracles",
-    img: "HrRybbj.png",
+    img: "3-star/icon_heracles01.png",
     opts: {
       rarity: [ "3+" ],
       guild: [ "no_guild" ],
@@ -1531,7 +1531,7 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "Horus",
-    img: "Hr59JqB.png",
+    img: "3-star/icon_horus01.png",
     opts: {
       rarity: [ "3+" ],
       guild: [ "rule_makers" ],
@@ -1541,7 +1541,7 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "Cthugha",
-    img: "HrRyxSe.png",
+    img: "3-star/icon_cthugha01.png",
     opts: {
       rarity: [ "3+" ],
       guild: [ "berserkers" ],
@@ -1551,7 +1551,7 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "Bael",
-    img: "HrRpLAJ.png",
+    img: "3-star/icon_bael01.png",
     opts: {
       rarity: [ "3+" ],
       guild: [ "rule_makers" ],
@@ -1561,7 +1561,7 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "Leanan Sidhe",
-    img: "Hr598rP.png",
+    img: "3-star/icon_leanansidhe01.png",
     opts: {
       rarity: [ "3+" ],
       guild: [ "creators", "entertainers" ],
@@ -1571,7 +1571,7 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "Tanetomo",
-    img: "Hr5JqVR.png",
+    img: "3-star/icon_tanetomo01.png",
     opts: {
       rarity: [ "3+" ],
       guild: [ "warmongers" ],
@@ -1582,7 +1582,7 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "Daikoku",
-    img: "HrRyuNj.png",
+    img: "3-star/icon_daikoku01.png",
     opts: {
       rarity: [ "3+" ],
       guild: [ "warmongers" ],
@@ -1592,7 +1592,7 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "Teda",
-    img: "Hr5JTRn.png",
+    img: "3-star/icon_teda01.png",
     opts: {
       rarity: [ "3+" ],
       guild: [ "warmongers" ],
@@ -1602,7 +1602,7 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "Balor",
-    img: "HrRpQwv.png",
+    img: "3-star/icon_balor01.png",
     opts: {
       rarity: [ "3+" ],
       guild: [ "warmongers" ],
@@ -1612,7 +1612,7 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "Nezha",
-    img: "Hr5Hq37.png",
+    img: "3-star/icon_nezha01.png",
     opts: {
       rarity: [ "3+" ],
       guild: [ "warmongers" ],
@@ -1622,7 +1622,7 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "The Hero",
-    img: "Hr5JYil.png",
+    img: "3-star/icon_thehero01.png",
     opts: {
       rarity: [ "3+" ],
       guild: [ "no_guild" ],
@@ -1632,7 +1632,7 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "Orgus",
-    img: "Hr5H73P.png",
+    img: "3-star/icon_orgus01.png",
     opts: {
       rarity: [ "3+" ],
       guild: [ "no_guild" ],
@@ -1642,7 +1642,7 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "Sol",
-    img: "Hr5HbMQ.png",
+    img: "3-star/icon_sol01.png",
     opts: {
       rarity: [ "3+" ],
       guild: [ "no_guild" ],
@@ -1652,7 +1652,7 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "Nekros & Bacchus",
-    img: "HrOxq4S.gif",
+    img: "3-star/icon_nekros01.gif",
     opts: {
       rarity: [ "3+" ],
       guild: [ "no_guild" ],
@@ -1662,7 +1662,7 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "Kimun Kamui",
-    img: "Hr59V29.png",
+    img: "3-star/icon_kimunkamui01.png",
     opts: {
       rarity: [ "3+" ],
       guild: [ "missionaries" ],
@@ -1672,7 +1672,7 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "Yamasachihiko",
-    img: "Hr5Jifp.png",
+    img: "3-star/icon_yamasachihiko01.png",
     opts: {
       rarity: [ "3+" ],
       guild: [ "no_guild" ],
@@ -1682,7 +1682,7 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "Otohime",
-    img: "Hr5Hcyg.png",
+    img: "3-star/icon_otohime01.png",
     opts: {
       rarity: [ "3+" ],
       guild: [ "no_guild" ],
@@ -1692,7 +1692,7 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "Cait Sith",
-    img: "HrRyFt4.png",
+    img: "3-star/icon_caitsith01.png",
     opts: {
       rarity: [ "3+" ],
       guild: [ "tycoons" ],
@@ -1702,7 +1702,7 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "Tvastar",
-    img: "Hr5JO0B.png",
+    img: "3-star/icon_tvastar01.png",
     opts: {
       rarity: [ "3+" ],
       guild: [ "crafters" ],
@@ -1712,7 +1712,7 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "Shiva",
-    img: "Hr5HPS9.png",
+    img: "3-star/icon_shiva01.png",
     opts: {
       rarity: [ "3+" ],
       guild: [ "warmongers" ],
@@ -1722,7 +1722,7 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "Marduk",
-    img: "Hr59b2t.png",
+    img: "3-star/icon_marduk01.png",
     opts: {
       rarity: [ "3+" ],
       guild: [ "warmongers" ],
@@ -1732,7 +1732,7 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "Bertro",
-    img: "HrRyHSn.png",
+    img: "3-star/icon_bertro01.png",
     opts: {
       rarity: [ "3+" ],
       guild: [ "warmongers" ],
@@ -1742,7 +1742,7 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "Ellie",
-    img: "HrRy0UF.png",
+    img: "3-star/icon_ellie01.png",
     opts: {
       rarity: [ "3+" ],
       guild: [ "outlaws" ],
@@ -1752,7 +1752,7 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "Itzamna",
-    img: "Hr59osp.png",
+    img: "3-star/icon_itzamna01.png",
     opts: {
       rarity: [ "3+" ],
       guild: [ "creators" ],
@@ -1762,7 +1762,7 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "MacRoich",
-    img: "Hr59ihv.png",
+    img: "3-star/icon_macroich01.png",
     opts: {
       rarity: [ "3+" ],
       guild: [ "no_guild", "entertainers" ],
@@ -1772,7 +1772,7 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "Yoritomo",
-    img: "Hr5JLgI.png",
+    img: "3-star/icon_yoritomo01.png",
     opts: {
       rarity: [ "3+" ],
       guild: [ "warmongers" ],
@@ -1782,7 +1782,7 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "Mephistopheles",
-    img: "Hr5HHTG.png",
+    img: "3-star/icon_mephistopheles01.png",
     opts: {
       rarity: [ "3+" ],
       guild: [ "warmongers" ],
@@ -1792,7 +1792,7 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "Babe Bunyan",
-    img: "HrRps9a.png",
+    img: "3-star/icon_babebunyan01.png",
     opts: {
       rarity: [ "3+" ],
       guild: [ "invaders" ],
@@ -1802,7 +1802,7 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "Volkh Vseslav",
-    img: "Hr5JSOg.png",
+    img: "3-star/icon_volkh01.png",
     opts: {
       rarity: [ "3+" ],
       guild: [ "invaders" ],
@@ -1812,7 +1812,7 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "Masanori",
-    img: "Hr59pvn.png",
+    img: "3-star/icon_masanori01.png",
     opts: {
       rarity: [ "3+" ],
       guild: [ "invaders" ],
@@ -1823,7 +1823,7 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "Akiha Gongen",
-    img: "HrRpMn2.png",
+    img: "3-star/icon_akihagongen01.png",
     opts: {
       rarity: [ "3+" ],
       guild: [ "creators" ],
@@ -1833,7 +1833,7 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "Kresnik",
-    img: "Hr59Nhx.png",
+    img: "3-star/icon_kresnik01.png",
     opts: {
       rarity: [ "3+" ],
       guild: [ "outlaws" ],
@@ -1843,7 +1843,7 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "Tindalos",
-    img: "Hr5JGRe.png",
+    img: "3-star/icon_tindalos01.png",
     opts: {
       rarity: [ "3+" ],
       guild: [ "creators" ],
@@ -1853,7 +1853,7 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "Nodens",
-    img: "Hr5Hnyu.png",
+    img: "3-star/icon_nodens01.png",
     opts: {
       rarity: [ "3+" ],
       guild: [ "outlaws", "wisemen" ],
@@ -1863,7 +1863,7 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "Fuxi",
-    img: "HrRyVDv.png",
+    img: "3-star/icon_fuxi01.png",
     opts: {
       rarity: [ "3+" ],
       guild: [ "invaders", "wanderers" ],
@@ -1873,7 +1873,7 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "Sandayu",
-    img: "Hr5HkwG.png",
+    img: "3-star/icon_sandayu01.png",
     opts: {
       rarity: [ "3+" ],
       guild: [ "agents", "independent" ],
@@ -1883,7 +1883,7 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "Catoblepas",
-    img: "HrRyfol.png",
+    img: "3-star/icon_catoblepas01.png",
     opts: {
       rarity: [ "3+" ],
       guild: [ "creators" ],
@@ -1893,7 +1893,7 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "Smoky God",
-    img: "Hr5Jcf2.png",
+    img: "3-star/icon_thesmokygod01.png",
     opts: {
       rarity: [ "3+" ],
       guild: [ "invaders" ],
@@ -1903,7 +1903,7 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "Oguchi Magami",
-    img: "Hr5HIZx.png",
+    img: "3-star/icon_oguchimagami01.png",
     opts: {
       rarity: [ "3+" ],
       guild: [ "no_guild" ],
@@ -1913,7 +1913,7 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "Zhurong",
-    img: "Hr5JpzG.png",
+    img: "3-star/icon_zhurong01.png",
     opts: {
       rarity: [ "3+" ],
       guild: [ "no_guild", "wanderers" ],
@@ -1923,7 +1923,7 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "Sarutahiko",
-    img: "Hr5Hvtf.png",
+    img: "3-star/icon_sarutahiko01.png",
     opts: {
       rarity: [ "3+" ],
       guild: [ "no_guild" ],
@@ -1933,7 +1933,7 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "Hotei",
-    img: "Hr59d0P.png",
+    img: "3-star/icon_hotei01.png",
     opts: {
       rarity: [ "3+" ],
       guild: [ "wanderers" ],
@@ -1943,7 +1943,7 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "Wakan Tanka∞",
-    img: "Hr5J4Wv.png",
+    img: "3-star/icon_wakantankamugen01.png",
     opts: {
       rarity: [ "3+" ],
       guild: [ "invaders" ],
@@ -1953,7 +1953,7 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "Tangaroa∞",
-    img: "Hr5JnKN.png",
+    img: "3-star/icon_tangaroamugen01.png",
     opts: {
       rarity: [ "3+" ],
       guild: [ "invaders" ],
@@ -1963,7 +1963,7 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "Hermes",
-    img: "HrRypzx.png",
+    img: "3-star/icon_hermes01.png",
     opts: {
       rarity: [ "3+" ],
       guild: [ "wanderers" ],
@@ -1973,7 +1973,7 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "Boogeyman",
-    img: "HrRy2AG.png",
+    img: "3-star/icon_boogeyman01.png",
     opts: {
       rarity: [ "3+" ],
       guild: [ "entertainers" ],
@@ -1983,7 +1983,7 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "Barong",
-    img: "HrRpDnp.png",
+    img: "3-star/icon_barong01.png",
     opts: {
       rarity: [ "3+" ],
       guild: [ "entertainers" ],
@@ -1993,7 +1993,7 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "Enigma",
-    img: "HrRyEHg.png",
+    img: "3-star/icon_enigma01.png",
     opts: {
       rarity: [ "3+" ],
       guild: [ "creators" ],
@@ -2004,7 +2004,7 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "Israfil",
-    img: "Hr59nXR.png",
+    img: "3-star/icon_israfil01.png",
     opts: {
       rarity: [ "3+" ],
       guild: [ "rule_makers" ],
@@ -2014,7 +2014,7 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "Tuaring",
-    img: "Hr5JjiQ.png",
+    img: "3-star/icon_tuaring01.png",
     opts: {
       rarity: [ "3+" ],
       guild: [ "creators" ],
@@ -2024,7 +2024,7 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "Hecate",
-    img: "HrRyt5u.png",
+    img: "3-star/icon_hekate01.png",
     opts: {
       rarity: [ "3+" ],
       guild: [ "creators", "entertainers" ],
@@ -2034,7 +2034,7 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "Perun",
-    img: "Hr5HMnR.png",
+    img: "3-star/icon_perun01.png",
     opts: {
       rarity: [ "3+" ],
       guild: [ "invaders" ],
@@ -2044,7 +2044,7 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "Takeminakata",
-    img: "Hr5JFDJ.png",
+    img: "3-star/icon_takeminakata01.png",
     opts: {
       rarity: [ "3+" ],
       guild: [ "invaders", "tycoons" ],
@@ -2054,7 +2054,7 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "Yoshito",
-    img: "Hr5JZJt.png",
+    img: "3-star/icon_yoshito01.png",
     opts: {
       rarity: [ "3+" ],
       guild: [ "invaders" ],
@@ -2065,7 +2065,7 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "Ulaanbaatar",
-    img: "Hr5JvJ1.png",
+    img: "3-star/icon_ulaanbaatar01.png",
     opts: {
       rarity: [ "3+" ],
       guild: [ "no_guild" ],
@@ -2075,7 +2075,7 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "Taishakuten",
-    img: "Hr5J2Ag.png",
+    img: "3-star/icon_taishakuten01.png",
     opts: {
       rarity: [ "3+" ],
       guild: [ "gurus", "no_guild" ],
@@ -2085,7 +2085,7 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "∀Isaac",
-    img: "Hr59Czv.png",
+    img: "3-star/icon_isaac01.png",
     opts: {
       rarity: [ "3+" ],
       guild: [ "invaders" ],
@@ -2095,7 +2095,7 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "Gorozaemon",
-    img: "HrRyeUX.png",
+    img: "3-star/icon_gorozaemon01.png",
     opts: {
       rarity: [ "3+" ],
       guild: [ "entertainers" ],
@@ -2105,7 +2105,7 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "Jormungandr",
-    img: "Hr595es.png",
+    img: "3-star/icon_jormungandr01.png",
     opts: {
       rarity: [ "3+" ],
       guild: [ "no_guild" ],
@@ -2115,7 +2115,7 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "Vapula",
-    img: "Hr5J85F.png",
+    img: "3-star/icon_vapula01.png",
     opts: {
       rarity: [ "3+" ],
       guild: [ "creators" ],
@@ -2125,7 +2125,7 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "Ixbalanque",
-    img: "Hr59zqN.png",
+    img: "3-star/icon_ixbalanque01.png",
     opts: {
       rarity: [ "3+" ],
       guild: [ "exters" ],
@@ -2135,7 +2135,7 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "Sphinx",
-    img: "Hr5HmPV.png",
+    img: "3-star/icon_sphinx01.png",
     opts: {
       rarity: [ "3+" ],
       guild: [ "agents", "rule_makers" ],
@@ -2145,7 +2145,7 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "Kirito",
-    img: "Hr59W7e.png",
+    img: "3-star/icon_kirito_zero01.png",
     opts: {
       rarity: [ "3+" ],
       guild: [ "genociders", "independent" ],
@@ -2155,7 +2155,7 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "Bigfoot",
-    img: "HrRyd9s.png",
+    img: "3-star/icon_bigfoot01.png",
     opts: {
       rarity: [ "3+" ],
       guild: [ "agents", "entertainers" ],
@@ -2166,7 +2166,7 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "Simurgh",
-    img: "Hr5HQwb.png",
+    img: "3-star/icon_simurgh01.png",
     opts: {
       rarity: [ "3+" ],
       guild: [ "wanderers" ],
@@ -2176,7 +2176,7 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "Inaba",
-    img: "Hr59qmJ.png",
+    img: "3-star/icon_inaba01.png",
     opts: {
       rarity: [ "3+" ],
       guild: [ "summoners" ],
@@ -2186,7 +2186,7 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "Girimekra",
-    img: "HrRyNfI.png",
+    img: "3-star/icon_girimekra01.png",
     opts: {
       rarity: [ "3+" ],
       guild: [ "gurus", "missionaries" ],
@@ -2196,7 +2196,7 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "Hastur",
-    img: "HrRyZJe.png",
+    img: "3-star/icon_hastur01.png",
     opts: {
       rarity: [ "3+" ],
       guild: [ "beast_tamers" ],
@@ -2206,7 +2206,7 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "Q'ursha",
-    img: "Hr5HhFI.png",
+    img: "3-star/icon_qursha01.png",
     opts: {
       rarity: [ "3+" ],
       guild: [ "wanderers" ],
@@ -2216,7 +2216,7 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "Pazuzu",
-    img: "Hr5HEZv.png",
+    img: "3-star/icon_pazuzu01.png",
     opts: {
       rarity: [ "3+" ],
       guild: [ "beast_tamers" ],
@@ -2226,7 +2226,7 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "Nobumichi",
-    img: "Hr5HCve.png",
+    img: "3-star/icon_nobumichi01.png",
     opts: {
       rarity: [ "3+" ],
       guild: [ "rule_makers" ],
@@ -2237,7 +2237,7 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "Amduscias",
-    img: "HrRpw8u.png",
+    img: "3-star/icon_amduscias01.png",
     opts: {
       rarity: [ "3+" ],
       guild: [ "entertainers" ],
@@ -2247,7 +2247,7 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "Oscar",
-    img: "Hr5HYa1.png",
+    img: "3-star/icon_oscar01.png",
     opts: {
       rarity: [ "3+" ],
       guild: [ "entertainers" ],
@@ -2257,7 +2257,7 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "Gurangatch",
-    img: "HrRyrx4.png",
+    img: "3-star/icon_gurangatch01.png",
     opts: {
       rarity: [ "3+" ],
       guild: [ "wanderers" ],
@@ -2267,7 +2267,7 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "Yuma",
-    img: "Hr5Jt5X.png",
+    img: "3-star/icon_yuma01.png",
     opts: {
       rarity: [ "3+" ],
       guild: [ "beast_tamers" ],
@@ -2277,7 +2277,7 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "Quantum",
-    img: "Jx7oMNf.png",
+    img: "3-star/icon_quantum01.png",
     opts: {
       rarity: [ "3+" ],
 	  guild: [ "summoners", "independent" ],
@@ -2287,7 +2287,7 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "Ahura Mazda",
-    img: "HrRpavs.png",
+    img: "3-star/icon_ahuramazda01.png",
     opts: {
       rarity: [ "3+" ],
       guild: [ "rule_makers" ],
@@ -2297,7 +2297,7 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "Loki",
-    img: "Hr594pa.png",
+    img: "3-star/icon_loki01.png",
     opts: {
       rarity: [ "3+" ],
       guild: [ "entertainers" ],
@@ -2307,7 +2307,7 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "Tianzun",
-    img: "Hr5J0U7.png",
+    img: "3-star/icon_tianzun01.png",
     opts: {
       rarity: [ "3+" ],
       guild: [ "gurus" ],
@@ -2317,7 +2317,7 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "Beowulf",
-    img: "HrRy9cX.png",
+    img: "3-star/icon_beowulf01.png",
     opts: {
       rarity: [ "3+" ],
       guild: [ "game_masters", "berserkers" ],
@@ -2327,7 +2327,7 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "Cipactli",
-    img: "HLoNKDg.png",
+    img: "3-star/icon_cipactli01.png",
     opts: {
       rarity: [ "3+" ],
       guild: [ "entertainers" ],
@@ -2337,7 +2337,7 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "Reprobus",
-    img: "Hy4trf2.png",
+    img: "3-star/icon_reprobus01.png",
     opts: {
       rarity: [ "3+" ],
       guild: [ "missionaries" ],
@@ -2347,7 +2347,7 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "Gordon",
-    img: "JFNBMbV.png",
+    img: "3-star/icon_gordon01.png",
     opts: {
       rarity: [ "3+" ],
       guild: [ "no_guild" ],
@@ -2357,7 +2357,7 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "Fafnir",
-    img: "JFNBXWP.png",
+    img: "3-star/icon_fafnir01.png",
     opts: {
       rarity: [ "3+" ],
       guild: [ "no_guild" ],
@@ -2367,7 +2367,7 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "Claus",
-    img: "JFNBWzB.png",
+    img: "3-star/icon_claus01.png",
     opts: {
       rarity: [ "3+" ],
       guild: [ "no_guild" ],
@@ -2377,7 +2377,7 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "Shamash",
-    img: "Jx7oGAG.png",
+    img: "3-star/icon_shamash01.png",
     opts: {
       rarity: [ "3+" ],
       guild: [ "exters" ],
@@ -2387,7 +2387,7 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "Masashi",
-    img: "Jx7oVt4.png",
+    img: "3-star/icon_masashi01.png",
     opts: {
       rarity: [ "3+" ],
       guild: [ "rule_makers" ],
@@ -2398,7 +2398,7 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "Otter",
-    img: "J5KHjLB.png",
+    img: "3-star/icon_otter01.png",
     opts: {
       rarity: [ "3+" ],
       guild: [ "entertainers", "rule_makers" ],
@@ -2408,7 +2408,7 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "Qinglong",
-    img: "J5KHXzQ.png",
+    img: "3-star/icon_qinglong01.png",
     opts: {
       rarity: [ "3+" ],
       guild: [ "gurus" ],
@@ -2418,7 +2418,7 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "Amanojaku",
-    img: "J5KHhXV.png",
+    img: "3-star/icon_amanojaku01.png",
     opts: {
       rarity: [ "3+" ],
       guild: [ "gurus" ],
@@ -2428,7 +2428,7 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "Hippolytus",
-    img: "Jvcg8Pf.png",
+    img: "3-star/icon_hippolytus01.png",
     opts: {
       rarity: [ "3+" ],
       guild: [ "rule_makers" ],
@@ -2438,7 +2438,7 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "Hei Long Yi Quan",
-    img: "JvcgvMG.png",
+    img: "3-star/icon_heilongyiquan01.png",
     opts: {
       rarity: [ "3+" ],
       guild: [ "wanderers" ],
@@ -2448,7 +2448,7 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "Prometheus",
-    img: "JvcgUF4.png",
+    img: "3-star/icon_prometheus01.png",
     opts: {
       rarity: [ "3+" ],
       guild: [ "wanderers" ],
@@ -2458,7 +2458,7 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "Belphegor",
-    img: "Jvcgkns.png",
+    img: "3-star/icon_belphegor01.png",
     opts: {
       rarity: [ "3+" ],
       guild: [ "berserkers" ],
@@ -2468,7 +2468,7 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "Ame-no-Uzume",
-    img: "Jvcgwut.png",
+    img: "3-star/icon_amenouzume01.png",
     opts: {
       rarity: [ "3+" ],
       guild: [ "rule_makers", "independent" ],
@@ -2478,7 +2478,7 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "Willie Wildcat",
-    img: "Jvcg69S.png",
+    img: "3-star/icon_williewildcat01.png",
     opts: {
       rarity: [ "3+" ],
       guild: [ "exters" ],
@@ -2488,7 +2488,7 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "Amaterasu",
-    img: "JvcgNwX.png",
+    img: "3-star/icon_amaterasu01.png",
     opts: {
       rarity: [ "3+" ],
       guild: [ "rule_makers" ],
@@ -2498,7 +2498,7 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "Raven Arthur",
-    img: "Jvcggcl.png",
+    img: "3-star/icon_ravenarthur01.png",
     opts: {
       rarity: [ "3+" ],
       guild: [ "game_masters" ],
@@ -2508,7 +2508,7 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "Tu'er Shen",
-    img: "JvcgrS2.png",
+    img: "3-star/icon_tuershen01.png",
     opts: {
       rarity: [ "3+" ],
       guild: [ "wanderers", "rule_makers", "independent" ],
@@ -2518,7 +2518,7 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "Michael",
-    img: "dqJHyjS.png",
+    img: "3-star/icon_michael01.png",
     opts: {
       rarity: [ "3+" ],
 	  guild: [ "rule_makers" ],
@@ -2528,7 +2528,7 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "Baphomet",
-    img: "dqJJ9Z7.png",
+    img: "3-star/icon_baphomet01.png",
     opts: {
       rarity: [ "3+" ],
 	  guild: [ "rule_makers" ],
@@ -2538,7 +2538,7 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "Kokopelli",
-    img: "dqJJJn9.png",
+    img: "3-star/icon_kokopelli01.png",
     opts: {
       rarity: [ "3+" ],
 	  guild: [ "exters" ],
@@ -2548,7 +2548,7 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "Sanzo",
-    img: "dqJHpu2.png",
+    img: "3-star/icon_sanzo01.png",
     opts: {
       rarity: [ "3+" ],
 	  guild: [ "gurus" ],
@@ -2558,7 +2558,7 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "Y'golonac",
-    img: "dUIwO7I.png",
+    img: "3-star/icon_ygolonac01.png",
     opts: {
       rarity: [ "3+" ],
 	  guild: [ "outlaws" ],
@@ -2568,7 +2568,7 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "Himavat",
-    img: "dUIwkmX.png",
+    img: "3-star/icon_himavat01.png",
     opts: {
       rarity: [ "3+" ],
 	  guild: [ "no_guild" ],
@@ -2579,7 +2579,7 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "Kumano Gongen",
-    img: "dUIweet.png",
+    img: "3-star/icon_kumanogongen01.png",
     opts: {
       rarity: [ "3+" ],
 	  guild: [ "gurus", "no_guild" ],
@@ -2595,7 +2595,7 @@ dataSet[dataSetVersion].characterData = [
 
   {
     name: "Ikutoshi (Adult)",
-    img: "HrOx2jf.png",
+    img: "alts/icon_ikutoshi01_skin1.png",
     opts: {
       rarity: [ "3+" ],
       guild: [ "berserkers" ],
@@ -2606,7 +2606,7 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "Ophion (Young)",
-    img: "HrOxna9.png",
+    img: "alts/icon_ophion01_skin1.png",
     opts: {
       rarity: [ "3+" ],
       guild: [ "tycoons" ],
@@ -2617,7 +2617,7 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "Daisuke",
-    img: "HrSbKkQ.png",
+    img: "alts/icon_taurus01_skin1.png",
     opts: {
       rarity: [ "3+" ],
       guild: [ "berserkers" ],
@@ -2628,7 +2628,7 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "Dark Ded",
-    img: "HrOop2t.png",
+    img: "alts/icon_ded01_skin1.png",
     opts: {
       rarity: [ "3+" ],
       guild: [ "no_guild" ],
@@ -2639,7 +2639,7 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "Mysterious Lady",
-    img: "HrOxdTG.png",
+    img: "alts/icon_ibaraki01_skin1.png",
     opts: {
       rarity: [ "3+" ],
       guild: [ "outlaws" ],
@@ -2650,7 +2650,7 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "Behemoth (Fat)",
-    img: "HrSbfpV.png",
+    img: "alts/icon_behemoth01_skin1.png",
     opts: {
       rarity: [ "3+" ],
       guild: [ "no_guild", "summoners" ],
@@ -2661,7 +2661,7 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "Ose (Adult)",
-    img: "HrOxove.png",
+    img: "alts/icon_ose01_skin1.png",
     opts: {
       rarity: [ "3+" ],
       guild: [ "agents" ],
@@ -2672,7 +2672,7 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "Zo",
-    img: "HrOxITb.png",
+    img: "alts/icon_oz01_skin1.png",
     opts: {
       rarity: [ "3+" ],
       guild: [ "rule_makers" ],
@@ -2683,7 +2683,7 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "Talos",
-    img: "HrOxHps.png",
+    img: "alts/icon_hephaestus01_skin1.png",
     opts: {
       rarity: [ "3+" ],
       guild: [ "crafters" ],
@@ -2694,7 +2694,7 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "Goemon (Human)",
-    img: "HrOob4I.png",
+    img: "alts/icon_goemon01_skin1.png",
     opts: {
       rarity: [ "3+" ],
       guild: [ "entertainers" ],
@@ -2705,7 +2705,7 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "Astarte",
-    img: "HrOx9vn.png",
+    img: "alts/icon_astaroth01_skin1.png",
     opts: {
       rarity: [ "3+" ],
       guild: [ "rule_makers", "independent" ],
@@ -2716,7 +2716,7 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "Dagon (Canaan)",
-    img: "HrOoyYX.png",
+    img: "alts/icon_dagon01_skin1.png",
     opts: {
       rarity: [ "3+" ],
       guild: [ "no_guild", "wisemen" ],
@@ -2727,7 +2727,7 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "Tezcatlipoca (Plush)",
-    img: "HrOxRCQ.png",
+    img: "alts/icon_tezcatlipoca01_skin13.png",
     opts: {
       rarity: [ "3+" ],
       guild: [ "warmongers" ],
@@ -2738,7 +2738,7 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "Wen Kamui",
-    img: "HrOxKCl.png",
+    img: "alts/icon_kimunkamui01_skin1.png",
     opts: {
       rarity: [ "3+" ],
       guild: [ "missionaries" ],
@@ -2749,7 +2749,7 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "Vritra",
-    img: "HLoS3Rp.png",
+    img: "alts/icon_tvastar01_vritra.png",
     opts: {
       rarity: [ "3+" ],
       guild: [ "crafters" ],
@@ -2760,7 +2760,7 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "Shiva Mahakala",
-    img: "HrOxTjj.png",
+    img: "alts/icon_shiva01_skin1.png",
     opts: {
       rarity: [ "3+" ],
       guild: [ "warmongers" ],
@@ -2771,7 +2771,7 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "Mushussu",
-    img: "HLoSFON.png",
+    img: "alts/icon_marduk01_mushussu.png",
     opts: {
       rarity: [ "3+" ],
       guild: [ "warmongers" ],
@@ -2782,7 +2782,7 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "Nuadha",
-    img: "HrOxC37.png",
+    img: "alts/icon_nodens01_skin4.png",
     opts: {
       rarity: [ "3+" ],
       guild: [ "outlaws", "wisemen" ],
@@ -2793,7 +2793,7 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "Jormungandr (Dragon)",
-    img: "HrOx3Q4.png",
+    img: "alts/icon_jormungandr01_skin1.png",
     opts: {
       rarity: [ "3+" ],
       guild: [ "no_guild" ],
@@ -2804,7 +2804,7 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "Yuma (Therian)",
-    img: "HrOx5GV.png",
+    img: "alts/icon_yuma01_skin4.png",
     opts: {
       rarity: [ "3+" ],
       guild: [ "beast_tamers" ],
@@ -2815,7 +2815,7 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "Wyrm",
-    img: "HLoSKbI.png",
+    img: "alts/icon_beowulf01_wyrm.png",
     opts: {
       rarity: [ "3+" ],
       guild: [ "game_masters", "berserkers" ],
@@ -2826,7 +2826,7 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "Gordon Φ",
-    img: "JFNnB8G.png",
+    img: "alts/icon_gordon01_skin2.png",
     opts: {
       rarity: [ "3+" ],
       guild: [ "no_guild" ],
@@ -2837,7 +2837,7 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "Fafnir (Dragon)",
-    img: "JFNnn9f.png",
+    img: "alts/icon_fafnir01_skin1.png",
     opts: {
       rarity: [ "3+" ],
 	  guild: [ "no_guild" ],
@@ -2853,7 +2853,7 @@ dataSet[dataSetVersion].characterData = [
 
   {
     name: "Red Oni",
-    img: "Hr5fG5B.png",
+    img: "2-star/icon_goblinfire01b.png",
     opts: {
       rarity: [ "2" ],
 	  guild: [ "summoners" ],
@@ -2863,7 +2863,7 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "Blue Oni",
-    img: "Hr5fVb1.png",
+    img: "2-star/icon_goblinwater01b.png",
     opts: {
       rarity: [ "2" ],
 	  guild: [ "summoners" ],
@@ -2873,7 +2873,7 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "Green Oni",
-    img: "Hr5f0UQ.png",
+    img: "2-star/icon_goblinearth01b.png",
     opts: {
       rarity: [ "2" ],
 	  guild: [ "summoners" ],
@@ -2883,7 +2883,7 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "Yellow Oni",
-    img: "Hr5fMOP.png",
+    img: "2-star/icon_goblinlight01b.png",
     opts: {
       rarity: [ "2" ],
 	  guild: [ "summoners" ],
@@ -2893,7 +2893,7 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "Purple Oni",
-    img: "Hr5fl0x.png",
+    img: "2-star/icon_goblindark01b.png",
     opts: {
       rarity: [ "2" ],
 	  guild: [ "summoners" ],
@@ -2903,7 +2903,7 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "Fire Einherjar",
-    img: "Hr5fBiG.png",
+    img: "2-star/icon_einherjarfire01b.png",
     opts: {
       rarity: [ "2" ],
 	  guild: [ "summoners" ],
@@ -2912,7 +2912,7 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "Water Einherjar",
-    img: "Hr5fol4.png",
+    img: "2-star/icon_einherjarwater01b.png",
     opts: {
       rarity: [ "2" ],
 	  guild: [ "summoners" ],
@@ -2921,7 +2921,7 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "Wood Einherjar",
-    img: "Hr5fqVs.png",
+    img: "2-star/icon_einherjarearth01b.png",
     opts: {
       rarity: [ "2" ],
 	  guild: [ "summoners" ],
@@ -2930,7 +2930,7 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "Aether Einherjar",
-    img: "Hr5fnff.png",
+    img: "2-star/icon_einherjarlight01b.png",
     opts: {
       rarity: [ "2" ],
 	  guild: [ "summoners" ],
@@ -2939,7 +2939,7 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "Nether Einherjar",
-    img: "Hr5ffxn.png",
+    img: "2-star/icon_einherjardark01b.png",
     opts: {
       rarity: [ "2" ],
 	  guild: [ "summoners" ],
@@ -2948,7 +2948,7 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "Fire Valkyrie",
-    img: "Hr5Bl9V.png",
+    img: "2-star/icon_valkyriefire01b.png",
     opts: {
       rarity: [ "2" ],
 	  guild: [ "summoners" ],
@@ -2958,7 +2958,7 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "Water Valkyrie",
-    img: "Hr5B1wP.png",
+    img: "2-star/icon_valkyriewater01b.png",
     opts: {
       rarity: [ "2" ],
 	  guild: [ "summoners" ],
@@ -2968,7 +2968,7 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "Wood Valkyrie",
-    img: "Hr5Ba8Q.png",
+    img: "2-star/icon_valkyrieearth01b.png",
     opts: {
       rarity: [ "2" ],
 	  guild: [ "summoners" ],
@@ -2978,7 +2978,7 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "Aether Valkyrie",
-    img: "Hr5B0AB.png",
+    img: "2-star/icon_valkyrielight01b.png",
     opts: {
       rarity: [ "2" ],
 	  guild: [ "summoners" ],
@@ -2988,7 +2988,7 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "Nether Valkyrie",
-    img: "Hr5BYcx.png",
+    img: "2-star/icon_valkyriedark01b.png",
     opts: {
       rarity: [ "2" ],
 	  guild: [ "summoners" ],
@@ -2998,7 +2998,7 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "Ruby Scaled Wyvern",
-    img: "Hr5BZD7.png",
+    img: "2-star/icon_wyvernfire01b.png",
     opts: {
       rarity: [ "2" ],
 	  guild: [ "summoners" ],
@@ -3007,7 +3007,7 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "Azure Scaled Wyvern",
-    img: "Hr5BbVe.png",
+    img: "2-star/icon_wyvernwater01b.png",
     opts: {
       rarity: [ "2" ],
 	  guild: [ "summoners" ],
@@ -3016,7 +3016,7 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "Emerald Scaled Wyvern",
-    img: "Hr5BLR2.png",
+    img: "2-star/icon_wyvernearth01b.png",
     opts: {
       rarity: [ "2" ],
 	  guild: [ "summoners" ],
@@ -3025,7 +3025,7 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "Gold Scaled Wyvern",
-    img: "Hr5BDx9.png",
+    img: "2-star/icon_wyvernlight01b.png",
     opts: {
       rarity: [ "2" ],
 	  guild: [ "summoners" ],
@@ -3034,7 +3034,7 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "Obsidian Scaled Wyvern",
-    img: "Hr5BsHl.png",
+    img: "2-star/icon_wyverndark01b.png",
     opts: {
       rarity: [ "2" ],
 	  guild: [ "summoners" ],
@@ -3043,7 +3043,7 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "Fire Mobster",
-    img: "Hr5fZdl.png",
+    img: "2-star/icon_kurohukufire01b.png",
     opts: {
       rarity: [ "2" ],
 	  guild: [ "summoners" ],
@@ -3052,7 +3052,7 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "Water Mobster",
-    img: "Hr5fDeS.png",
+    img: "2-star/icon_kurohukuwater01b.png",
     opts: {
       rarity: [ "2" ],
 	  guild: [ "summoners" ],
@@ -3061,7 +3061,7 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "Wood Mobster",
-    img: "Hr5fs1f.png",
+    img: "2-star/icon_kurohukuearth01b.png",
     opts: {
       rarity: [ "2" ],
 	  guild: [ "summoners" ],
@@ -3070,7 +3070,7 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "Aether Mobster",
-    img: "Hr5ft72.png",
+    img: "2-star/icon_kurohukulight01b.png",
     opts: {
       rarity: [ "2" ],
 	  guild: [ "summoners" ],
@@ -3079,7 +3079,7 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "Nether Mobster",
-    img: "Hr5fiqG.png",
+    img: "2-star/icon_kurohukudark01b.png",
     opts: {
       rarity: [ "2" ],
 	  guild: [ "summoners" ],
@@ -3088,7 +3088,7 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "Fire Mermaid",
-    img: "Hr5q9Lu.png",
+    img: "2-star/icon_mermaidfire01b.png",
     opts: {
       rarity: [ "2" ],
 	  guild: [ "summoners" ],
@@ -3097,7 +3097,7 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "Water Mermaid",
-    img: "Hr5qd1j.png",
+    img: "2-star/icon_mermaidwater01b.png",
     opts: {
       rarity: [ "2" ],
 	  guild: [ "summoners" ],
@@ -3106,7 +3106,7 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "Wood Mermaid",
-    img: "Hr5fpI9.png",
+    img: "2-star/icon_mermaidearth01b.png",
     opts: {
       rarity: [ "2" ],
 	  guild: [ "summoners" ],
@@ -3115,7 +3115,7 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "Aether Mermaid",
-    img: "Hr5qJqb.png",
+    img: "2-star/icon_mermaidlight01b.png",
     opts: {
       rarity: [ "2" ],
 	  guild: [ "summoners" ],
@@ -3124,7 +3124,7 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "Nether Mermaid",
-    img: "Hr5fbm7.png",
+    img: "2-star/icon_mermaiddark01b.png",
     opts: {
       rarity: [ "2" ],
 	  guild: [ "summoners" ],
@@ -3133,7 +3133,7 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "Fire Merman",
-    img: "Hr5qfkB.png",
+    img: "2-star/icon_mermanfire01b.png",
     opts: {
       rarity: [ "2" ],
 	  guild: [ "summoners" ],
@@ -3142,7 +3142,7 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "Water Merman",
-    img: "Hr5qCI1.png",
+    img: "2-star/icon_mermanwater01b.png",
     opts: {
       rarity: [ "2" ],
 	  guild: [ "summoners" ],
@@ -3151,7 +3151,7 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "Wood Merman",
-    img: "Hr5qFdQ.png",
+    img: "2-star/icon_mermanearth01b.png",
     opts: {
       rarity: [ "2" ],
 	  guild: [ "summoners" ],
@@ -3160,7 +3160,7 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "Aether Merman",
-    img: "Hr5qqmP.png",
+    img: "2-star/icon_mermanlight01b.png",
     opts: {
       rarity: [ "2" ],
 	  guild: [ "summoners" ],
@@ -3169,7 +3169,7 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "Nether Merman",
-    img: "Hr5q2rx.png",
+    img: "2-star/icon_mermandark01b.png",
     opts: {
       rarity: [ "2" ],
 	  guild: [ "summoners" ],
@@ -3178,7 +3178,7 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "Red Tribe",
-    img: "Hr5qt6J.png",
+    img: "2-star/icon_tribefire01b.png",
     opts: {
       rarity: [ "2" ],
 	  guild: [ "summoners" ],
@@ -3188,7 +3188,7 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "Blue Tribe",
-    img: "Hr5qpvp.png",
+    img: "2-star/icon_tribewater01b.png",
     opts: {
       rarity: [ "2" ],
 	  guild: [ "summoners" ],
@@ -3198,7 +3198,7 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "Green Tribe",
-    img: "Hr5qQCg.png",
+    img: "2-star/icon_tribeearth01b.png",
     opts: {
       rarity: [ "2" ],
 	  guild: [ "summoners" ],
@@ -3208,7 +3208,7 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "Yellow Tribe",
-    img: "Hr5qmaR.png",
+    img: "2-star/icon_tribelight01b.png",
     opts: {
       rarity: [ "2" ],
 	  guild: [ "summoners" ],
@@ -3218,7 +3218,7 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "Purple Tribe",
-    img: "Hr5qsZF.png",
+    img: "2-star/icon_tribedark01b.png",
     opts: {
       rarity: [ "2" ],
 	  guild: [ "summoners" ],
@@ -3228,7 +3228,7 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "Shaded Oni",
-    img: "Hr5fEJV.png",
+    img: "2-star/icon_goblinevil01b.png",
     opts: {
       rarity: [ "2" ],
 	  guild: [ "summoners" ],
@@ -3238,7 +3238,7 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "Fire Deity",
-    img: "Hr5q4yB.png",
+    img: "2-star/icon_tenjinfire01b.png",
     opts: {
       rarity: [ "2" ],
 	  guild: [ "summoners" ],
@@ -3248,7 +3248,7 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "Water Deity",
-    img: "Hr5qij1.png",
+    img: "2-star/icon_tenjinwater01b.png",
     opts: {
       rarity: [ "2" ],
 	  guild: [ "summoners" ],
@@ -3258,7 +3258,7 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "Wood Deity",
-    img: "Hr5qgYQ.png",
+    img: "2-star/icon_tenjinearth01b.png",
     opts: {
       rarity: [ "2" ],
 	  guild: [ "summoners" ],
@@ -3268,7 +3268,7 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "Aether Deity",
-    img: "Hr5qPTP.png",
+    img: "2-star/icon_tenjinlight01b.png",
     opts: {
       rarity: [ "2" ],
 	  guild: [ "summoners" ],
@@ -3278,7 +3278,7 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "Nether Deity",
-    img: "Hr5qU3x.png",
+    img: "2-star/icon_tenjindark01b.png",
     opts: {
       rarity: [ "2" ],
 	  guild: [ "summoners" ],
@@ -3288,7 +3288,7 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "Infernal Deity",
-    img: "Hr5qrvV.png",
+    img: "2-star/icon_tenjinevil01b.png",
     opts: {
       rarity: [ "2" ],
 	  guild: [ "summoners" ],
@@ -3298,7 +3298,7 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "Fire Baron",
-    img: "Hr5fjsa.png",
+    img: "2-star/icon_governerfire01b.png",
     opts: {
       rarity: [ "2" ],
 	  guild: [ "summoners" ],
@@ -3307,7 +3307,7 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "Water Baron",
-    img: "Hr5fO0v.png",
+    img: "2-star/icon_governerwater01b.png",
     opts: {
       rarity: [ "2" ],
 	  guild: [ "summoners" ],
@@ -3316,7 +3316,7 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "Wood Baron",
-    img: "Hr5fhWg.png",
+    img: "2-star/icon_governerearth01b.png",
     opts: {
       rarity: [ "2" ],
 	  guild: [ "summoners" ],
@@ -3325,7 +3325,7 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "Aether Baron",
-    img: "Hr5fNqJ.png",
+    img: "2-star/icon_governerlight01b.png",
     opts: {
       rarity: [ "2" ],
 	  guild: [ "summoners" ],
@@ -3334,7 +3334,7 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "Nether Baron",
-    img: "Hr5fXzF.png",
+    img: "2-star/icon_governerdark01b.png",
     opts: {
       rarity: [ "2" ],
 	  guild: [ "summoners" ],
@@ -3343,7 +3343,7 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "Infernal Merman",
-    img: "Hr5qK7V.png",
+    img: "2-star/icon_mermanevil01b.png",
     opts: {
       rarity: [ "2" ],
 	  guild: [ "summoners" ],
@@ -3352,7 +3352,7 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "Infernal Mermaid",
-    img: "Hr5fyXe.png",
+    img: "2-star/icon_mermaidevil01b.png",
     opts: {
       rarity: [ "2" ],
 	  guild: [ "summoners" ],
@@ -3361,7 +3361,7 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "Fire Alchemist",
-    img: "Hr5KkN9.png",
+    img: "2-star/icon_alchemistfire01b.png",
     opts: {
       rarity: [ "2" ],
 	  guild: [ "summoners" ],
@@ -3370,7 +3370,7 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "Water Alchemist",
-    img: "Hr5KUMb.png",
+    img: "2-star/icon_alchemistwater01b.png",
     opts: {
       rarity: [ "2" ],
 	  guild: [ "summoners" ],
@@ -3379,7 +3379,7 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "Wood Alchemist",
-    img: "Hr5KO9S.png",
+    img: "2-star/icon_alchemistearth01b.png",
     opts: {
       rarity: [ "2" ],
 	  guild: [ "summoners" ],
@@ -3388,7 +3388,7 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "Aether Alchemist",
-    img: "Hr5KSou.png",
+    img: "2-star/icon_alchemistlight01b.png",
     opts: {
       rarity: [ "2" ],
 	  guild: [ "summoners" ],
@@ -3397,7 +3397,7 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "Nether Alchemist",
-    img: "Hr5KwS2.png",
+    img: "2-star/icon_alchemistdark01b.png",
     opts: {
       rarity: [ "2" ],
 	  guild: [ "summoners" ],
@@ -3406,7 +3406,7 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "Infernal Alchemist",
-    img: "Hr5KeA7.png",
+    img: "2-star/icon_alchemistevil01b.png",
     opts: {
       rarity: [ "2" ],
 	  guild: [ "summoners" ],
@@ -3415,7 +3415,7 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "Red Trooper",
-    img: "Hr5BIt9.png",
+    img: "2-star/icon_trooperfire01b.png",
     opts: {
       rarity: [ "2" ],
 	  guild: [ "summoners" ],
@@ -3424,7 +3424,7 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "Blue Trooper",
-    img: "Hr5BR6b.png",
+    img: "2-star/icon_trooperwater01b.png",
     opts: {
       rarity: [ "2" ],
 	  guild: [ "summoners" ],
@@ -3433,7 +3433,7 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "Green Trooper",
-    img: "Hr5BxuS.png",
+    img: "2-star/icon_trooperearth01b.png",
     opts: {
       rarity: [ "2" ],
 	  guild: [ "summoners" ],
@@ -3442,7 +3442,7 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "Yellow Trooper",
-    img: "Hr5BAMu.png",
+    img: "2-star/icon_trooperlight01b.png",
     opts: {
       rarity: [ "2" ],
 	  guild: [ "summoners" ],
@@ -3451,7 +3451,7 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "Purple Trooper",
-    img: "Hr5Bo92.png",
+    img: "2-star/icon_trooperdark01b.png",
     opts: {
       rarity: [ "2" ],
 	  guild: [ "summoners" ],
@@ -3460,7 +3460,7 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "Black Trooper",
-    img: "Hr5Bzw7.png",
+    img: "2-star/icon_trooperevil01b.png",
     opts: {
       rarity: [ "2" ],
 	  guild: [ "summoners" ],
@@ -3469,7 +3469,7 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "White Trooper",
-    img: "Hr5Bune.png",
+    img: "2-star/icon_trooperhero01b.png",
     opts: {
       rarity: [ "2" ],
 	  guild: [ "summoners" ],
@@ -3478,7 +3478,7 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "Brown Trooper",
-    img: "Hr5B7Fj.png",
+    img: "2-star/icon_trooperworld01b.png",
     opts: {
       rarity: [ "2" ],
 	  guild: [ "summoners" ],
@@ -3487,7 +3487,7 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "Red Luchador",
-    img: "Hr5BUVn.png",
+    img: "2-star/icon_wrestlerfire01b.png",
     opts: {
       rarity: [ "2" ],
 	  guild: [ "summoners" ],
@@ -3497,7 +3497,7 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "Blue Luchador",
-    img: "Hr5B6lf.png",
+    img: "2-star/icon_wrestlerwater01b.png",
     opts: {
       rarity: [ "2" ],
 	  guild: [ "summoners" ],
@@ -3507,7 +3507,7 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "Green Luchador",
-    img: "Hr5Bvtt.png",
+    img: "2-star/icon_wrestlerearth01b.png",
     opts: {
       rarity: [ "2" ],
 	  guild: [ "summoners" ],
@@ -3517,7 +3517,7 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "Yellow Luchador",
-    img: "Hr5B4KG.png",
+    img: "2-star/icon_wrestlerlight01b.png",
     opts: {
       rarity: [ "2" ],
 	  guild: [ "summoners" ],
@@ -3527,7 +3527,7 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "Purple Luchador",
-    img: "Hr5BkNI.png",
+    img: "2-star/icon_wrestlerdark01b.png",
     opts: {
       rarity: [ "2" ],
 	  guild: [ "summoners" ],
@@ -3537,7 +3537,7 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "Black Luchador",
-    img: "Hr5BSoX.png",
+    img: "2-star/icon_wrestlerevil01b.png",
     opts: {
       rarity: [ "2" ],
 	  guild: [ "summoners" ],
@@ -3547,7 +3547,7 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "White Luchador",
-    img: "Hr5BgPs.png",
+    img: "2-star/icon_wrestlerhero01b.png",
     opts: {
       rarity: [ "2" ],
 	  guild: [ "summoners" ],
@@ -3557,7 +3557,7 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "Brown Luchador",
-    img: "Hr5BPS4.png",
+    img: "2-star/icon_wrestlerworld01b.png",
     opts: {
       rarity: [ "2" ],
 	  guild: [ "summoners" ],
@@ -3567,7 +3567,7 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "Red Yaksha",
-    img: "Hr5CHUx.png",
+    img: "2-star/icon_yakshafire01b.png",
     opts: {
       rarity: [ "2" ],
 	  guild: [ "summoners" ],
@@ -3576,7 +3576,7 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "Blue Yaksha",
-    img: "Hr5C3OB.png",
+    img: "2-star/icon_yakshawater01b.png",
     opts: {
       rarity: [ "2" ],
 	  guild: [ "summoners" ],
@@ -3585,7 +3585,7 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "Green Yaksha",
-    img: "Hr5ByKb.png",
+    img: "2-star/icon_yakshaearth01b.png",
     opts: {
       rarity: [ "2" ],
 	  guild: [ "summoners" ],
@@ -3594,7 +3594,7 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "Yellow Yaksha",
-    img: "Hr5C2RV.png",
+    img: "2-star/icon_yakshalight01b.png",
     opts: {
       rarity: [ "2" ],
 	  guild: [ "summoners" ],
@@ -3603,7 +3603,7 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "Purple Yaksha",
-    img: "Hr5Bmiu.png",
+    img: "2-star/icon_yakshadark01b.png",
     opts: {
       rarity: [ "2" ],
 	  guild: [ "summoners" ],
@@ -3612,7 +3612,7 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "Black Yaksha",
-    img: "Hr5C9lj.png",
+    img: "2-star/icon_yakshaevil01b.png",
     opts: {
       rarity: [ "2" ],
 	  guild: [ "summoners" ],
@@ -3621,7 +3621,7 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "White Yaksha",
-    img: "Hr5CdHQ.png",
+    img: "2-star/icon_yakshahero01b.png",
     opts: {
       rarity: [ "2" ],
 	  guild: [ "summoners" ],
@@ -3630,7 +3630,7 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "Brown Yaksha",
-    img: "Hr5CFDP.png",
+    img: "2-star/icon_yakshaworld01b.png",
     opts: {
       rarity: [ "2" ],
 	  guild: [ "summoners" ],
@@ -3639,7 +3639,7 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "Fire Jiangshi",
-    img: "Hr5fSeI.png",
+    img: "2-star/icon_jiangshifire01b.png",
     opts: {
       rarity: [ "2" ],
 	  guild: [ "summoners" ],
@@ -3649,7 +3649,7 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "Water Jiangshi",
-    img: "Hr5f4Xn.png",
+    img: "2-star/icon_jiangshiwater01b.png",
     opts: {
       rarity: [ "2" ],
 	  guild: [ "summoners" ],
@@ -3659,7 +3659,7 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "Wood Jiangshi",
-    img: "Hr5fvJp.png",
+    img: "2-star/icon_jiangshiearth01b.png",
     opts: {
       rarity: [ "2" ],
 	  guild: [ "summoners" ],
@@ -3669,7 +3669,7 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "Aether Jiangshi",
-    img: "Hr5frzX.png",
+    img: "2-star/icon_jiangshilight01b.png",
     opts: {
       rarity: [ "2" ],
 	  guild: [ "summoners" ],
@@ -3679,7 +3679,7 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "Nether Jiangshi",
-    img: "Hr5fegR.png",
+    img: "2-star/icon_jiangshidark01b.png",
     opts: {
       rarity: [ "2" ],
 	  guild: [ "summoners" ],
@@ -3689,7 +3689,7 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "Black Tribe",
-    img: "Hr5qZGa.png",
+    img: "2-star/icon_tribeevil01b.png",
     opts: {
       rarity: [ "2" ],
 	  guild: [ "summoners" ],
@@ -3699,7 +3699,7 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "White Tribe",
-    img: "Hr5qb3v.png",
+    img: "2-star/icon_tribehero01b.png",
     opts: {
       rarity: [ "2" ],
 	  guild: [ "summoners" ],
@@ -3709,7 +3709,7 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "Brown Tribe",
-    img: "Hr5qyyN.png",
+    img: "2-star/icon_tribeworld01b.png",
     opts: {
       rarity: [ "2" ],
 	  guild: [ "summoners" ],
@@ -3719,7 +3719,7 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "Fire Giant",
-    img: "Hr5fuO7.png",
+    img: "2-star/icon_giantfire01b.png",
     opts: {
       rarity: [ "2" ],
 	  guild: [ "summoners" ],
@@ -3728,7 +3728,7 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "Water Giant",
-    img: "Hr5fol4.png",
+    img: "2-star/icon_giantwater01b.png",
     opts: {
       rarity: [ "2" ],
 	  guild: [ "summoners" ],
@@ -3737,7 +3737,7 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "Wood Giant",
-    img: "Hr5fIJ2.png",
+    img: "2-star/icon_giantearth01b.png",
     opts: {
       rarity: [ "2" ],
 	  guild: [ "summoners" ],
@@ -3746,7 +3746,7 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "Aether Giant",
-    img: "Hr5f7Wu.png",
+    img: "2-star/icon_giantlight01b.png",
     opts: {
       rarity: [ "2" ],
 	  guild: [ "summoners" ],
@@ -3755,7 +3755,7 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "Nether Giant",
-    img: "Hr5fxUl.png",
+    img: "2-star/icon_giantdark01b.png",
     opts: {
       rarity: [ "2" ],
 	  guild: [ "summoners" ],
@@ -3764,7 +3764,7 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "Infernal Giant",
-    img: "Hr5fTRS.png",
+    img: "2-star/icon_giantevil01b.png",
     opts: {
       rarity: [ "2" ],
 	  guild: [ "summoners" ],
@@ -3773,7 +3773,7 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "Valiant Giant",
-    img: "Hr5fAb9.png",
+    img: "2-star/icon_gianthero01b.png",
     opts: {
       rarity: [ "2" ],
 	  guild: [ "summoners" ],
@@ -3782,7 +3782,7 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "World Giant",
-    img: "Hr5fcfj.png",
+    img: "2-star/icon_giantworld01b.png",
     opts: {
       rarity: [ "2" ],
 	  guild: [ "summoners" ],
@@ -3791,7 +3791,7 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "Fire Ciramantep",
-    img: "Hr5fHSp.png",
+    img: "2-star/icon_ciramantepfire01b.png",
     opts: {
       rarity: [ "2" ],
 	  guild: [ "summoners" ],
@@ -3801,7 +3801,7 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "Water Ciramantep",
-    img: "Hr5f3Nt.png",
+    img: "2-star/icon_ciramantepwater01b.png",
     opts: {
       rarity: [ "2" ],
 	  guild: [ "summoners" ],
@@ -3811,7 +3811,7 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "Wood Ciramantep",
-    img: "Hr5KyKv.png",
+    img: "2-star/icon_ciramantepearth01b.png",
     opts: {
       rarity: [ "2" ],
 	  guild: [ "summoners" ],
@@ -3821,7 +3821,7 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "Aether Ciramantep",
-    img: "Hr5f2RI.png",
+    img: "2-star/icon_ciramanteplight01b.png",
     opts: {
       rarity: [ "2" ],
 	  guild: [ "summoners" ],
@@ -3831,7 +3831,7 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "Nether Ciramantep",
-    img: "Hr5KmiJ.png",
+    img: "2-star/icon_ciramantepdark01b.png",
     opts: {
       rarity: [ "2" ],
 	  guild: [ "summoners" ],
@@ -3841,7 +3841,7 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "Infernal Ciramantep",
-    img: "Hr5f9lR.png",
+    img: "2-star/icon_ciramantepevil01b.png",
     opts: {
       rarity: [ "2" ],
 	  guild: [ "summoners" ],
@@ -3851,7 +3851,7 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "Valiant Ciramantep",
-    img: "Hr5fdHN.png",
+    img: "2-star/icon_ciramantephero01b.png",
     opts: {
       rarity: [ "2" ],
 	  guild: [ "summoners" ],
@@ -3861,7 +3861,7 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "World Ciramantep",
-    img: "Hr5fFDX.png",
+    img: "2-star/icon_ciramantepworld01b.png",
     opts: {
       rarity: [ "2" ],
 	  guild: [ "summoners" ],
@@ -3871,7 +3871,7 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "Infernal Jiangshi",
-    img: "Hr5f85N.png",
+    img: "2-star/icon_jiangshievil01b.png",
     opts: {
       rarity: [ "2" ],
 	  guild: [ "summoners" ],
@@ -3881,7 +3881,7 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "Valiant Jiangshi",
-    img: "Hr5fUbt.png",
+    img: "2-star/icon_jiangshihero01b.png",
     opts: {
       rarity: [ "2" ],
 	  guild: [ "summoners" ],
@@ -3891,7 +3891,7 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "World Jiangshi",
-    img: "Hr5f6ss.png",
+    img: "2-star/icon_jiangshiworld01b.png",
     opts: {
       rarity: [ "2" ],
 	  guild: [ "summoners" ],
@@ -3901,7 +3901,7 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "Red Ranger",
-    img: "Hr5qlQn.png",
+    img: "2-star/icon_rangerfire01b.png",
     opts: {
       rarity: [ "2" ],
 	  guild: [ "summoners" ],
@@ -3910,7 +3910,7 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "Blue Ranger",
-    img: "Hr5qG4f.png",
+    img: "2-star/icon_rangerwater01b.png",
     opts: {
       rarity: [ "2" ],
 	  guild: [ "summoners" ],
@@ -3919,7 +3919,7 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "Green Ranger",
-    img: "Hr5qaIt.png",
+    img: "2-star/icon_rangerearth01b.png",
     opts: {
       rarity: [ "2" ],
 	  guild: [ "summoners" ],
@@ -3928,7 +3928,7 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "Yellow Ranger",
-    img: "Hr5qEEG.png",
+    img: "2-star/icon_rangerlight01b.png",
     opts: {
       rarity: [ "2" ],
 	  guild: [ "summoners" ],
@@ -3937,7 +3937,7 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "Purple Ranger",
-    img: "Hr5q7pI.png",
+    img: "2-star/icon_rangerdark01b.png",
     opts: {
       rarity: [ "2" ],
 	  guild: [ "summoners" ],
@@ -3946,7 +3946,7 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "Black Ranger",
-    img: "Hr5qchX.png",
+    img: "2-star/icon_rangerevil01b.png",
     opts: {
       rarity: [ "2" ],
 	  guild: [ "summoners" ],
@@ -3955,7 +3955,7 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "White Ranger",
-    img: "Hr5q1Bs.png",
+    img: "2-star/icon_rangerhero01b.png",
     opts: {
       rarity: [ "2" ],
 	  guild: [ "summoners" ],
@@ -3964,7 +3964,7 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "Brown Ranger",
-    img: "Hr5qV24.png",
+    img: "2-star/icon_rangerworld01b.png",
     opts: {
       rarity: [ "2" ],
 	  guild: [ "summoners" ],
@@ -3973,7 +3973,7 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "Valiant Alchemist",
-    img: "Hr5Kvte.png",
+    img: "2-star/icon_alchemisthero01b.png",
     opts: {
       rarity: [ "2" ],
 	  guild: [ "summoners" ],
@@ -3982,7 +3982,7 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "World Alchemist",
-    img: "Hr5KgPj.png",
+    img: "2-star/icon_alchemistworld01b.png",
     opts: {
       rarity: [ "2" ],
 	  guild: [ "summoners" ],
@@ -3991,7 +3991,7 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "Red Nightgaunt",
-    img: "Hr5qIEJ.png",
+    img: "2-star/icon_nightgauntfire01b.png",
     opts: {
       rarity: [ "2" ],
 	  guild: [ "summoners" ],
@@ -4001,7 +4001,7 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "Blue Nightgaunt",
-    img: "Hr5qR7p.png",
+    img: "2-star/icon_nightgauntwater01b.png",
     opts: {
       rarity: [ "2" ],
 	  guild: [ "summoners" ],
@@ -4011,7 +4011,7 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "Green Nightgaunt",
-    img: "Hr5qoLg.png",
+    img: "2-star/icon_nightgauntearth01b.png",
     opts: {
       rarity: [ "2" ],
 	  guild: [ "summoners" ],
@@ -4021,7 +4021,7 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "Yellow Nightgaunt",
-    img: "Hr5qA2R.png",
+    img: "2-star/icon_nightgauntlight01b.png",
     opts: {
       rarity: [ "2" ],
 	  guild: [ "summoners" ],
@@ -4031,7 +4031,7 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "Purple Nightgaunt",
-    img: "Hr5qnhF.png",
+    img: "2-star/icon_nightgauntdark01b.png",
     opts: {
       rarity: [ "2" ],
 	  guild: [ "summoners" ],
@@ -4041,7 +4041,7 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "Black Nightgaunt",
-    img: "Hr5qzBa.png",
+    img: "2-star/icon_nightgauntevil01b.png",
     opts: {
       rarity: [ "2" ],
 	  guild: [ "summoners" ],
@@ -4051,7 +4051,7 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "White Nightgaunt",
-    img: "Hr5qTrv.png",
+    img: "2-star/icon_nightgaunthero01b.png",
     opts: {
       rarity: [ "2" ],
 	  guild: [ "summoners" ],
@@ -4061,7 +4061,7 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "Brown Nightgaunt",
-    img: "Hr5q5kN.png",
+    img: "2-star/icon_nightgauntworld01b.png",
     opts: {
       rarity: [ "2" ],
 	  guild: [ "summoners" ],
@@ -4071,7 +4071,7 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "Red Agent",
-    img: "Hr5K0ut.png",
+    img: "2-star/icon_agentfire01b.png",
     opts: {
       rarity: [ "2" ],
 	  guild: [ "summoners" ],
@@ -4080,7 +4080,7 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "Blue Agent",
-    img: "Hr5KhF4.png",
+    img: "2-star/icon_agentwater01b.png",
     opts: {
       rarity: [ "2" ],
 	  guild: [ "summoners" ],
@@ -4089,7 +4089,7 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "Green Agent",
-    img: "Hr5K1wX.png",
+    img: "2-star/icon_agentearth01b.png",
     opts: {
       rarity: [ "2" ],
 	  guild: [ "summoners" ],
@@ -4098,7 +4098,7 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "Yellow Agent",
-    img: "Hr5KWPf.png",
+    img: "2-star/icon_agentlight01b.png",
     opts: {
       rarity: [ "2" ],
 	  guild: [ "summoners" ],
@@ -4107,7 +4107,7 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "Purple Agent",
-    img: "Hr5KVMG.png",
+    img: "2-star/icon_agentdark01b.png",
     opts: {
       rarity: [ "2" ],
 	  guild: [ "summoners" ],
@@ -4116,7 +4116,7 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "Black Agent",
-    img: "Hr5KEtn.png",
+    img: "2-star/icon_agentevil01b.png",
     opts: {
       rarity: [ "2" ],
 	  guild: [ "summoners" ],
@@ -4125,7 +4125,7 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "White Agent",
-    img: "Hr5KMns.png",
+    img: "2-star/icon_agenthero01b.png",
     opts: {
       rarity: [ "2" ],
 	  guild: [ "summoners" ],
@@ -4134,7 +4134,7 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "Brown Agent",
-    img: "Hr5Kjcl.png",
+    img: "2-star/icon_agentworld01b.png",
     opts: {
       rarity: [ "2" ],
 	  guild: [ "summoners" ],
@@ -4143,7 +4143,7 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "Fire Trickster",
-    img: "Hr5B3nn.png",
+    img: "2-star/icon_tricksterfire01b.png",
     opts: {
       rarity: [ "2" ],
 	  guild: [ "summoners" ],
@@ -4152,7 +4152,7 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "Water Trickster",
-    img: "Hr5BBa4.png",
+    img: "2-star/icon_tricksterwater01b.png",
     opts: {
       rarity: [ "2" ],
 	  guild: [ "summoners" ],
@@ -4161,7 +4161,7 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "Wood Trickster",
-    img: "Hr5BJjt.png",
+    img: "2-star/icon_tricksterearth01b.png",
     opts: {
       rarity: [ "2" ],
 	  guild: [ "summoners" ],
@@ -4170,7 +4170,7 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "Aether Trickster",
-    img: "Hr5BqFf.png",
+    img: "2-star/icon_tricksterlight01b.png",
     opts: {
       rarity: [ "2" ],
 	  guild: [ "summoners" ],
@@ -4179,7 +4179,7 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "Nether Trickster",
-    img: "Hr5BHuI.png",
+    img: "2-star/icon_tricksterdark01b.png",
     opts: {
       rarity: [ "2" ],
 	  guild: [ "summoners" ],
@@ -4188,7 +4188,7 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "Infernal Trickster",
-    img: "Hr5BdZX.png",
+    img: "2-star/icon_tricksterevil01b.png",
     opts: {
       rarity: [ "2" ],
 	  guild: [ "summoners" ],
@@ -4197,7 +4197,7 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "Valiant Trickster",
-    img: "Hr5BFGs.png",
+    img: "2-star/icon_tricksterhero01b.png",
     opts: {
       rarity: [ "2" ],
 	  guild: [ "summoners" ],
@@ -4206,7 +4206,7 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "World Trickster",
-    img: "Hr5BC8l.png",
+    img: "2-star/icon_tricksterworld01b.png",
     opts: {
       rarity: [ "2" ],
 	  guild: [ "summoners" ],
@@ -4215,7 +4215,7 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "Red Camouflager",
-    img: "Hr5KLAP.png",
+    img: "2-star/icon_camouflagerfire01b.png",
     opts: {
       rarity: [ "2" ],
 	  guild: [ "summoners" ],
@@ -4224,7 +4224,7 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "Blue Camouflager",
-    img: "Hr5KDog.png",
+    img: "2-star/icon_camouflagerwater01b.png",
     opts: {
       rarity: [ "2" ],
 	  guild: [ "summoners" ],
@@ -4233,7 +4233,7 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "Green Camouflager",
-    img: "Hr5KPSV.png",
+    img: "2-star/icon_camouflagerearth01b.png",
     opts: {
       rarity: [ "2" ],
 	  guild: [ "summoners" ],
@@ -4242,7 +4242,7 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "Yellow Camouflager",
-    img: "Hr5KZDF.png",
+    img: "2-star/icon_camouflagerlight01b.png",
     opts: {
       rarity: [ "2" ],
 	  guild: [ "summoners" ],
@@ -4251,7 +4251,7 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "Purple Camouflager",
-    img: "Hr5K6cQ.png",
+    img: "2-star/icon_camouflagerdark01b.png",
     opts: {
       rarity: [ "2" ],
 	  guild: [ "summoners" ],
@@ -4260,7 +4260,7 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "Dark Camouflager",
-    img: "Hr5KsHB.png",
+    img: "2-star/icon_camouflagerevil01b.png",
     opts: {
       rarity: [ "2" ],
 	  guild: [ "summoners" ],
@@ -4269,7 +4269,7 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "White Camouflager",
-    img: "Hr5KQN1.png",
+    img: "2-star/icon_camouflagerhero01b.png",
     opts: {
       rarity: [ "2" ],
 	  guild: [ "summoners" ],
@@ -4278,7 +4278,7 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "Brown Camouflager",
-    img: "Hr5KbVa.png",
+    img: "2-star/icon_camouflagerworld01b.png",
     opts: {
       rarity: [ "2" ],
 	  guild: [ "summoners" ],
@@ -4287,7 +4287,7 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "Sand Dragon",
-    img: "Hr5qWYl.png",
+    img: "2-star/icon_sanddragon01b.png",
     opts: {
       rarity: [ "2" ],
 	  guild: [ "summoners" ],
@@ -4296,7 +4296,7 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "Fire Wraith",
-    img: "Hr5BWPa.png",
+    img: "2-star/icon_wraithfire01b.png",
     opts: {
       rarity: [ "2" ],
 	  guild: [ "summoners" ],
@@ -4305,7 +4305,7 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "Water Wraith",
-    img: "Hr5BwSR.png",
+    img: "2-star/icon_wraithwater01b.png",
     opts: {
       rarity: [ "2" ],
 	  guild: [ "summoners" ],
@@ -4314,7 +4314,7 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "Wood Wraith",
-    img: "Hr5BMoF.png",
+    img: "2-star/icon_wraithearth01b.png",
     opts: {
       rarity: [ "2" ],
 	  guild: [ "summoners" ],
@@ -4323,7 +4323,7 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "Aether Wraith",
-    img: "Hr5Bjcv.png",
+    img: "2-star/icon_wraithlight01b.png",
     opts: {
       rarity: [ "2" ],
 	  guild: [ "summoners" ],
@@ -4332,7 +4332,7 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "Nether Wraith",
-    img: "Hr5BEt1.png",
+    img: "2-star/icon_wraithdark01b.png",
     opts: {
       rarity: [ "2" ],
 	  guild: [ "summoners" ],
@@ -4341,7 +4341,7 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "Infernal Wraith",
-    img: "Hr5BVMg.png",
+    img: "2-star/icon_wraithevil01b.png",
     opts: {
       rarity: [ "2" ],
 	  guild: [ "summoners" ],
@@ -4350,7 +4350,7 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "Valiant Wraith",
-    img: "Hr5BhKJ.png",
+    img: "2-star/icon_wraithhero01b.png",
     opts: {
       rarity: [ "2" ],
 	  guild: [ "summoners" ],
@@ -4359,7 +4359,7 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "World Wraith",
-    img: "Hr5BO9p.png",
+    img: "2-star/icon_wraithworld01b.png",
     opts: {
       rarity: [ "2" ],
 	  guild: [ "summoners" ],
@@ -4368,7 +4368,7 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "Shadow Scaled Wyvern",
-    img: "J5KHl19.png",
+    img: "2-star/icon_wyvernevil01b.png",
     opts: {
       rarity: [ "2" ],
 	  guild: [ "summoners" ],
@@ -4377,7 +4377,7 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "Fire Senri",
-    img: "Hr5qNj9.png",
+    img: "2-star/icon_senrifire01b.png",
     opts: {
       rarity: [ "2" ],
 	  guild: [ "summoners" ],
@@ -4386,7 +4386,7 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "Water Senri",
-    img: "Hr5qvEb.png",
+    img: "2-star/icon_senriwater01b.png",
     opts: {
       rarity: [ "2" ],
 	  guild: [ "summoners" ],
@@ -4395,7 +4395,7 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "Wood Senri",
-    img: "Hr5qhpS.png",
+    img: "2-star/icon_senriearth01b.png",
     opts: {
       rarity: [ "2" ],
 	  guild: [ "summoners" ],
@@ -4404,7 +4404,7 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "Aether Senri",
-    img: "Hr5qkCu.png",
+    img: "2-star/icon_senrilight01b.png",
     opts: {
       rarity: [ "2" ],
 	  guild: [ "summoners" ],
@@ -4413,7 +4413,7 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "Nether Senri",
-    img: "Hr5qXv2.png",
+    img: "2-star/icon_senridark01b.png",
     opts: {
       rarity: [ "2" ],
 	  guild: [ "summoners" ],
@@ -4422,7 +4422,7 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "Infernal Senri",
-    img: "Hr5qwT7.png",
+    img: "2-star/icon_senrievil01b.png",
     opts: {
       rarity: [ "2" ],
 	  guild: [ "summoners" ],
@@ -4431,7 +4431,7 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "Valiant Senri",
-    img: "Hr5qOQe.png",
+    img: "2-star/icon_senrihero01b.png",
     opts: {
       rarity: [ "2" ],
 	  guild: [ "summoners" ],
@@ -4440,7 +4440,7 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "World Senri",
-    img: "Hr5q84j.png",
+    img: "2-star/icon_senriworld01b.png",
     opts: {
       rarity: [ "2" ],
 	  guild: [ "summoners" ],
@@ -4449,7 +4449,7 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "Red Livestreamer",
-    img: "Hr5FR7S.png",
+    img: "2-star/icon_livestreamerfire01b.png",
     opts: {
       rarity: [ "2" ],
 	  guild: [ "summoners" ],
@@ -4458,7 +4458,7 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "Blue Livestreamer",
-    img: "Hr5Fchu.png",
+    img: "2-star/icon_livestreamerwater01b.png",
     opts: {
       rarity: [ "2" ],
 	  guild: [ "summoners" ],
@@ -4467,7 +4467,7 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "Green Livestreamer",
-    img: "Hr5FTrl.png",
+    img: "2-star/icon_livestreamerearth01b.png",
     opts: {
       rarity: [ "2" ],
 	  guild: [ "summoners" ],
@@ -4476,7 +4476,7 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "Yellow Livestreamer",
-    img: "Hr5FaIe.png",
+    img: "2-star/icon_livestreamerlight01b.png",
     opts: {
       rarity: [ "2" ],
 	  guild: [ "summoners" ],
@@ -4485,7 +4485,7 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "Purple Livestreamer",
-    img: "Hr5FI14.png",
+    img: "2-star/icon_livestreamerdark01b.png",
     opts: {
       rarity: [ "2" ],
 	  guild: [ "summoners" ],
@@ -4494,7 +4494,7 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "Black Livestreamer",
-    img: "Hr5FA22.png",
+    img: "2-star/icon_livestreamerevil01b.png",
     opts: {
       rarity: [ "2" ],
 	  guild: [ "summoners" ],
@@ -4503,7 +4503,7 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "White Livestreamer",
-    img: "Hr5F5k7.png",
+    img: "2-star/icon_livestreamerhero01b.png",
     opts: {
       rarity: [ "2" ],
 	  guild: [ "summoners" ],
@@ -4512,7 +4512,7 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "Brown Livestreamer",
-    img: "Hr5FlLb.png",
+    img: "2-star/icon_livestreamerworld01b.png",
     opts: {
       rarity: [ "2" ],
 	  guild: [ "summoners" ],
@@ -4521,7 +4521,7 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "Missing ∀",
-    img: "HLovf7p.png",
+    img: "2-star/icon_missingall01b.png",
     opts: {
       rarity: [ "2" ],
 	  guild: [ "summoners" ],
@@ -4530,7 +4530,7 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "Missing ∞",
-    img: "HLok6Xe.png",
+    img: "2-star/icon_missingmugen01b.png",
     opts: {
       rarity: [ "2" ],
 	  guild: [ "summoners" ],
@@ -4539,7 +4539,7 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "Missing Φ",
-    img: "HLok4I9.png",
+    img: "2-star/icon_missingzero01b.png",
     opts: {
       rarity: [ "2" ],
 	  guild: [ "summoners" ],
@@ -4548,7 +4548,7 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "Assistant Shark",
-    img: "JFNq7cJ.png",
+    img: "2-star/icon_shark01b.png",
     opts: {
       rarity: [ "2" ],
 	  guild: [ "summoners" ],
@@ -4557,7 +4557,7 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "Fire Drone Pilot",
-    img: "dqJdL7f.png",
+    img: "2-star/icon_dronepilotfire01b.png",
     opts: {
       rarity: [ "2" ],
 	  guild: [ "summoners" ],
@@ -4566,7 +4566,7 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "Water Drone Pilot",
-    img: "dqJdyB9.png",
+    img: "2-star/icon_dronepilotwater01b.png",
     opts: {
       rarity: [ "2" ],
 	  guild: [ "summoners" ],
@@ -4575,7 +4575,7 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "Wood Drone Pilot",
-    img: "dqJdZml.png",
+    img: "2-star/icon_dronepilotearth01b.png",
     opts: {
       rarity: [ "2" ],
 	  guild: [ "summoners" ],
@@ -4584,7 +4584,7 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "Aether Drone Pilot",
-    img: "dqJdmL7.png",
+    img: "2-star/icon_dronepilotlight01b.png",
     opts: {
       rarity: [ "2" ],
 	  guild: [ "summoners" ],
@@ -4593,7 +4593,7 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "Nether Drone Pilot",
-    img: "dqJdbXS.png",
+    img: "2-star/icon_dronepilotdark01b.png",
     opts: {
       rarity: [ "2" ],
 	  guild: [ "summoners" ],
@@ -4602,7 +4602,7 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "Infernal Drone Pilot",
-    img: "dqJdQe4.png",
+    img: "2-star/icon_dronepilotevil01b.png",
     opts: {
       rarity: [ "2" ],
 	  guild: [ "summoners" ],
@@ -4611,7 +4611,7 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "Valiant Drone Pilot",
-    img: "dqJdDI2.png",
+    img: "2-star/icon_dronepilothero01b.png",
     opts: {
       rarity: [ "2" ],
 	  guild: [ "summoners" ],
@@ -4620,7 +4620,7 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "World Drone Pilot",
-    img: "dqJ291e.png",
+    img: "2-star/icon_dronepilotworld01b.png",
     opts: {
       rarity: [ "2" ],
 	  guild: [ "summoners" ],
@@ -4629,7 +4629,7 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "Starman ∀",
-    img: "dqJ2Hru.png",
+    img: "2-star/icon_starmanall01b.png",
     opts: {
       rarity: [ "2" ],
 	  guild: [ "summoners" ],
@@ -4638,7 +4638,7 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "Starman ∞",
-    img: "dqJ2ddb.png",
+    img: "2-star/icon_starmanmugen01b.png",
     opts: {
       rarity: [ "2" ],
 	  guild: [ "summoners" ],
@@ -4647,7 +4647,7 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "Starman Φ",
-    img: "dqJ227j.png",
+    img: "2-star/icon_starmanzero01b.png",
     opts: {
       rarity: [ "2" ],
 	  guild: [ "summoners" ],
@@ -4661,7 +4661,7 @@ dataSet[dataSetVersion].characterData = [
 
   {
     name: "Red Slime",
-    img: "Hr5nXvR.png",
+    img: "1-star/icon_slimefire01b.png",
     opts: {
       rarity: [ "1" ],
 	  guild: [ "summoners" ],
@@ -4670,7 +4670,7 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "Blue Slime",
-    img: "Hr5nwTN.png",
+    img: "1-star/icon_slimewater01b.png",
     opts: {
       rarity: [ "1" ],
 	  guild: [ "summoners" ],
@@ -4679,7 +4679,7 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "Green Slime",
-    img: "Hr5nV3J.png",
+    img: "1-star/icon_slimeearth01b.png",
     opts: {
       rarity: [ "1" ],
 	  guild: [ "summoners" ],
@@ -4688,7 +4688,7 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "Yellow Slime",
-    img: "Hr5nhpp.png",
+    img: "1-star/icon_slimelight01b.png",
     opts: {
       rarity: [ "1" ],
 	  guild: [ "summoners" ],
@@ -4697,7 +4697,7 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "Dark Slime",
-    img: "Hr5nG4a.png",
+    img: "1-star/icon_slimedark01b.png",
     opts: {
       rarity: [ "1" ],
 	  guild: [ "summoners" ],
@@ -4706,7 +4706,7 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "Red Devil",
-    img: "Hr5CyXt.png",
+    img: "1-star/icon_impfire01b.png",
     opts: {
       rarity: [ "1" ],
 	  guild: [ "summoners" ],
@@ -4716,7 +4716,7 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "Blue Devil",
-    img: "Hr5nJBn.png",
+    img: "1-star/icon_impwater01b.png",
     opts: {
       rarity: [ "1" ],
 	  guild: [ "summoners" ],
@@ -4726,7 +4726,7 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "Green Devil",
-    img: "Hr5CbmN.png",
+    img: "1-star/icon_impearth01b.png",
     opts: {
       rarity: [ "1" ],
 	  guild: [ "summoners" ],
@@ -4736,7 +4736,7 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "Yellow Devil",
-    img: "Hr5n9LX.png",
+    img: "1-star/icon_implight01b.png",
     opts: {
       rarity: [ "1" ],
 	  guild: [ "summoners" ],
@@ -4746,7 +4746,7 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "Purple Devil",
-    img: "Hr5CDep.png",
+    img: "1-star/icon_impdark01b.png",
     opts: {
       rarity: [ "1" ],
 	  guild: [ "summoners" ],
@@ -4756,7 +4756,7 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "Red Fencer",
-    img: "Hr5CO0b.png",
+    img: "1-star/icon_fighterfire01b.png",
     opts: {
       rarity: [ "1" ],
 	  guild: [ "summoners" ],
@@ -4766,7 +4766,7 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "Blue Fencer",
-    img: "Hr5Cvdx.png",
+    img: "1-star/icon_fighterwater01b.png",
     opts: {
       rarity: [ "1" ],
 	  guild: [ "summoners" ],
@@ -4776,7 +4776,7 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "Green Fencer",
-    img: "Hr5CNqu.png",
+    img: "1-star/icon_fighterearth01b.png",
     opts: {
       rarity: [ "1" ],
 	  guild: [ "summoners" ],
@@ -4786,7 +4786,7 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "Yellow Fencer",
-    img: "Hr5Cegj.png",
+    img: "1-star/icon_fighterlight01b.png",
     opts: {
       rarity: [ "1" ],
 	  guild: [ "summoners" ],
@@ -4796,7 +4796,7 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "Purple Fencer",
-    img: "Hr5Cjse.png",
+    img: "1-star/icon_fighterdark01b.png",
     opts: {
       rarity: [ "1" ],
 	  guild: [ "summoners" ],
@@ -4806,7 +4806,7 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "Fire Mage",
-    img: "Hr5nnh7.png",
+    img: "1-star/icon_magefire01b.png",
     opts: {
       rarity: [ "1" ],
 	  guild: [ "summoners" ],
@@ -4816,7 +4816,7 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "Ice Mage",
-    img: "Hr5nzBe.png",
+    img: "1-star/icon_magewater01b.png",
     opts: {
       rarity: [ "1" ],
 	  guild: [ "summoners" ],
@@ -4826,7 +4826,7 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "Earth Mage",
-    img: "Hr5nCIS.png",
+    img: "1-star/icon_mageearth01b.png",
     opts: {
       rarity: [ "1" ],
 	  guild: [ "summoners" ],
@@ -4836,7 +4836,7 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "Light Mage",
-    img: "Hr5noQ9.png",
+    img: "1-star/icon_magelight01b.png",
     opts: {
       rarity: [ "1" ],
 	  guild: [ "summoners" ],
@@ -4846,7 +4846,7 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "Dark Mage",
-    img: "Hr5nqp2.png",
+    img: "1-star/icon_magedark01b.png",
     opts: {
       rarity: [ "1" ],
 	  guild: [ "summoners" ],
@@ -4856,7 +4856,7 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "Red Wolf",
-    img: "Hr5nvGn.png",
+    img: "1-star/icon_werewolffire01b.png",
     opts: {
       rarity: [ "1" ],
 	  guild: [ "summoners" ],
@@ -4865,7 +4865,7 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "Blue Wolf",
-    img: "Hr5nU3G.png",
+    img: "1-star/icon_werewolfwater01b.png",
     opts: {
       rarity: [ "1" ],
 	  guild: [ "summoners" ],
@@ -4874,7 +4874,7 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "Green Wolf",
-    img: "Hr5nOQt.png",
+    img: "1-star/icon_werewolfearth01b.png",
     opts: {
       rarity: [ "1" ],
 	  guild: [ "summoners" ],
@@ -4883,7 +4883,7 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "Yellow Wolf",
-    img: "Hr5n84s.png",
+    img: "1-star/icon_werewolflight01b.png",
     opts: {
       rarity: [ "1" ],
 	  guild: [ "summoners" ],
@@ -4892,7 +4892,7 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "Purple Wolf",
-    img: "Hr5nNjI.png",
+    img: "1-star/icon_werewolfdark01b.png",
     opts: {
       rarity: [ "1" ],
 	  guild: [ "summoners" ],
@@ -4901,7 +4901,7 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "Red Ghost",
-    img: "Hr5CLrJ.png",
+    img: "1-star/icon_ghostfire01b.png",
     opts: {
       rarity: [ "1" ],
 	  guild: [ "summoners" ],
@@ -4910,7 +4910,7 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "Blue Ghost",
-    img: "Hr5Ct7R.png",
+    img: "1-star/icon_ghostwater01b.png",
     opts: {
       rarity: [ "1" ],
 	  guild: [ "summoners" ],
@@ -4919,7 +4919,7 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "Green Ghost",
-    img: "Hr5Ciqg.png",
+    img: "1-star/icon_ghostearth01b.png",
     opts: {
       rarity: [ "1" ],
 	  guild: [ "summoners" ],
@@ -4928,7 +4928,7 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "Yellow Ghost",
-    img: "Hr5CZdv.png",
+    img: "1-star/icon_ghostlight01b.png",
     opts: {
       rarity: [ "1" ],
 	  guild: [ "summoners" ],
@@ -4937,7 +4937,7 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "Purple Ghost",
-    img: "Hr5C6LF.png",
+    img: "1-star/icon_ghostdark01b.png",
     opts: {
       rarity: [ "1" ],
 	  guild: [ "summoners" ],
@@ -4946,7 +4946,7 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "Aether Lucky Cat",
-    img: "Hr5n7pV.png",
+    img: "1-star/icon_manekilight01b.png",
     opts: {
       rarity: [ "1" ],
 	  guild: [ "summoners" ],
@@ -4955,7 +4955,7 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "Red Ninja",
-    img: "Hr5CUmB.png",
+    img: "1-star/icon_geninfire01b.png",
     opts: {
       rarity: [ "1" ],
 	  guild: [ "summoners" ],
@@ -4965,7 +4965,7 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "Blue Ninja",
-    img: "Hr5C4X1.png",
+    img: "1-star/icon_geninwater01b.png",
     opts: {
       rarity: [ "1" ],
 	  guild: [ "summoners" ],
@@ -4975,7 +4975,7 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "Green Ninja",
-    img: "Hr5CSeV.png",
+    img: "1-star/icon_geninearth01b.png",
     opts: {
       rarity: [ "1" ],
 	  guild: [ "summoners" ],
@@ -4985,7 +4985,7 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "Yellow Ninja",
-    img: "Hr5CrzP.png",
+    img: "1-star/icon_geninlight01b.png",
     opts: {
       rarity: [ "1" ],
 	  guild: [ "summoners" ],
@@ -4995,7 +4995,7 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "Purple Ninja",
-    img: "Hr5C85Q.png",
+    img: "1-star/icon_genindark01b.png",
     opts: {
       rarity: [ "1" ],
 	  guild: [ "summoners" ],
@@ -5005,7 +5005,7 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "Fire Angel",
-    img: "Hr5Cl0G.png",
+    img: "1-star/icon_angelfire01b.png",
     opts: {
       rarity: [ "1" ],
 	  guild: [ "summoners" ],
@@ -5015,7 +5015,7 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "Water Angel",
-    img: "Hr5CXz7.png",
+    img: "1-star/icon_angelwater01b.png",
     opts: {
       rarity: [ "1" ],
 	  guild: [ "summoners" ],
@@ -5025,7 +5025,7 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "Wood Angel",
-    img: "Hr5C0gf.png",
+    img: "1-star/icon_angelearth01b.png",
     opts: {
       rarity: [ "1" ],
 	  guild: [ "summoners" ],
@@ -5035,7 +5035,7 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "Aether Angel",
-    img: "Hr5CVbS.png",
+    img: "1-star/icon_angellight01b.png",
     opts: {
       rarity: [ "1" ],
 	  guild: [ "summoners" ],
@@ -5045,7 +5045,7 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "Nether Angel",
-    img: "Hr5CEJ4.png",
+    img: "1-star/icon_angeldark01b.png",
     opts: {
       rarity: [ "1" ],
 	  guild: [ "summoners" ],
@@ -5055,7 +5055,7 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "Fire Maid",
-    img: "Hr5nA2j.png",
+    img: "1-star/icon_maidfire01b.png",
     opts: {
       rarity: [ "1" ],
 	  guild: [ "summoners" ],
@@ -5064,7 +5064,7 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "Water Maid",
-    img: "Hr5n5kQ.png",
+    img: "1-star/icon_maidwater01b.png",
     opts: {
       rarity: [ "1" ],
 	  guild: [ "summoners" ],
@@ -5073,7 +5073,7 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "Wood Maid",
-    img: "Hr5nTrb.png",
+    img: "1-star/icon_maidearth01b.png",
     opts: {
       rarity: [ "1" ],
 	  guild: [ "summoners" ],
@@ -5082,7 +5082,7 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "Aether Maid",
-    img: "Hr5nRYx.png",
+    img: "1-star/icon_maidlight01b.png",
     opts: {
       rarity: [ "1" ],
 	  guild: [ "summoners" ],
@@ -5091,7 +5091,7 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "Nether Maid",
-    img: "Hr5nIEu.png",
+    img: "1-star/icon_maiddark01b.png",
     opts: {
       rarity: [ "1" ],
 	  guild: [ "summoners" ],
@@ -5100,7 +5100,7 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "Fire Pirate",
-    img: "Hr5nlQ1.png",
+    img: "1-star/icon_piratesfire01b.png",
     opts: {
       rarity: [ "1" ],
 	  guild: [ "summoners" ],
@@ -5109,7 +5109,7 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "Water Pirate",
-    img: "Hr5nEEg.png",
+    img: "1-star/icon_pirateswater01b.png",
     opts: {
       rarity: [ "1" ],
 	  guild: [ "summoners" ],
@@ -5118,7 +5118,7 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "Wood Pirate",
-    img: "Hr5nchP.png",
+    img: "1-star/icon_piratesearth01b.png",
     opts: {
       rarity: [ "1" ],
 	  guild: [ "summoners" ],
@@ -5127,7 +5127,7 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "Aether Pirate",
-    img: "Hr5n1CF.png",
+    img: "1-star/icon_pirateslight01b.png",
     opts: {
       rarity: [ "1" ],
 	  guild: [ "summoners" ],
@@ -5136,7 +5136,7 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "Nether Pirate",
-    img: "Hr5naTB.png",
+    img: "1-star/icon_piratesdark01b.png",
     opts: {
       rarity: [ "1" ],
 	  guild: [ "summoners" ],
@@ -5145,7 +5145,7 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "Shaded Slime",
-    img: "Hr5nWYv.png",
+    img: "1-star/icon_slimeevil01b.png",
     opts: {
       rarity: [ "1" ],
 	  guild: [ "summoners" ],
@@ -5154,7 +5154,7 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "Shaded D-Evil",
-    img: "Hr5CpII.png",
+    img: "1-star/icon_impevil01b.png",
     opts: {
       rarity: [ "1" ],
 	  guild: [ "summoners" ],
@@ -5164,7 +5164,7 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "Shaded Wolf",
-    img: "Hr5nkCX.png",
+    img: "1-star/icon_werewolfevil01b.png",
     opts: {
       rarity: [ "1" ],
 	  guild: [ "summoners" ],
@@ -5173,7 +5173,7 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "Shaded Ghost",
-    img: "Hr5Cs1a.png",
+    img: "1-star/icon_ghostevil01b.png",
     opts: {
       rarity: [ "1" ],
 	  guild: [ "summoners" ],
@@ -5182,7 +5182,7 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "Fire-O'-Lantern",
-    img: "Hr5nF2f.png",
+    img: "1-star/icon_lanternfire01b.png",
     opts: {
       rarity: [ "1" ],
 	  guild: [ "summoners" ],
@@ -5191,7 +5191,7 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "Water-O'-Lantern",
-    img: "Hr5nfkl.png",
+    img: "1-star/icon_lanternwater01b.png",
     opts: {
       rarity: [ "1" ],
 	  guild: [ "summoners" ],
@@ -5200,7 +5200,7 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "Wood-O'-Lantern",
-    img: "Hr5n2rG.png",
+    img: "1-star/icon_lanternearth01b.png",
     opts: {
       rarity: [ "1" ],
 	  guild: [ "summoners" ],
@@ -5209,7 +5209,7 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "Aether-O'-Lantern",
-    img: "Hr5nK74.png",
+    img: "1-star/icon_lanternlight01b.png",
     opts: {
       rarity: [ "1" ],
 	  guild: [ "summoners" ],
@@ -5218,7 +5218,7 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "Nether-O'-Lantern",
-    img: "Hr5nd1s.png",
+    img: "1-star/icon_lanterndark01b.png",
     opts: {
       rarity: [ "1" ],
 	  guild: [ "summoners" ],
@@ -5227,7 +5227,7 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "Infernal Angel",
-    img: "Hr5CG5l.png",
+    img: "1-star/icon_angelevil01b.png",
     opts: {
       rarity: [ "1" ],
 	  guild: [ "summoners" ],
@@ -5237,7 +5237,7 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "Valiant Angel",
-    img: "Hr5CMe2.png",
+    img: "1-star/icon_angelhero01b.png",
     opts: {
       rarity: [ "1" ],
 	  guild: [ "summoners" ],
@@ -5247,7 +5247,7 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "World Angel",
-    img: "Hr5ChX9.png",
+    img: "1-star/icon_angelworld01b.png",
     opts: {
       rarity: [ "1" ],
 	  guild: [ "summoners" ],
@@ -5262,7 +5262,7 @@ dataSet[dataSetVersion].characterData = [
 
   {
     name: "Lil' Salomon",
-    img: "Hr5Fhp1.png",
+    img: "unreleased/icon_salomon01.png",
     opts: {
       rarity: [ "3+" ],
 	  guild: [ "summoners" ],
@@ -5273,7 +5273,7 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "Kyoma Mononobe",
-    img: "Hr5FzBf.png",
+    img: "unreleased/icon_kyouma01.png",
     opts: {
       rarity: [ "3+" ],
 	  guild: [ "no_guild" ],
@@ -5284,7 +5284,7 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "Solomon",
-    img: "dqJ3EMP.png",
+    img: "unreleased/icon_solomon01.png",
     opts: {
       rarity: [ "3+" ],
 	  guild: [ "no_guild" ],
@@ -5295,7 +5295,7 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "Curren",
-    img: "Hr5FqmX.png",
+    img: "unreleased/icon_curren01.png",
     opts: {
       rarity: [ "3+" ],
 	  guild: [ "rule_makers" ],
@@ -5306,7 +5306,7 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "Onyankopon",
-    img: "dqJ3jHJ.png",
+    img: "unreleased/icon_onyankopon01.png",
     opts: {
       rarity: [ "3+" ],
 	  guild: [ "rule_makers" ],
@@ -5317,7 +5317,7 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "Bohemio",
-    img: "dqJ3wAv.png",
+    img: "unreleased/icon_bohemio01.png",
     opts: {
       rarity: [ "3+" ],
 	  guild: [ "wanderers" ],
@@ -5328,7 +5328,7 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "Xiwangmu",
-    img: "dUIhupe.png",
+    img: "unreleased/icon_xiwangmu01.png",
     opts: {
       rarity: [ "3+" ],
 	  guild: [ "no_guild" ],
@@ -5340,7 +5340,7 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "Odin",
-    img: "Hr5FEEx.png",
+    img: "unreleased/icon_odin01.png",
     opts: {
       rarity: [ "3+" ],
 	  guild: [ "no_guild" ],
@@ -5351,7 +5351,7 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "Yog-Sothoth",
-    img: "Hr5FkCJ.png",
+    img: "unreleased/icon_yogsothoth02.png",
     opts: {
       rarity: [ "3+" ],
 	  guild: [ "no_guild" ],
@@ -5362,7 +5362,7 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "Thor",
-    img: "Hr5FwTF.png",
+    img: "unreleased/icon_thor02.png",
     opts: {
       rarity: [ "3+" ],
 	  guild: [ "no_guild" ],
@@ -5373,7 +5373,7 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "Fisher King",
-    img: "Hr5FnXs.png",
+    img: "unreleased/icon_fisher02_skin1.png",
     opts: {
       rarity: [ "3+" ],
 	  guild: [ "no_guild" ],
@@ -5384,7 +5384,7 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "Yukimura",
-    img: "Hr5FvEv.png",
+    img: "unreleased/icon_yukimura02.png",
     opts: {
       rarity: [ "3+" ],
 	  guild: [ "no_guild" ],
@@ -5395,7 +5395,7 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "Witch of Orleans",
-    img: "Hr5FoLG.png",
+    img: "unreleased/icon_jeanne02.png",
     opts: {
       rarity: [ "3+" ],
 	  guild: [ "no_guild" ],
@@ -5406,7 +5406,7 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "Mahakala",
-    img: "Hr5F1Bj.png",
+    img: "unreleased/icon_mahakala02.png",
     opts: {
       rarity: [ "3+" ],
 	  guild: [ "no_guild" ],
@@ -5417,7 +5417,7 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "Ra Mu",
-    img: "Hr5FXkP.png",
+    img: "unreleased/icon_ramu01.png",
     opts: {
       rarity: [ "3+" ],
 	  guild: [ "no_guild" ],
@@ -5428,7 +5428,7 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "Overlord",
-    img: "HLov8Ga.png",
+    img: "unreleased/icon_overlord02.png",
     opts: {
       rarity: [ "3+" ],
 	  guild: [ "no_guild" ],
@@ -5439,7 +5439,7 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "Sefirot",
-    img: "dqJ3Wcg.png",
+    img: "unreleased/icon_sefirot02_skin1.png",
     opts: {
       rarity: [ "3+" ],
 	  guild: [ "no_guild" ],
@@ -5450,7 +5450,7 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "Black Storm",
-    img: "Hr5FNhg.png",
+    img: "unreleased/icon_typhoeus02.png",
     opts: {
       rarity: [ "3+" ],
 	  guild: [ "no_guild" ],
@@ -5461,7 +5461,7 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "Parvati",
-    img: "Hr5FOQa.png",
+    img: "unreleased/icon_yamanomusume01.png",
     opts: {
       rarity: [ "3+" ],
 	  guild: [ "no_guild" ],
@@ -5472,7 +5472,7 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "Alberich",
-    img: "Hr5F2gp.png",
+    img: "unreleased/icon_alberich02.png",
     opts: {
       rarity: [ "3+" ],
 	  guild: [ "no_guild" ],
@@ -5483,7 +5483,7 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "Baal",
-    img: "Hr5Fd1R.png",
+    img: "unreleased/icon_bael01_skin3.png",
     opts: {
       rarity: [ "3+" ],
 	  guild: [ "no_guild" ],
@@ -5494,7 +5494,7 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "Yam",
-    img: "HrOnPWl.png",
+    img: "unreleased/icon_tangaroa01_skin2.png",
     opts: {
       rarity: [ "3+" ],
 	  guild: [ "no_guild" ],
@@ -5505,7 +5505,7 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "Resheph",
-    img: "HrOnrbf.png",
+    img: "unreleased/icon_nomad01_skin8.png",
     opts: {
       rarity: [ "3+" ],
 	  guild: [ "no_guild" ],
@@ -5516,7 +5516,7 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "Moloch",
-    img: "HrOnSJn.png",
+    img: "unreleased/icon_asterios01_skin2.png",
     opts: {
       rarity: [ "3+" ],
 	  guild: [ "no_guild" ],
@@ -5527,7 +5527,7 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "Kothar-wa-Khasis",
-    img: "HrOnURs.png",
+    img: "unreleased/icon_kurogane01_skin2.png",
     opts: {
       rarity: [ "3+" ],
 	  guild: [ "no_guild" ],
@@ -5538,7 +5538,7 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "Aqhat",
-    img: "HrOngOG.png",
+    img: "unreleased/icon_robinson01_skin2.png",
     opts: {
       rarity: [ "3+" ],
 	  guild: [ "no_guild" ],
@@ -5549,7 +5549,7 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "Adonis",
-    img: "HrOn6x4.png",
+    img: "unreleased/icon_kijimuna01_skin2.png",
     opts: {
       rarity: [ "3+" ],
 	  guild: [ "no_guild" ],
@@ -5560,7 +5560,7 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "Onamuchi",
-    img: "Hr5FV2V.png",
+    img: "unreleased/icon_onamuji01.png",
     opts: {
       rarity: [ "3+" ],
 	  guild: [ "no_guild" ],
@@ -5571,7 +5571,7 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "Airavata",
-    img: "Hr5FK7I.png",
+    img: "unreleased/icon_airavata01.png",
     opts: {
       rarity: [ "3+" ],
 	  guild: [ "no_guild" ],
@@ -5582,7 +5582,7 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "Fire Lucky Cat",
-    img: "Hr5nsZ7.png",
+    img: "unreleased/icon_manekifire01b.png",
     opts: {
       rarity: [ "1" ],
 	  guild: [ "summoners" ],
@@ -5592,7 +5592,7 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "Water Lucky Cat",
-    img: "Hr5nijS.png",
+    img: "unreleased/icon_manekiwater01b.png",
     opts: {
       rarity: [ "1" ],
 	  guild: [ "summoners" ],
@@ -5602,7 +5602,7 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "Wood Lucky Cat",
-    img: "Hr5nQn9.png",
+    img: "unreleased/icon_manekiearth01b.png",
     opts: {
       rarity: [ "1" ],
 	  guild: [ "summoners" ],
@@ -5612,7 +5612,7 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "Nether Lucky Cat",
-    img: "Hr5nZGe.png",
+    img: "unreleased/icon_manekidark01b.png",
     opts: {
       rarity: [ "1" ],
 	  guild: [ "summoners" ],

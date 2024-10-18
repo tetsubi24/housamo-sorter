@@ -3,6 +3,28 @@ Changes made to housamo-sorter are documented in this file. It's intended to be 
 
 <!-------------------->
 
+## Tokyo Dancing Saturday – 2024-10-18
+### Added:
+- Characters can now be filtered by their gender identities.
+- New characters:
+	- Saturnus and his alternate form, Saturnus (Saturday).
+	- Nisroch, as an unreleased character.
+	- Jersey Devil, as an unreleased character.
+	- Capo, as an unreleased character.
+	- Grimalkin, as an unreleased character.
+	- Deity mobs (Valiant & World), as unreleased characters.
+	- Valiant Mermaid, as an unreleased character.
+
+### Changed:
+- Character images are now hosted within the project's GitHub repository. Previously, an external website was used for this purpose, but it would occasionally lead to images getting stuck loading forever. This change should let the sorter start even if, for whatever reason, it couldn't load an image.
+- Small tweak to the "Sort again" option so it's a bit more intuitive if you're coming from someone else's results URL.
+
+### Fixed:
+- Water Giant using Water Einherjar's image.
+- All mob characters that were missing world tags are now tagged as having unknown world origins.
+
+<!-------------------->
+
 ## Top of Summer Mountains! – 2024-09-10
 ### Added:
 - New characters:
@@ -16,9 +38,9 @@ Changes made to housamo-sorter are documented in this file. It's intended to be 
 ### Changed:
 - Multiple changes to Bigfoot:
 	- Now tagged as belonging to the Shinjuku Academy. (Top of Summer Mountains! limited unit.)
-	- Now tagged as a member of the Shinjuku Academy Mountaineers. (Top of Summer Mountains!  limited unit.)
-- Tanngrisnir is now tagged as a member of the Shinjuku Academy Mountaineers. (Top of Summer Mountains!  limited unit.)
-- Enigma is now tagged as a member of the Setagaya Mountaineering Club. (Top of Summer Mountains!  limited unit.)
+	- Now tagged as a member of the Shinjuku Academy Mountaineers. (Top of Summer Mountains! limited unit.)
+- Tanngrisnir is now tagged as a member of the Shinjuku Academy Mountaineers. (Top of Summer Mountains! limited unit.)
+- Enigma is now tagged as a member of the Setagaya Mountaineering Club. (Top of Summer Mountains! limited unit.)
 	
 <!-------------------->
 
