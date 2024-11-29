@@ -13,18 +13,18 @@ Changes made to housamo-sorter are documented in this file. It's intended to be 
 
 ### Changed:
 - Multiple changes to Kyoma Mononobe:
- - Image has been updated.
- - Now tagged as a member of the Game Masters and Independent guilds.
- - No longer tagged as Unaffiliated to any guild.
- - No longer tagged as unreleased.
+	- Image has been updated.
+	- Now tagged as a member of the Game Masters and Independent guilds.
+	- No longer tagged as Unaffiliated to any guild.
+	- No longer tagged as unreleased.
 - Multiple changes to Solomon:
- - Image has been updated.
- - Now tagged as an alternate form of Kyoma Mononobe.
- - No longer tagged as unreleased.
- - Other filtering tags now match Kyoma Mononobe's.
+	- Image has been updated.
+	- Now tagged as an alternate form of Kyoma Mononobe.
+	- No longer tagged as unreleased.
+	- Other filtering tags now match Kyoma Mononobe's.
 - Multiple changes to Curren:
- - Image has been updated.
- - No longer tagged as unreleased.
+	- Image has been updated.
+	- No longer tagged as unreleased.
 - Nekros & Bacchus have been split into two separate characters. As a result, Nekros is now tagged as an alternate form of Bacchus.
 - Updated images for:
 	- Lil' Salomon
