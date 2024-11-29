@@ -1652,7 +1652,7 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "Nekros & Bacchus",
-    img: "3-star/icon_nekros01.gif",
+    img: "3-star/icon_nekros01.png",
     opts: {
       rarity: [ "3+" ],
       guild: [ "no_guild" ],
@@ -5273,7 +5273,7 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "Kyoma Mononobe",
-    img: "unreleased/icon_kyouma01.png",
+    img: "3-star/icon_kyouma01.png",
     opts: {
       rarity: [ "3+" ],
 	  guild: [ "no_guild" ],
@@ -5284,7 +5284,7 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "Solomon",
-    img: "unreleased/icon_solomon01.png",
+    img: "alts/icon_kyouma01_skin10.png",
     opts: {
       rarity: [ "3+" ],
 	  guild: [ "no_guild" ],
@@ -5295,7 +5295,7 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "Curren",
-    img: "unreleased/icon_curren01.png",
+    img: "3-star/icon_curren01.png",
     opts: {
       rarity: [ "3+" ],
 	  guild: [ "rule_makers" ],
@@ -5362,7 +5362,7 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "Thor",
-    img: "unreleased/icon_thor02.png",
+    img: "unreleased/icon_thor02b.png",
     opts: {
       rarity: [ "3+" ],
 	  guild: [ "no_guild" ],
@@ -5373,7 +5373,7 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "Fisher King",
-    img: "unreleased/icon_fisher02_skin1.png",
+    img: "unreleased/icon_fisher02b.png",
     opts: {
       rarity: [ "3+" ],
 	  guild: [ "no_guild" ],
@@ -5384,7 +5384,7 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "Yukimura",
-    img: "unreleased/icon_yukimura02.png",
+    img: "unreleased/icon_yukimura02_skin1.png",
     opts: {
       rarity: [ "3+" ],
 	  guild: [ "no_guild" ],
@@ -5395,7 +5395,7 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "Witch of Orleans",
-    img: "unreleased/icon_jeanne02.png",
+    img: "unreleased/icon_jeanne02b.png",
     opts: {
       rarity: [ "3+" ],
 	  guild: [ "no_guild" ],
@@ -5439,7 +5439,7 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "Sefirot",
-    img: "unreleased/icon_sefirot02_skin1.png",
+    img: "unreleased/icon_sefirot02b.png",
     opts: {
       rarity: [ "3+" ],
 	  guild: [ "no_guild" ],

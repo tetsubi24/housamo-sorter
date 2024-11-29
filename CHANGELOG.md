@@ -3,6 +3,43 @@ Changes made to housamo-sorter are documented in this file. It's intended to be 
 
 <!-------------------->
 
+## 8th HOUSAMO ANNIVERSARY – 2024-11-29
+### Added:
+- New characters:
+	- Manticore
+	- MS-C1, as an alternate form of Curren.
+	- Inari, as an unreleased character.
+- Contact info.
+
+### Changed:
+- Multiple changes to Kyoma Mononobe:
+ - Image has been updated.
+ - Now tagged as a member of the Game Masters and Independent guilds.
+ - No longer tagged as Unaffiliated to any guild.
+ - No longer tagged as unreleased.
+- Multiple changes to Solomon:
+ - Image has been updated.
+ - Now tagged as an alternate form of Kyoma Mononobe.
+ - No longer tagged as unreleased.
+ - Other filtering tags now match Kyoma Mononobe's.
+- Multiple changes to Curren:
+ - Image has been updated.
+ - No longer tagged as unreleased.
+- Nekros & Bacchus have been split into two separate characters. As a result, Nekros is now tagged as an alternate form of Bacchus.
+- Updated images for:
+	- Lil' Salomon
+	- Thor
+	- Fisher King
+	- Yukimura
+	- Witch of Orleans
+	- Sefirot
+- Updated website icon.
+
+### Fixed:
+- Kumano Gongen being tagged as Unaffiliated to any guild.
+
+<!-------------------->
+
 ## Tokyo Dancing Saturday – 2024-10-18
 ### Added:
 - Characters can now be filtered by their gender identities.
