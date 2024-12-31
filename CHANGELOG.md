@@ -3,6 +3,16 @@ Changes made to housamo-sorter are documented in this file. It's intended to be 
 
 <!-------------------->
 
+## Shining New Year! – 2024-12-31
+### Added:
+- New characters:
+	- Snegurochka
+	- Yig
+	- Jack Frost, as an unreleased character.
+	- Jizo, as an unreleased character.
+
+<!-------------------->
+
 ## 8th HOUSAMO ANNIVERSARY – 2024-11-29
 ### Added:
 - New characters:
@@ -148,7 +158,7 @@ Changes made to housamo-sorter are documented in this file. It's intended to be 
 
 <!-------------------->
 
-## Blessings! A Journey with Dragons and Demons – 2023-12-31
+## Come Forth, Fortune! A Ritual of Dragon and Ogre – 2023-12-31
 ### Added:
 - New characters:
 	- Otter
