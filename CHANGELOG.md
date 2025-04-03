@@ -3,6 +3,51 @@ Changes made to housamo-sorter are documented in this file. It's intended to be 
 
 <!-------------------->
 
+## New Semester 2025 – 2025-04-03
+### Added:
+- New characters:
+	- Apollo
+	- Gargoyle
+	- Frosty, as an alternate form of Jack Frost.
+	- Gargoyle (Plush), as an alternate form of Gargoyle.
+	- Vainamoinen, as an unreleased character.
+	- Jagannath, as an unreleased character.
+- New school filter for Nippori Online Academy.
+	
+### Changed:
+- Multiple changes to Jack Frost:
+	- Image has been updated.
+	- Now tagged as a member of the Creators guild.
+	- No longer tagged as unreleased.
+- Multiple changes to Bohemio:
+	- Image has been updated.
+	- No longer tagged as unreleased.	
+- Multiple changes to Xiwangmu:
+	- Image has been updated.
+	- No longer tagged as unreleased.
+- Multiple changes to Nisroch:
+	- Image has been updated.
+	- Now tagged as originating from the worlds of Gehenna and Eden.
+	- No longer tagged as unreleased.
+- Multiple changes to Jersey Devil:
+	- Image has been updated.
+	- Now tagged as belonging to the Setagaya Agricultural Academy.
+	- Now tagged as originating from the worlds of Great Spirit and Old Ones.
+	- No longer tagged as unreleased.
+- Multiple changes to Inari:
+	- Image has been updated.
+	- Now tagged as a member of the Agents and Independent guilds.
+	- Now tagged as belonging to the Setagaya Agricultural Academy.
+	- Now tagged as originating from the world of Takamagahara.
+	- No longer tagged as unreleased.
+- Multiple changes to Jizo:
+	- Now named Ksitigarbha.
+	- Image has been updated.
+	- Now tagged as a member of the Wanderers guild.
+	- No longer tagged as unreleased.
+	
+<!-------------------->
+
 ## Shining New Year! – 2024-12-31
 ### Added:
 - New characters:
