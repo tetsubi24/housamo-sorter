@@ -3340,7 +3340,7 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "Frosty",
-    img: "alts/icon_jackfrost01.png",
+    img: "alts/icon_jackfrost01_skin1.png",
     opts: {
       rarity: [ "3+" ],
 	  guild: [ "creators" ],
