@@ -1,4 +1,4 @@
-dataSetVersion = "2024-12-31"; // Change this when creating a new data set version. YYYY-MM-DD format.
+dataSetVersion = "2025-05-23"; // Change this when creating a new data set version. YYYY-MM-DD format.
 dataSet[dataSetVersion] = {};
 
 dataSet[dataSetVersion].options = [
@@ -71,6 +71,7 @@ dataSet[dataSetVersion].options = [
 	  { name: "Suidocho Business Academy", tooltip: " ", key: "suidocho" },
 	  { name: "Setagaya Agricultural Academy", tooltip: " ", key: "setagaya" },
 	  { name: "Ameyoko Fashion Academy", tooltip: " ", key: "ameyoko" },
+	  { name: "Nippori Online Academy", tooltip: " ", key: "nippori" },
 	  { name: "Unknown", tooltip: "Characters whose school affiliations are unknown.", key: "no_school" },
     ]
   },
@@ -375,7 +376,7 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       rarity: [ "3+" ],
       guild: [ "no_guild" ],
-	  school: [ "no_school" ],
+	  school: [ "nippori" ],
 	  world: [ "tokyo", "land_of_wa" ],
 	  gender: [ "male" ],
     },
@@ -628,7 +629,7 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       rarity: [ "3+" ],
       guild: [ "wanderers" ],
-	  school: [ "no_school" ],
+	  school: [ "nippori" ],
 	  world: [ "tir_na_nog" ],
 	  gender: [ "male" ],
     },
@@ -2381,7 +2382,7 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       rarity: [ "3+" ],
       guild: [ "wanderers" ],
-	  school: [ "no_school" ],
+	  school: [ "nippori" ],
 	  world: [ "midearth" ],
 	  gender: [ "male" ],
     },
@@ -2425,7 +2426,7 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       rarity: [ "3+" ],
       guild: [ "wanderers" ],
-	  school: [ "no_school" ],
+	  school: [ "nippori" ],
 	  world: [ "kitezh" ],
 	  gender: [ "male" ],
     },
@@ -2907,6 +2908,129 @@ dataSet[dataSetVersion].characterData = [
 	  gender: [ "male" ],
     }
   },
+  {
+    name: "Apollo",
+    img: "3-star/icon_apollo01.png",
+    opts: {
+      rarity: [ "3+" ],
+	  guild: [ "wisemen" ],
+	  school: [ "no_school" ],
+	  world: [ "olympus" ],
+	  gender: [ "male" ],
+    }
+  },
+  {
+    name: "Jack Frost",
+    img: "3-star/icon_jackfrost01.png",
+    opts: {
+      rarity: [ "3+" ],
+	  guild: [ "creators" ],
+	  school: [ "santa" ],
+	  world: [ "tir_na_nog" ],
+	  gender: [ "male" ],
+    }
+  },
+  {
+    name: "Bohemio",
+    img: "3-star/icon_bohemio01.png",
+    opts: {
+      rarity: [ "3+" ],
+	  guild: [ "wanderers" ],
+	  school: [ "nippori" ],
+	  world: [ "tokyo" ],
+	  gender: [ "male" ],
+    }
+  },
+  {
+    name: "Xiwangmu",
+    img: "3-star/icon_xiwangmu01.png",
+    opts: {
+      rarity: [ "3+" ],
+	  guild: [ "no_guild" ],
+	  school: [ "setagaya" ],
+	  other: [ "mountain2" ],
+	  world: [ "penglai" ],
+	  gender: [ "female" ],
+    }
+  },
+  {
+    name: "Nisroch",
+    img: "3-star/icon_nisroch01.png",
+    opts: {
+      rarity: [ "3+" ],
+	  guild: [ "wanderers" ],
+	  school: [ "nippori" ],
+	  world: [ "gehenna", "eden" ],
+	  gender: [ "male" ],
+    }
+  },
+  {
+    name: "Gargoyle",
+    img: "3-star/icon_gargoyle01.png",
+    opts: {
+      rarity: [ "3+" ],
+	  guild: [ "rule_makers" ],
+	  school: [ "daikanyama" ],
+	  world: [ "eden" ],
+	  gender: [ "male" ],
+    }
+  },
+  {
+    name: "Jersey Devil",
+    img: "3-star/icon_jerseydevil01.png",
+    opts: {
+      rarity: [ "3+" ],
+	  guild: [ "no_guild" ],
+	  school: [ "setagaya" ],
+	  other: [ "mountain2" ],
+	  world: [ "great_spirit", "old_ones" ],
+	  gender: [ "male" ],
+    }
+  },
+  {
+    name: "Inari",
+    img: "3-star/icon_inari01.png",
+    opts: {
+      rarity: [ "3+" ],
+	  guild: [ "agents", "independent" ],
+	  school: [ "setagaya" ],
+	  world: [ "takamagahara" ],
+	  gender: [ "male" ],
+    }
+  },
+  {
+    name: "Ksitigarbha",
+    img: "3-star/icon_ksitigarbha01.png",
+    opts: {
+      rarity: [ "3+" ],
+	  guild: [ "wanderers" ],
+	  school: [ "no_school" ],
+	  world: [ "no_world" ],
+	  gender: [ "male" ],
+    }
+  },
+  {
+    name: "Onyankopon",
+    img: "3-star/icon_onyankopon01.png",
+    opts: {
+      rarity: [ "3+" ],
+	  guild: [ "rule_makers" ],
+	  school: [ "togo" ],
+	  world: [ "agisymba" ],
+	  gender: [ "male" ],
+    }
+  },
+  {
+    name: "Hoover",
+    img: "3-star/icon_hoover01.png",
+    opts: {
+      rarity: [ "3+" ],
+	  guild: [ "agents" ],
+	  school: [ "no_school" ],
+	  world: [ "tokyo" ],
+	  gender: [ "male" ],
+    }
+  },
   
 /******
 * ALTS
@@ -3232,7 +3356,31 @@ dataSet[dataSetVersion].characterData = [
 	  guild: [ "rule_makers" ],
 	  school: [ "no_school" ],
 	  world: [ "tokyo" ],
-	  gender: [ "no_gender" ],
+	  gender: [ "male" ],
+	  alt: true
+    }
+  },
+  {
+    name: "Frosty",
+    img: "alts/icon_jackfrost01_skin1.png",
+    opts: {
+      rarity: [ "3+" ],
+	  guild: [ "creators" ],
+	  school: [ "santa" ],
+	  world: [ "tir_na_nog" ],
+	  gender: [ "male" ],
+	  alt: true
+    }
+  },
+  {
+    name: "Gargoyle (Plush)",
+    img: "alts/icon_gargoyle01_skin1.png",
+    opts: {
+      rarity: [ "3+" ],
+	  guild: [ "rule_makers" ],
+	  school: [ "daikanyama" ],
+	  world: [ "eden" ],
+	  gender: [ "male" ],
 	  alt: true
     }
   },
@@ -5255,7 +5403,7 @@ dataSet[dataSetVersion].characterData = [
     }
   },
   {
-    name: "Fire Drone Pilot",
+    name: "Red Drone Operator",
     img: "2-star/icon_dronepilotfire01b.png",
     opts: {
       rarity: [ "2" ],
@@ -5266,7 +5414,7 @@ dataSet[dataSetVersion].characterData = [
     }
   },
   {
-    name: "Water Drone Pilot",
+    name: "Blue Drone Operator",
     img: "2-star/icon_dronepilotwater01b.png",
     opts: {
       rarity: [ "2" ],
@@ -5277,7 +5425,7 @@ dataSet[dataSetVersion].characterData = [
     }
   },
   {
-    name: "Wood Drone Pilot",
+    name: "Green Drone Operator",
     img: "2-star/icon_dronepilotearth01b.png",
     opts: {
       rarity: [ "2" ],
@@ -5288,7 +5436,7 @@ dataSet[dataSetVersion].characterData = [
     }
   },
   {
-    name: "Aether Drone Pilot",
+    name: "Yellow Drone Operator",
     img: "2-star/icon_dronepilotlight01b.png",
     opts: {
       rarity: [ "2" ],
@@ -5299,7 +5447,7 @@ dataSet[dataSetVersion].characterData = [
     }
   },
   {
-    name: "Nether Drone Pilot",
+    name: "Purple Drone Operator",
     img: "2-star/icon_dronepilotdark01b.png",
     opts: {
       rarity: [ "2" ],
@@ -5310,7 +5458,7 @@ dataSet[dataSetVersion].characterData = [
     }
   },
   {
-    name: "Infernal Drone Pilot",
+    name: "Black Drone Operator",
     img: "2-star/icon_dronepilotevil01b.png",
     opts: {
       rarity: [ "2" ],
@@ -5321,7 +5469,7 @@ dataSet[dataSetVersion].characterData = [
     }
   },
   {
-    name: "Valiant Drone Pilot",
+    name: "White Drone Operator",
     img: "2-star/icon_dronepilothero01b.png",
     opts: {
       rarity: [ "2" ],
@@ -5332,7 +5480,7 @@ dataSet[dataSetVersion].characterData = [
     }
   },
   {
-    name: "World Drone Pilot",
+    name: "Brown Drone Operator",
     img: "2-star/icon_dronepilotworld01b.png",
     opts: {
       rarity: [ "2" ],
@@ -5373,6 +5521,127 @@ dataSet[dataSetVersion].characterData = [
 	  school: [ "no_school" ],
 	  world: [ "no_world" ],
 	  gender: [ "male" ],
+    }
+  },
+  {
+    name: "Red New Gen",
+    img: "2-star/icon_newgenfire01b.png",
+    opts: {
+      rarity: [ "2" ],
+	  guild: [ "summoners" ],
+	  school: [ "no_school" ],
+	  world: [ "no_world" ],
+	  gender: [ "male" ],
+    }
+  },
+  {
+    name: "Blue New Gen",
+    img: "2-star/icon_newgenwater01b.png",
+    opts: {
+      rarity: [ "2" ],
+	  guild: [ "summoners" ],
+	  school: [ "no_school" ],
+	  world: [ "no_world" ],
+	  gender: [ "male" ],
+    }
+  },
+  {
+    name: "Green New Gen",
+    img: "2-star/icon_newgenearth01b.png",
+    opts: {
+      rarity: [ "2" ],
+	  guild: [ "summoners" ],
+	  school: [ "no_school" ],
+	  world: [ "no_world" ],
+	  gender: [ "male" ],
+    }
+  },
+  {
+    name: "Yellow New Gen",
+    img: "2-star/icon_newgenlight01b.png",
+    opts: {
+      rarity: [ "2" ],
+	  guild: [ "summoners" ],
+	  school: [ "no_school" ],
+	  world: [ "no_world" ],
+	  gender: [ "male" ],
+    }
+  },
+  {
+    name: "Purple New Gen",
+    img: "2-star/icon_newgendark01b.png",
+    opts: {
+      rarity: [ "2" ],
+	  guild: [ "summoners" ],
+	  school: [ "no_school" ],
+	  world: [ "no_world" ],
+	  gender: [ "male" ],
+    }
+  },
+  {
+    name: "Black New Gen",
+    img: "2-star/icon_newgenevil01b.png",
+    opts: {
+      rarity: [ "2" ],
+	  guild: [ "summoners" ],
+	  school: [ "no_school" ],
+	  world: [ "no_world" ],
+	  gender: [ "male" ],
+    }
+  },
+  {
+    name: "White New Gen",
+    img: "2-star/icon_newgenhero01b.png",
+    opts: {
+      rarity: [ "2" ],
+	  guild: [ "summoners" ],
+	  school: [ "no_school" ],
+	  world: [ "no_world" ],
+	  gender: [ "male" ],
+    }
+  },
+  {
+    name: "Brown New Gen",
+    img: "2-star/icon_newgenworld01b.png",
+    opts: {
+      rarity: [ "2" ],
+	  guild: [ "summoners" ],
+	  school: [ "no_school" ],
+	  world: [ "no_world" ],
+	  gender: [ "male" ],
+    }
+  },
+  {
+    name: "MP Ouroboros ∀",
+    img: "2-star/icon_ouroborosall01b.png",
+    opts: {
+      rarity: [ "2" ],
+	  guild: [ "summoners" ],
+	  school: [ "no_school" ],
+	  world: [ "no_world" ],
+	  gender: [ "no_gender" ],
+    }
+  },
+  {
+    name: "MP Ouroboros ∞",
+    img: "2-star/icon_ouroborosmugen01b.png",
+    opts: {
+      rarity: [ "2" ],
+	  guild: [ "summoners" ],
+	  school: [ "no_school" ],
+	  world: [ "no_world" ],
+	  gender: [ "no_gender" ],
+    }
+  },
+  {
+    name: "MP Ouroboros Φ",
+    img: "2-star/icon_ouroboroszero01b.png",
+    opts: {
+      rarity: [ "2" ],
+	  guild: [ "summoners" ],
+	  school: [ "no_school" ],
+	  world: [ "no_world" ],
+	  gender: [ "no_gender" ],
     }
   },
   
@@ -6091,99 +6360,37 @@ dataSet[dataSetVersion].characterData = [
     }
   },
   {
-    name: "Onyankopon",
-    img: "3-star/icon_onyankopon01.png",
+    name: "Vainamoinen",
+    img: "unreleased/icon_vainamoinen01.png",
     opts: {
       rarity: [ "3+" ],
-	  guild: [ "rule_makers" ],
-	  school: [ "no_school" ],
-	  world: [ "agisymba" ],
-	  gender: [ "male" ],
-	  unreleased: true
-    }
-  },
-  {
-    name: "Bohemio",
-    img: "3-star/icon_bohemio01.png",
-    opts: {
-      rarity: [ "3+" ],
-	  guild: [ "wanderers" ],
-	  school: [ "no_school" ],
-	  world: [ "tokyo" ],
-	  gender: [ "male" ],
-	  unreleased: true
-    }
-  },
-  {
-    name: "Xiwangmu",
-    img: "3-star/icon_xiwangmu01.png",
-    opts: {
-      rarity: [ "3+" ],
-	  guild: [ "no_guild" ],
-	  school: [ "setagaya" ],
-	  other: [ "mountain2" ],
-	  world: [ "penglai" ],
-	  gender: [ "female" ],
-	  unreleased: true
-    }
-  },
-  {
-    name: "Nisroch",
-    img: "3-star/icon_nisroch01.png",
-    opts: {
-      rarity: [ "3+" ],
-	  guild: [ "wanderers" ],
-	  school: [ "no_school" ],
+	  guild: [ "creators" ],
+	  school: [ "nakano" ],
 	  world: [ "no_world" ],
 	  gender: [ "male" ],
 	  unreleased: true
     }
   },
   {
-    name: "Jersey Devil",
-    img: "3-star/icon_jerseydevil01.png",
+    name: "Jagannath",
+    img: "unreleased/icon_jagannath01.png",
     opts: {
       rarity: [ "3+" ],
 	  guild: [ "no_guild" ],
-	  school: [ "no_school" ],
-	  other: [ "mountain2" ],
-	  world: [ "no_world" ],
+	  school: [ "kiou" ],
+	  world: [ "devaloka" ],
 	  gender: [ "male" ],
 	  unreleased: true
     }
   },
   {
-    name: "Inari",
-    img: "3-star/icon_inari01.png",
+    name: "Koshchei",
+    img: "unreleased/icon_koshchei01.png",
     opts: {
       rarity: [ "3+" ],
-	  guild: [ "no_guild" ],
+	  guild: [ "agents" ],
 	  school: [ "no_school" ],
-	  world: [ "land_of_wa" ],
-	  gender: [ "male" ],
-	  unreleased: true
-    }
-  },
-  {
-    name: "Jack Frost",
-    img: "3-star/icon_jackfrost01.png",
-    opts: {
-      rarity: [ "3+" ],
-	  guild: [ "no_guild" ],
-	  school: [ "santa" ],
-	  world: [ "tir_na_nog" ],
-	  gender: [ "male" ],
-	  unreleased: true
-    }
-  },
-  {
-    name: "Jizo",
-    img: "3-star/icon_ksitigarbha01.png",
-    opts: {
-      rarity: [ "3+" ],
-	  guild: [ "no_guild" ],
-	  school: [ "no_school" ],
-	  world: [ "no_world" ],
+	  world: [ "kitezh" ],
 	  gender: [ "male" ],
 	  unreleased: true
     }

@@ -6037,7 +6037,7 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "Onyankopon",
-    img: "unreleased/icon_onyankopon01.png",
+    img: "3-star/icon_onyankopon01.png",
     opts: {
       rarity: [ "3+" ],
 	  guild: [ "rule_makers" ],
@@ -6049,7 +6049,7 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "Bohemio",
-    img: "unreleased/icon_bohemio01.png",
+    img: "3-star/icon_bohemio01.png",
     opts: {
       rarity: [ "3+" ],
 	  guild: [ "wanderers" ],
@@ -6061,7 +6061,7 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "Xiwangmu",
-    img: "unreleased/icon_xiwangmu01.png",
+    img: "3-star/icon_xiwangmu01.png",
     opts: {
       rarity: [ "3+" ],
 	  guild: [ "no_guild" ],
@@ -6074,7 +6074,7 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "Nisroch",
-    img: "unreleased/icon_nisroch01.png",
+    img: "3-star/icon_nisroch01.png",
     opts: {
       rarity: [ "3+" ],
 	  guild: [ "wanderers" ],
@@ -6086,7 +6086,7 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "Jersey Devil",
-    img: "unreleased/icon_jerseydevil01.png",
+    img: "3-star/icon_jerseydevil01.png",
     opts: {
       rarity: [ "3+" ],
 	  guild: [ "no_guild" ],

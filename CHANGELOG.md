@@ -3,13 +3,30 @@ Changes made to housamo-sorter are documented in this file. It's intended to be 
 
 <!-------------------->
 
+## Main Story Chapter 16 – 2025-05-23
+### Added:
+- New characters:
+	- Hoover
+	- New Gen mobs (Fire, Water, Wood, Aether, Nether, Infernal, Valiant & World)
+	- MP Ouroboros mobs (All-round, Infinity & Null)
+	- Koshchei, as an unreleased character.
+
+### Changed:
+- Multiple changes to Onyankopon:
+	- Image has been updated.
+	- Now tagged as belonging to the Togo Academy.
+	- No longer tagged as unreleased.
+- MS-C1 is now tagged as having the gender identity of Male.
+- Drone Pilot mobs' names have been changed to Drone Operator.
+
+<!-------------------->
+
 ## New Semester 2025 – 2025-04-03
 ### Added:
 - New characters:
 	- Apollo
-	- Gargoyle
+	- Gargoyle and his alternate form, Gargoyle (Plush).
 	- Frosty, as an alternate form of Jack Frost.
-	- Gargoyle (Plush), as an alternate form of Gargoyle.
 	- Vainamoinen, as an unreleased character.
 	- Jagannath, as an unreleased character.
 - New school filter for Nippori Online Academy.

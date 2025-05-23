@@ -5270,7 +5270,7 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "Onyankopon",
-    img: "unreleased/icon_onyankopon01.png",
+    img: "3-star/icon_onyankopon01.png",
     opts: {
       rarity: [ "3+" ],
 	  guild: [ "rule_makers" ],
@@ -5281,7 +5281,7 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "Bohemio",
-    img: "unreleased/icon_bohemio01.png",
+    img: "3-star/icon_bohemio01.png",
     opts: {
       rarity: [ "3+" ],
 	  guild: [ "wanderers" ],
