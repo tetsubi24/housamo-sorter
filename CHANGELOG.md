@@ -7,11 +7,11 @@ Changes made to housamo-sorter are documented in this file. It's intended to be 
 ### Added:
 - New character:
 	- Carbuncle
+	
+### Changed:
 - Multiple changes to Alberich:
 	- Image has been updated.
 	- No longer tagged as unreleased.
-	
-### Changed:
 - Sitri is now tagged as belonging to the Shinjuku Academy.
 - Senri mobs' names have been changed to Xian Li.
 
