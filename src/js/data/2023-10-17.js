@@ -5084,7 +5084,7 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "Alberich",
-    img: "unreleased/icon_alberich02.png",
+    img: "3-star/icon_alberich01.png",
     opts: {
       rarity: [ "3+" ],
 	  world: [ "tir_na_nog" ],

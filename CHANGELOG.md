@@ -3,6 +3,20 @@ Changes made to housamo-sorter are documented in this file. It's intended to be 
 
 <!-------------------->
 
+## Afterschool Treasure Odyssey – 2025-07-29
+### Added:
+- New character:
+	- Carbuncle
+- Multiple changes to Alberich:
+	- Image has been updated.
+	- No longer tagged as unreleased.
+	
+### Changed:
+- Sitri is now tagged as belonging to the Shinjuku Academy.
+- Senri mobs' names have been changed to Xian Li.
+
+<!-------------------->
+
 ## Main Story Chapter 16 – 2025-05-23
 ### Added:
 - New characters:
