@@ -3,6 +3,31 @@ Changes made to housamo-sorter are documented in this file. It's intended to be 
 
 <!-------------------->
 
+## 9th HOUSAMO ANNIVERSARY – 2025-11-29
+### Added:
+- New characters:
+	- Cinderella
+	- Yurugu
+	- Azathoth αΩ
+	- Enigma ∀
+	- Castro
+	- Cheshire Cat
+	- Demiurge
+	- Yatagarasu mobs (Fire, Water, Wood, Aether, Nether, Infernal, Valiant & World)
+	- Extra mobs (Water, Aether, Infernal & Valiant). Remaining attributes are currently unreleased.
+	- Red Hood, as an unreleased character.
+	- Shisa, as an unreleased character.
+	- Pioneer, as an unreleased character.
+	- Monaciello, as an unreleased character.
+- New school filter for Satellite School.
+
+### Changed:
+- Multiple changes to Ra Mu:
+	- Now named Ra Mu & Leviathan.
+	- Now tagged as originating from the worlds of Oceanic Realm and Great Spirit.
+
+<!-------------------->
+
 ## Afterschool Treasure Odyssey – 2025-07-29
 ### Added:
 - New character:
