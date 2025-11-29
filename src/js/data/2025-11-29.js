@@ -5834,7 +5834,7 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "Blue Extra",
-    img: "2-star/icon_yatagarasuwater01b.png",
+    img: "2-star/icon_extrawater01b.png",
     opts: {
       rarity: [ "2" ],
 	  guild: [ "summoners" ],
@@ -5845,7 +5845,7 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "Yellow Extra",
-    img: "2-star/icon_yatagarasulight01b.png",
+    img: "2-star/icon_extralight01b.png",
     opts: {
       rarity: [ "2" ],
 	  guild: [ "summoners" ],
@@ -5856,7 +5856,7 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "Black Extra",
-    img: "2-star/icon_yatagarasuevil01b.png",
+    img: "2-star/icon_extraevil01b.png",
     opts: {
       rarity: [ "2" ],
 	  guild: [ "summoners" ],
@@ -5867,7 +5867,7 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "White Extra",
-    img: "2-star/icon_yatagarasuhero01b.png",
+    img: "2-star/icon_extrahero01b.png",
     opts: {
       rarity: [ "2" ],
 	  guild: [ "summoners" ],
@@ -6989,7 +6989,7 @@ dataSet[dataSetVersion].characterData = [
   },
     {
     name: "Red Extra",
-    img: "2-star/icon_yatagarasufire01b.png",
+    img: "unreleased/icon_extrafire01b.png",
     opts: {
       rarity: [ "2" ],
 	  guild: [ "summoners" ],
@@ -7001,7 +7001,7 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "Green Extra",
-    img: "2-star/icon_yatagarasuearth01b.png",
+    img: "unreleased/icon_extraearth01b.png",
     opts: {
       rarity: [ "2" ],
 	  guild: [ "summoners" ],
@@ -7013,7 +7013,7 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "Purple Extra",
-    img: "2-star/icon_yatagarasudark01b.png",
+    img: "unreleased/icon_extradark01b.png",
     opts: {
       rarity: [ "2" ],
 	  guild: [ "summoners" ],
@@ -7025,7 +7025,7 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "Brown Extra",
-    img: "2-star/icon_yatagarasuworld01b.png",
+    img: "unreleased/icon_extraworld01b.png",
     opts: {
       rarity: [ "2" ],
 	  guild: [ "summoners" ],
