@@ -3,6 +3,24 @@ Changes made to housamo-sorter are documented in this file. It's intended to be 
 
 <!-------------------->
 
+## Stallion New Year – 2026-01-01
+### Added:
+- New character:
+	- Glashtyn
+	- Aegipan
+- New affiliation filters for MMA Fight Club (Front) and MMA Fight Club (Back).
+	
+### Changed:
+- Multiple changes to Jagannath:
+	- Image has been updated.
+	- Now tagged as a member of the Outlaws guild.
+	- Now tagged as belonging to Kudan Martial Arts Academy and Kiou Police Academy.
+	- Now tagged as originating from the worlds of Shangri-La and Devaloka.
+	- No longer tagged as unreleased.
+- Shino is now tagged as a member of the Outlaws guild and Unaffiliated to any guild. (Main Story limited unit.)
+
+<!-------------------->
+
 ## 9th HOUSAMO ANNIVERSARY – 2025-11-29
 ### Added:
 - New characters:

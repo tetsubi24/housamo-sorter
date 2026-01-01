@@ -6373,7 +6373,7 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "Jagannath",
-    img: "unreleased/icon_jagannath01.png",
+    img: "3-star/icon_jagannath01.png",
     opts: {
       rarity: [ "3+" ],
 	  guild: [ "no_guild" ],
