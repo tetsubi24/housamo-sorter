@@ -3,13 +3,48 @@ Changes made to housamo-sorter are documented in this file. It's intended to be 
 
 <!-------------------->
 
+## Date Quest Campaign 2026 – 2026-04-18
+### Added:
+- New characters:
+	- Cu Chulainn
+	- Mynoghra
+- New affiliation filters for I Love Humans Club and Nakano Youth Club.
+
+### Changed:
+- Multiple changes to Koshchei:
+	- Image has been updated.
+	- Now tagged as a member of the Agents and Exters guilds.
+	- Now tagged as belonging to Nakano Performing Arts Academy and Satellite School.
+	- No longer tagged as unreleased.
+- Multiple changes to Shisa:
+	- Image has been updated.
+	- Now tagged as a member of the Independent guild.
+	- No longer tagged as unreleased.
+- Multiple changes to Vainamoinen:
+	- Image has been updated.
+	- Now tagged as a member of the Wisemen guild.
+	- No longer tagged as a member of the Creators guild.
+	- Now tagged as originating from the world of Tir na Nog.
+	- No longer tagged as unreleased.
+- Red Hood is no longer tagged as unreleased.
+- Taromaiti is now tagged as belonging to Nakano Performing Arts Academy. (Event limited variant.)
+- Zabanniya is now tagged as belonging to Nakano Performing Arts Academy. (Event limited variant.)
+- Sphinx is now tagged as belonging to Nakano Performing Arts Academy. (Event limited variant.)
+- Cipactli is now tagged as belonging to Nakano Performing Arts Academy. (Event limited variant.)
+- Extra mobs (Fire, Wood, Nether & World) are no longer tagged as unreleased.
+- Togo Academy is now named Toto Academy.
+- Ojibo Academy is now named Ojimachi Academy.
+- Setagaya Agricultural Academy is now named Setagaya Agriculture and Forestry Academy.
+
+<!-------------------->
+
 ## Stallion New Year – 2026-01-01
 ### Added:
-- New character:
+- New characters:
 	- Glashtyn
 	- Aegipan
 - New affiliation filters for MMA Fight Club (Front) and MMA Fight Club (Back).
-	
+
 ### Changed:
 - Multiple changes to Jagannath:
 	- Image has been updated.
@@ -17,7 +52,7 @@ Changes made to housamo-sorter are documented in this file. It's intended to be 
 	- Now tagged as belonging to Kudan Martial Arts Academy and Kiou Police Academy.
 	- Now tagged as originating from the worlds of Shangri-La and Devaloka.
 	- No longer tagged as unreleased.
-- Shino is now tagged as a member of the Outlaws guild and Unaffiliated to any guild. (Main Story limited unit.)
+- Shino is now tagged as a member of the Outlaws guild and Unaffiliated to any guild. (Main Story limited variant.)
 
 <!-------------------->
 
@@ -50,7 +85,7 @@ Changes made to housamo-sorter are documented in this file. It's intended to be 
 ### Added:
 - New character:
 	- Carbuncle
-	
+
 ### Changed:
 - Multiple changes to Alberich:
 	- Image has been updated.
@@ -87,7 +122,7 @@ Changes made to housamo-sorter are documented in this file. It's intended to be 
 	- Vainamoinen, as an unreleased character.
 	- Jagannath, as an unreleased character.
 - New school filter for Nippori Online Academy.
-	
+
 ### Changed:
 - Multiple changes to Jack Frost:
 	- Image has been updated.
@@ -203,10 +238,10 @@ Changes made to housamo-sorter are documented in this file. It's intended to be 
 
 ### Changed:
 - Multiple changes to Bigfoot:
-	- Now tagged as belonging to the Shinjuku Academy. (Top of Summer Mountains! limited unit.)
-	- Now tagged as a member of the Shinjuku Academy Mountaineers. (Top of Summer Mountains! limited unit.)
-- Tanngrisnir is now tagged as a member of the Shinjuku Academy Mountaineers. (Top of Summer Mountains! limited unit.)
-- Enigma is now tagged as a member of the Setagaya Mountaineering Club. (Top of Summer Mountains! limited unit.)
+	- Now tagged as belonging to the Shinjuku Academy. (Event limited variant.)
+	- Now tagged as a member of the Shinjuku Academy Mountaineers. (Event limited variant.)
+- Tanngrisnir is now tagged as a member of the Shinjuku Academy Mountaineers. (Event limited variant.)
+- Enigma is now tagged as a member of the Setagaya Mountaineering Club. (Event limited variant.)
 	
 <!-------------------->
 
@@ -327,8 +362,8 @@ Changes made to housamo-sorter are documented in this file. It's intended to be 
 	- Reprobus
 
 ### Changed:
-- Dagon is now tagged as a member of the Wisemen guild. (Marine Resort Crisis! limited unit.)
-- Behemoth is now tagged as a member of the Summoners guild. (Marine Resort Crisis! limited unit.)
+- Dagon is now tagged as a member of the Wisemen guild. (Event limited variant.)
+- Behemoth is now tagged as a member of the Summoners guild. (Event limited variant.)
 
 ### Fixed:
 - Barguest using an invalid school tag. He's now tagged as having unknown school affiliations.
@@ -338,9 +373,9 @@ Changes made to housamo-sorter are documented in this file. It's intended to be 
 
 ## Small Update – 2023-07-17
 ### Changed:
-- Leib is now tagged as a member of the Entertainers guild. (Jurassic Summer Vacation limited unit.)
-- MacRoich is now tagged as a member of the Entertainers guild. (Jurassic Summer Vacation limited unit.)
-- Hecate is now tagged as a member of the Entertainers guild. (Jurassic Summer Vacation limited unit.)
+- Leib is now tagged as a member of the Entertainers guild. (Event limited variant.)
+- MacRoich is now tagged as a member of the Entertainers guild. (Event limited variant.)
+- Hecate is now tagged as a member of the Entertainers guild. (Event limited variant.)
 
 <!-------------------->
 
