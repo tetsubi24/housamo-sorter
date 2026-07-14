@@ -1,4 +1,4 @@
-dataSetVersion = "2026-04-18"; // Change this when creating a new data set version. YYYY-MM-DD format.
+dataSetVersion = "2026-07-14"; // Change this when creating a new data set version. YYYY-MM-DD format.
 dataSet[dataSetVersion] = {};
 
 dataSet[dataSetVersion].options = [
@@ -73,6 +73,7 @@ dataSet[dataSetVersion].options = [
 	  { name: "Ameyoko Fashion Academy", tooltip: " ", key: "ameyoko" },
 	  { name: "Nippori Online Academy", tooltip: " ", key: "nippori" },
 	  { name: "Satellite School", tooltip: " ", key: "satellite" },
+	  { name: "Chuo Public School", tooltip: " ", key: "chuo" },
 	  { name: "Unknown", tooltip: "Characters whose school affiliations are unknown.", key: "no_school" },
 	]
   },
@@ -90,6 +91,7 @@ dataSet[dataSetVersion].options = [
 	  { name: "MMA Fight Club (Back)", tooltip: " ", key: "mmaback" },
 	  { name: "I Love Humans Club", tooltip: " ", key: "human" },
 	  { name: "Nakano Youth Club", tooltip: " ", key: "tokimeki" },
+	  { name: "Public Security Foreign Affairs Division", tooltip: " ", key: "security" },
 	]
   },
   {
@@ -215,6 +217,7 @@ dataSet[dataSetVersion].characterData = [
 	  rarity: [ "3+" ],
 	  guild: [ "summoners" ],
 	  school: [ "shinjuku", "kiou" ],
+	  other: [ "security" ],
 	  world: [ "tokyo" ],
 	  gender: [ "male" ],
 	},
@@ -1462,7 +1465,7 @@ dataSet[dataSetVersion].characterData = [
 	opts: {
 	  rarity: [ "3+" ],
 	  guild: [ "rule_makers" ],
-	  school: [ "no_school" ],
+	  school: [ "chuo" ],
 	  world: [ "olympus" ],
 	  gender: [ "male" ],
 	},
@@ -1595,7 +1598,7 @@ dataSet[dataSetVersion].characterData = [
 	opts: {
 	  rarity: [ "3+" ],
 	  guild: [ "rule_makers", "independent" ],
-	  school: [ "no_school" ],
+	  school: [ "chuo" ],
 	  world: [ "gehenna" ],
 	  gender: [ "no_gender" ],
 	},
@@ -1696,7 +1699,7 @@ dataSet[dataSetVersion].characterData = [
 	opts: {
 	  rarity: [ "3+" ],
 	  guild: [ "rule_makers" ],
-	  school: [ "no_school" ],
+	  school: [ "chuo" ],
 	  world: [ "aaru" ],
 	  gender: [ "male" ],
 	},
@@ -1862,7 +1865,7 @@ dataSet[dataSetVersion].characterData = [
 	opts: {
 	  rarity: [ "3+" ],
 	  guild: [ "no_guild" ],
-	  school: [ "no_school" ],
+	  school: [ "chuo" ],
 	  world: [ "takamagahara" ],
 	  gender: [ "female" ],
 	},
@@ -2007,7 +2010,7 @@ dataSet[dataSetVersion].characterData = [
 	  rarity: [ "3+" ],
 	  guild: [ "invaders" ],
 	  school: [ "no_school" ],
-	  other: [ "eight" ],
+	  other: [ "eight", "security"],
 	  world: [ "land_of_wa" ],
 	  gender: [ "male" ],
 	},
@@ -2030,6 +2033,7 @@ dataSet[dataSetVersion].characterData = [
 	  rarity: [ "3+" ],
 	  guild: [ "outlaws" ],
 	  school: [ "kabukicho" ],
+	  other: [ "security" ],
 	  world: [ "kitezh" ],
 	  gender: [ "male" ],
 	},
@@ -2218,7 +2222,7 @@ dataSet[dataSetVersion].characterData = [
 	opts: {
 	  rarity: [ "3+" ],
 	  guild: [ "rule_makers" ],
-	  school: [ "no_school" ],
+	  school: [ "chuo" ],
 	  world: [ "eden" ],
 	  gender: [ "male" ],
 	},
@@ -2677,6 +2681,7 @@ dataSet[dataSetVersion].characterData = [
 	  rarity: [ "3+" ],
 	  guild: [ "gurus" ],
 	  school: [ "umamichi" ],
+	  other: [ "security" ],
 	  world: [ "takamagahara" ],
 	  gender: [ "male" ],
 	},
@@ -2753,7 +2758,7 @@ dataSet[dataSetVersion].characterData = [
 	opts: {
 	  rarity: [ "3+" ],
 	  guild: [ "rule_makers" ],
-	  school: [ "no_school" ],
+	  school: [ "chuo" ],
 	  world: [ "takamagahara" ],
 	  gender: [ "female" ],
 	},
@@ -3254,6 +3259,63 @@ dataSet[dataSetVersion].characterData = [
 	  gender: [ "female" ],
 	}
   },
+  {
+	name: "Gugalanna",
+	img: "3-star/icon_gugalanna01.png",
+	opts: {
+	  rarity: [ "3+" ],
+	  guild: [ "warmongers", "exters" ],
+	  school: [ "kudan" ],
+	  other: [ "mmafront", "mmaback" ],
+	  world: [ "babilim" ],
+	  gender: [ "male" ],
+	}
+  },
+  {
+	name: "Masakado",
+	img: "3-star/icon_masakado01.png",
+	opts: {
+	  rarity: [ "3+" ],
+	  guild: [ "independent" ],
+	  school: [ "fujimi" ],
+	  other: [ "security" ],
+	  world: [ "land_of_wa" ],
+	  gender: [ "male" ],
+	}
+  },
+  {
+	name: "Elder Salomonis 666",
+	img: "3-star/icon_eldersalomonis01.png",
+	opts: {
+	  rarity: [ "3+" ],
+	  guild: [ "summoners" ],
+	  school: [ "shinjuku" ],
+	  world: [ "no_world" ],
+	  gender: [ "male" ],
+	}
+  },
+  {
+	name: "Angolmois 1999",
+	img: "3-star/icon_angolmois01.png",
+	opts: {
+	  rarity: [ "3+" ],
+	  guild: [ "exters" ],
+	  school: [ "no_school" ],
+	  world: [ "no_world" ],
+	  gender: [ "male" ],
+	}
+  },
+  {
+	name: "Monaciello",
+	img: "3-star/icon_monaciello01.png",
+	opts: {
+	  rarity: [ "3+" ],
+	  guild: [ "wanderers" ],
+	  school: [ "ojimachi" ],
+	  world: [ "tir_na_nog" ],
+	  gender: [ "male" ],
+	}
+  },
   
 /******
 * ALTS
@@ -3349,7 +3411,7 @@ dataSet[dataSetVersion].characterData = [
 	opts: {
 	  rarity: [ "3+" ],
 	  guild: [ "rule_makers" ],
-	  school: [ "no_school" ],
+	  school: [ "chuo" ],
 	  world: [ "olympus" ],
 	  gender: [ "male" ],
 	  alt: true
@@ -3385,7 +3447,7 @@ dataSet[dataSetVersion].characterData = [
 	opts: {
 	  rarity: [ "3+" ],
 	  guild: [ "rule_makers", "independent" ],
-	  school: [ "no_school" ],
+	  school: [ "chuo" ],
 	  world: [ "canaan" ],
 	  gender: [ "no_gender" ],
 	  alt: true
@@ -6743,6 +6805,50 @@ dataSet[dataSetVersion].characterData = [
 	  gender: [ "male" ],
 	}
   },
+  {
+	name: "Red Un Dasein",
+	img: "1-star/icon_undaseinfire01b.png",
+	opts: {
+	  rarity: [ "1" ],
+	  guild: [ "summoners" ],
+	  school: [ "no_school" ],
+	  world: [ "no_world" ],
+	  gender: [ "male", "no_gender" ],
+	}
+  },
+  {
+	name: "Yellow Un Dasein",
+	img: "1-star/icon_undaseinlight01b.png",
+	opts: {
+	  rarity: [ "1" ],
+	  guild: [ "summoners" ],
+	  school: [ "no_school" ],
+	  world: [ "no_world" ],
+	  gender: [ "male", "no_gender" ],
+	}
+  },
+  {
+	name: "Black Un Dasein",
+	img: "1-star/icon_undaseinevil01b.png",
+	opts: {
+	  rarity: [ "1" ],
+	  guild: [ "summoners" ],
+	  school: [ "no_school" ],
+	  world: [ "no_world" ],
+	  gender: [ "male", "no_gender" ],
+	}
+  },
+  {
+	name: "Brown Un Dasein",
+	img: "1-star/icon_undaseinworld01b.png",
+	opts: {
+	  rarity: [ "1" ],
+	  guild: [ "summoners" ],
+	  school: [ "no_school" ],
+	  world: [ "no_world" ],
+	  gender: [ "male", "no_gender" ],
+	}
+  },
 
 /******
 * UNRELEASED CHARACTERS
@@ -6761,6 +6867,18 @@ dataSet[dataSetVersion].characterData = [
 	}
   },
   {
+	name: "MxOTHER",
+	img: "unreleased/icon_mxother01.png",
+	opts: {
+	  rarity: [ "3+" ],
+	  guild: [ "rule_makers" ],
+	  school: [ "no_school" ],
+	  world: [ "utopia" ],
+	  gender: [ "female" ],
+	  unreleased: true
+	}
+  },
+  {
 	name: "Pioneer",
 	img: "unreleased/icon_pioneer01.png",
 	opts: {
@@ -6773,15 +6891,59 @@ dataSet[dataSetVersion].characterData = [
 	}
   },
   {
-	name: "Monaciello",
-	img: "3-star/icon_monaciello01.png",
+	name: "Kyoma Mononobe 1999",
+	img: "unreleased/icon_kyouma1999_01.png",
 	opts: {
 	  rarity: [ "3+" ],
 	  guild: [ "no_guild" ],
-	  school: [ "no_school" ],
-	  world: [ "no_world" ],
+	  school: [ "shinjuku" ],
+	  world: [ "tokyo" ],
 	  gender: [ "male" ],
 	  unreleased: true
+	}
+  },
+  {
+	name: "Blue Un Dasein",
+	img: "unreleased/icon_undaseinwater01b.png",
+	opts: {
+	  rarity: [ "1" ],
+	  guild: [ "summoners" ],
+	  school: [ "no_school" ],
+	  world: [ "no_world" ],
+	  gender: [ "male", "no_gender" ],
+	}
+  },
+  {
+	name: "Green Un Dasein",
+	img: "unreleased/icon_undaseinearth01b.png",
+	opts: {
+	  rarity: [ "1" ],
+	  guild: [ "summoners" ],
+	  school: [ "no_school" ],
+	  world: [ "no_world" ],
+	  gender: [ "male", "no_gender" ],
+	}
+  },
+  {
+	name: "Purple Un Dasein",
+	img: "unreleased/icon_undaseindark01b.png",
+	opts: {
+	  rarity: [ "1" ],
+	  guild: [ "summoners" ],
+	  school: [ "no_school" ],
+	  world: [ "no_world" ],
+	  gender: [ "male", "no_gender" ],
+	}
+  },
+  {
+	name: "White Un Dasein",
+	img: "unreleased/icon_undaseinhero01b.png",
+	opts: {
+	  rarity: [ "1" ],
+	  guild: [ "summoners" ],
+	  school: [ "no_school" ],
+	  world: [ "no_world" ],
+	  gender: [ "male", "no_gender" ],
 	}
   },
   {

@@ -6636,7 +6636,7 @@ dataSet[dataSetVersion].characterData = [
   },
   {
 	name: "Vainamoinen",
-	img: "unreleased/icon_vainamoinen01.png",
+	img: "3-star/icon_vainamoinen01.png",
 	opts: {
 	  rarity: [ "3+" ],
 	  guild: [ "creators" ],
@@ -6648,7 +6648,7 @@ dataSet[dataSetVersion].characterData = [
   },
   {
 	name: "Koshchei",
-	img: "unreleased/icon_koshchei01.png",
+	img: "3-star/icon_koshchei01.png",
 	opts: {
 	  rarity: [ "3+" ],
 	  guild: [ "agents" ],
@@ -6660,7 +6660,7 @@ dataSet[dataSetVersion].characterData = [
   },
   {
 	name: "Red Hood",
-	img: "unreleased/icon_redhood01.png",
+	img: "3-star/icon_redhood01.png",
 	opts: {
 	  rarity: [ "3+" ],
 	  guild: [ "no_guild" ],
@@ -6672,7 +6672,7 @@ dataSet[dataSetVersion].characterData = [
   },
   {
 	name: "Shisa",
-	img: "unreleased/icon_shisa01.png",
+	img: "3-star/icon_shisa01.png",
 	opts: {
 	  rarity: [ "3+" ],
 	  guild: [ "no_guild" ],
@@ -6696,7 +6696,7 @@ dataSet[dataSetVersion].characterData = [
   },
   {
 	name: "Monaciello",
-	img: "unreleased/icon_monaciello01.png",
+	img: "3-star/icon_monaciello01.png",
 	opts: {
 	  rarity: [ "3+" ],
 	  guild: [ "no_guild" ],
@@ -7032,7 +7032,7 @@ dataSet[dataSetVersion].characterData = [
   },
   {
 	name: "Green Extra",
-	img: "unreleased/icon_extraearth01b.png",
+	img: "2-star/icon_extraearth01b.png",
 	opts: {
 	  rarity: [ "2" ],
 	  guild: [ "summoners" ],
@@ -7044,7 +7044,7 @@ dataSet[dataSetVersion].characterData = [
   },
   {
 	name: "Purple Extra",
-	img: "unreleased/icon_extradark01b.png",
+	img: "2-star/icon_extradark01b.png",
 	opts: {
 	  rarity: [ "2" ],
 	  guild: [ "summoners" ],
@@ -7056,7 +7056,7 @@ dataSet[dataSetVersion].characterData = [
   },
   {
 	name: "Brown Extra",
-	img: "unreleased/icon_extraworld01b.png",
+	img: "2-star/icon_extraworld01b.png",
 	opts: {
 	  rarity: [ "2" ],
 	  guild: [ "summoners" ],

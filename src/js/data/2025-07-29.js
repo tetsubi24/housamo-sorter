@@ -6383,7 +6383,7 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "Vainamoinen",
-    img: "unreleased/icon_vainamoinen01.png",
+    img: "3-star/icon_vainamoinen01.png",
     opts: {
       rarity: [ "3+" ],
 	  guild: [ "creators" ],
@@ -6407,7 +6407,7 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "Koshchei",
-    img: "unreleased/icon_koshchei01.png",
+    img: "3-star/icon_koshchei01.png",
     opts: {
       rarity: [ "3+" ],
 	  guild: [ "agents" ],

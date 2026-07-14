@@ -3,6 +3,29 @@ Changes made to housamo-sorter are documented in this file. It's intended to be 
 
 <!-------------------->
 
+## Main Story Chapter 17 Part 1 – 2026-07-14
+### Added:
+- New characters:
+	- Gugalanna
+	- Masakado
+	- Elder Salomonis 666
+	- Angolmois 1999
+	- Un Dasein mobs (Fire, Aether, Infernal & World). Remaining attributes are currently unreleased.
+	- MxOTHER, as an unreleased character.
+	- Kyoma Mononobe 1999, as an unreleased character.
+- New school filter for Chuo Public School.
+- New affiliation filter for Public Security Foreign Affairs Division.
+
+### Changed:
+- Multiple changes to Monaciello
+	- Image has been updated.
+	- Now tagged as a member of the Wanderers guild.
+	- Now tagged as belonging to Ojimachi Academy.
+	- Now tagged as originating from the world of Tir na Nog.
+	- No longer tagged as unreleased.
+
+<!-------------------->
+
 ## Date Quest Campaign 2026 – 2026-04-18
 ### Added:
 - New characters:
