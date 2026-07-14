@@ -6911,6 +6911,7 @@ dataSet[dataSetVersion].characterData = [
 	  school: [ "no_school" ],
 	  world: [ "no_world" ],
 	  gender: [ "male", "no_gender" ],
+	  unreleased: true
 	}
   },
   {
@@ -6922,6 +6923,7 @@ dataSet[dataSetVersion].characterData = [
 	  school: [ "no_school" ],
 	  world: [ "no_world" ],
 	  gender: [ "male", "no_gender" ],
+	  unreleased: true
 	}
   },
   {
@@ -6933,6 +6935,7 @@ dataSet[dataSetVersion].characterData = [
 	  school: [ "no_school" ],
 	  world: [ "no_world" ],
 	  gender: [ "male", "no_gender" ],
+	  unreleased: true
 	}
   },
   {
@@ -6944,6 +6947,7 @@ dataSet[dataSetVersion].characterData = [
 	  school: [ "no_school" ],
 	  world: [ "no_world" ],
 	  gender: [ "male", "no_gender" ],
+	  unreleased: true
 	}
   },
   {
