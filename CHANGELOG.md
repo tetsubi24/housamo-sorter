@@ -3,6 +3,28 @@ Changes made to housamo-sorter are documented in this file. It's intended to be 
 
 <!-------------------->
 
+## 10th HOUSAMO ANNIVERSARY – 2026-11-13
+### Added:
+- New characters:
+	- Tasaburo
+	- Hel
+	- Bassaerus
+	- Huxian
+	- Vaisravana
+	- Tlaloc, as an unreleased character.
+- New school filter for Itabashi Medical School.
+- New affiliation filter for Messengers of the Seven Fortunes.
+
+### Changed:
+- Multiple changes to Kyoma Mononobe 1999:
+	- Image has been updated.
+	- Now tagged as affiliated with the Public Security Foreign Affairs Division.
+	- No longer tagged as unreleased.
+- Ksitigarbha is now named Jizo.
+- Yatagarasu mobs' names have been changed to Crow.
+	
+<!-------------------->
+
 ## Main Story Chapter 17 Part 1 – 2026-07-14
 ### Added:
 - New characters:
@@ -17,7 +39,7 @@ Changes made to housamo-sorter are documented in this file. It's intended to be 
 - New affiliation filter for Public Security Foreign Affairs Division.
 
 ### Changed:
-- Multiple changes to Monaciello
+- Multiple changes to Monaciello:
 	- Image has been updated.
 	- Now tagged as a member of the Wanderers guild.
 	- Now tagged as belonging to Ojimachi Academy.
@@ -360,7 +382,7 @@ Changes made to housamo-sorter are documented in this file. It's intended to be 
 
 <!-------------------->
 
-## The Afterschool Hero and the Fantastic Boyfriends ×2 – 2023-10-17
+## The Afterschool Hero and the Fantastic Boyfriends x2 – 2023-10-17
 ### Added:
 - New characters:
 	- Gordon and his alternate form, Gordon Φ.

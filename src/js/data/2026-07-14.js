@@ -6892,7 +6892,7 @@ dataSet[dataSetVersion].characterData = [
   },
   {
 	name: "Kyoma Mononobe 1999",
-	img: "unreleased/icon_kyouma1999_01.png",
+	img: "3-star/icon_kyouma1999_01.png",
 	opts: {
 	  rarity: [ "3+" ],
 	  guild: [ "no_guild" ],
